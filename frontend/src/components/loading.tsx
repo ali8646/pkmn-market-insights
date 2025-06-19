@@ -1,0 +1,1 @@
+// loading shimmer while data is being fetched
