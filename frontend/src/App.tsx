@@ -2,12 +2,15 @@ import { Suspense, lazy } from 'react'
 import PkmnCard from './components/pkmn-card'
 
 
+
+
 function App() {
   return (
     <>
       <p>
         <PkmnCard
-          image="https://images.pokemontcg.io/xy1/1_hires.png"
+          imageLowres="https://images.pokemontcg.io/xy1/1_hires.png"
+          imageHires="https://images.pokemontcg.io/xy1/1_hires.png"
           name="Venusaur-EX"
           set="XY"
           price={4.17}
