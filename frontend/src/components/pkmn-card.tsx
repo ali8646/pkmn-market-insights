@@ -1,4 +1,4 @@
-import Chart from './chart';
+import MiniChart from './mini-chart';
 import Details from './card-detail'
 import { useState } from 'react';
 import { createPortal } from 'react-dom';
@@ -54,7 +54,7 @@ export default function PkmnCard({
                         {percentChange.toFixed(2)}%
                     </span>
                 </div>
-                <Chart 
+                <MiniChart 
                     data={mockData}
                 />
                 <p className="text-xs text-zinc-400 mt-1">
