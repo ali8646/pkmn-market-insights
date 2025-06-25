@@ -1,4 +1,4 @@
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, ResponsiveContainer } from 'recharts';
 
 type DataPoint = {
   date: string;
@@ -11,7 +11,7 @@ type MiniChartProps = {
 
 
 
-export default function Chart({ data }: MiniChartProps) {
+export default function MiniChart({ data }: MiniChartProps) {
     const minY = Math.floor(Math.min(...data.map(d => d.price)));
     const maxY = Math.ceil(Math.max(...data.map(d => d.price)));
 

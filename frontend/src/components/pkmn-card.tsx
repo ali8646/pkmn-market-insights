@@ -43,10 +43,10 @@ export default function PkmnCard({
                 <img
                     src={imageLowres}
                     alt={name}
-                    className="w-full h-100 object-contain mb-2 rounded-lg bg-zinc-100"
+                    className="w-80 h-auto object-contain mb-2 rounded-lg bg-zinc-100"
                 />
-                <h2 className="font-sans text-sm font-semibold">{name}</h2>
-                <p className="text-xs text-zinc-500">{set}</p>
+                    <h2 className="font-sans text-sm font-semibold">{name}</h2>
+                    <p className="text-xs text-zinc-500">{set}</p>
                 <div className="mt-2 flex justify-between text-sm">
                     <span className="font-bold">${price.toFixed(2)}</span>
                     <span className={`font-medium ${isPositive ? 'text-green-500' : 'text-red-500'}`}>
@@ -54,9 +54,11 @@ export default function PkmnCard({
                         {percentChange.toFixed(2)}%
                     </span>
                 </div>
-                <MiniChart 
-                    data={mockData}
-                />
+                <div className='max-w-80'>
+                    <MiniChart 
+                        data={mockData}
+                    />
+                </div>
                 <p className="text-xs text-zinc-400 mt-1">
                     {volume.toLocaleString()} traded
                 </p>

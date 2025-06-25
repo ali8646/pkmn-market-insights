@@ -22,14 +22,11 @@ export default function CardDetail({ card, onClose }: CardDetailProps) {
     const stopPropagation = (e: React.MouseEvent) => e.stopPropagation();
 
     return (
-        
         <div className="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm flex items-center justify-center"
             onClick={handleBackgroundClick}>
             <div 
                 className="bg-white dark:bg-zinc-800 rounded-xl p-6 relative max-w-[90vw] max-h-[90vh] overflow-auto"
                 onClick={stopPropagation}>
-
-
                 <button
                     onClick={onClose}
                     className="absolute top-2 right-2 text-zinc-500 hover:text-zinc-800"
@@ -54,7 +51,6 @@ export default function CardDetail({ card, onClose }: CardDetailProps) {
                     {card.percentChange.toFixed(2)}%
                 </div>
                 <p className="mt-4 text-sm text-zinc-400">{card.volume} traded</p>
-
             </div>
         </div>
     );

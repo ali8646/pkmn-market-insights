@@ -26,18 +26,18 @@ export default function CardList () {
     ];
 
     return (
-        <div className="flex flex-row">
-            {cardData.map((card) => 
-                <PkmnCard key={card.price}
-                    imageLowres={card.imageLowres}
-                    imageHires={card.imageHires}
-                    name={card.name}
-                    set={card.set}
-                    price={card.price}
-                    percentChange={card.percentChange}
-                    volume={card.volume}
-                />
-            )}
-        </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center">
+                {cardData.map((card) => 
+                    <PkmnCard key={card.price}
+                        imageLowres={card.imageLowres}
+                        imageHires={card.imageHires}
+                        name={card.name}
+                        set={card.set}
+                        price={card.price}
+                        percentChange={card.percentChange}
+                        volume={card.volume}
+                    />
+                )}
+            </div>
     )
 }

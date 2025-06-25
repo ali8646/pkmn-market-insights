@@ -7,7 +7,8 @@
     @apply bg-white/15 backdrop-blur-md
     border border-white/30
     rounded-xl shadow-md p-3 inline-block
-    hover:bg-white/20 transition-all;
+    hover:bg-white/20 transition-all
+    max-w-80;
   }
 }
 
