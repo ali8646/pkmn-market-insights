@@ -10,7 +10,7 @@ type CardDetailProps = {
 
 export default function CardDetail({ card, onClose }: CardDetailProps) {
 
-    const isPositive = card.percentChange > 1;
+    // const isPositive = card.percentChange > 1;
     const mockData = [
         { date: '2024-06-01', price: 3.1 },
         { date: '2024-06-08', price: 3.5 },
