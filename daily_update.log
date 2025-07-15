@@ -1,0 +1,1640 @@
+2025-07-13 17:22:33,280 [INFO] Starting daily update ETL process
+2025-07-13 17:22:33,325 [INFO] Database connection established successfully
+2025-07-13 17:22:33,326 [INFO] Fetching groups from https://tcgcsv.com/tcgplayer/3/groups
+2025-07-13 17:22:33,428 [INFO] Successfully fetched 204 groups
+2025-07-13 17:22:33,441 [INFO] Successfully updated 204 groups
+2025-07-13 17:22:33,441 [INFO] Processing group 1/204: SV: Black Bolt (24325)
+2025-07-13 17:22:33,441 [INFO] Fetching products for group 24325 from https://tcgcsv.com/tcgplayer/3/24325/ProductsAndPrices.csv
+2025-07-13 17:22:33,624 [INFO] Successfully fetched 346 products for group 24325
+2025-07-13 17:22:33,691 [INFO] Successfully updated 346 products and inserted 22 price records for group 24325
+2025-07-13 17:22:33,692 [INFO] Processing group 2/204: SV: White Flare (24326)
+2025-07-13 17:22:33,692 [INFO] Fetching products for group 24326 from https://tcgcsv.com/tcgplayer/3/24326/ProductsAndPrices.csv
+2025-07-13 17:22:33,863 [INFO] Successfully fetched 330 products for group 24326
+2025-07-13 17:22:33,910 [INFO] Successfully updated 330 products and inserted 9 price records for group 24326
+2025-07-13 17:22:33,910 [INFO] Processing group 3/204: SV10: Destined Rivals (24269)
+2025-07-13 17:22:33,910 [INFO] Fetching products for group 24269 from https://tcgcsv.com/tcgplayer/3/24269/ProductsAndPrices.csv
+2025-07-13 17:22:34,098 [INFO] Successfully fetched 453 products for group 24269
+2025-07-13 17:22:34,186 [INFO] Successfully updated 453 products and inserted 453 price records for group 24269
+2025-07-13 17:22:34,186 [INFO] Processing group 4/204: SV09: Journey Together (24073)
+2025-07-13 17:22:34,186 [INFO] Fetching products for group 24073 from https://tcgcsv.com/tcgplayer/3/24073/ProductsAndPrices.csv
+2025-07-13 17:22:34,343 [INFO] Successfully fetched 367 products for group 24073
+2025-07-13 17:22:34,415 [INFO] Successfully updated 367 products and inserted 366 price records for group 24073
+2025-07-13 17:22:34,416 [INFO] Processing group 5/204: McDonald's Promos 2024 (24163)
+2025-07-13 17:22:34,416 [INFO] Fetching products for group 24163 from https://tcgcsv.com/tcgplayer/3/24163/ProductsAndPrices.csv
+2025-07-13 17:22:34,509 [INFO] Successfully fetched 16 products for group 24163
+2025-07-13 17:22:34,515 [INFO] Successfully updated 16 products and inserted 16 price records for group 24163
+2025-07-13 17:22:34,515 [INFO] Processing group 6/204: SV: Prismatic Evolutions (23821)
+2025-07-13 17:22:34,515 [INFO] Fetching products for group 23821 from https://tcgcsv.com/tcgplayer/3/23821/ProductsAndPrices.csv
+2025-07-13 17:22:34,755 [INFO] Successfully fetched 493 products for group 23821
+2025-07-13 17:22:34,859 [INFO] Successfully updated 493 products and inserted 492 price records for group 23821
+2025-07-13 17:22:34,859 [INFO] Processing group 7/204: SV08: Surging Sparks (23651)
+2025-07-13 17:22:34,859 [INFO] Fetching products for group 23651 from https://tcgcsv.com/tcgplayer/3/23651/ProductsAndPrices.csv
+2025-07-13 17:22:35,067 [INFO] Successfully fetched 451 products for group 23651
+2025-07-13 17:22:35,164 [INFO] Successfully updated 451 products and inserted 450 price records for group 23651
+2025-07-13 17:22:35,164 [INFO] Processing group 8/204: SV07: Stellar Crown (23537)
+2025-07-13 17:22:35,164 [INFO] Fetching products for group 23537 from https://tcgcsv.com/tcgplayer/3/23537/ProductsAndPrices.csv
+2025-07-13 17:22:35,362 [INFO] Successfully fetched 359 products for group 23537
+2025-07-13 17:22:35,450 [INFO] Successfully updated 359 products and inserted 358 price records for group 23537
+2025-07-13 17:22:35,451 [INFO] Processing group 9/204: Trick or Trade BOOster Bundle 2024 (23561)
+2025-07-13 17:22:35,451 [INFO] Fetching products for group 23561 from https://tcgcsv.com/tcgplayer/3/23561/ProductsAndPrices.csv
+2025-07-13 17:22:35,567 [INFO] Successfully fetched 35 products for group 23561
+2025-07-13 17:22:35,579 [INFO] Successfully updated 35 products and inserted 33 price records for group 23561
+2025-07-13 17:22:35,579 [INFO] Processing group 10/204: SV: Shrouded Fable (23529)
+2025-07-13 17:22:35,579 [INFO] Fetching products for group 23529 from https://tcgcsv.com/tcgplayer/3/23529/ProductsAndPrices.csv
+2025-07-13 17:22:35,757 [INFO] Successfully fetched 191 products for group 23529
+2025-07-13 17:22:35,821 [INFO] Successfully updated 191 products and inserted 188 price records for group 23529
+2025-07-13 17:22:35,821 [INFO] Processing group 11/204: Battle Academy 2024 (23520)
+2025-07-13 17:22:35,821 [INFO] Fetching products for group 23520 from https://tcgcsv.com/tcgplayer/3/23520/ProductsAndPrices.csv
+2025-07-13 17:22:35,946 [INFO] Successfully fetched 140 products for group 23520
+2025-07-13 17:22:35,992 [INFO] Successfully updated 140 products and inserted 137 price records for group 23520
+2025-07-13 17:22:35,992 [INFO] Processing group 12/204: SV06: Twilight Masquerade (23473)
+2025-07-13 17:22:35,992 [INFO] Fetching products for group 23473 from https://tcgcsv.com/tcgplayer/3/23473/ProductsAndPrices.csv
+2025-07-13 17:22:36,163 [INFO] Successfully fetched 408 products for group 23473
+2025-07-13 17:22:36,295 [INFO] Successfully updated 408 products and inserted 405 price records for group 23473
+2025-07-13 17:22:36,295 [INFO] Processing group 13/204: SV05: Temporal Forces (23381)
+2025-07-13 17:22:36,295 [INFO] Fetching products for group 23381 from https://tcgcsv.com/tcgplayer/3/23381/ProductsAndPrices.csv
+2025-07-13 17:22:36,489 [INFO] Successfully fetched 397 products for group 23381
+2025-07-13 17:22:36,626 [INFO] Successfully updated 397 products and inserted 394 price records for group 23381
+2025-07-13 17:22:36,626 [INFO] Processing group 14/204: SV: Paldean Fates (23353)
+2025-07-13 17:22:36,626 [INFO] Fetching products for group 23353 from https://tcgcsv.com/tcgplayer/3/23353/ProductsAndPrices.csv
+2025-07-13 17:22:36,796 [INFO] Successfully fetched 370 products for group 23353
+2025-07-13 17:22:36,941 [INFO] Successfully updated 370 products and inserted 370 price records for group 23353
+2025-07-13 17:22:36,942 [INFO] Processing group 15/204: Trading Card Game Classic (23323)
+2025-07-13 17:22:36,942 [INFO] Fetching products for group 23323 from https://tcgcsv.com/tcgplayer/3/23323/ProductsAndPrices.csv
+2025-07-13 17:22:37,069 [INFO] Successfully fetched 103 products for group 23323
+2025-07-13 17:22:37,112 [INFO] Successfully updated 103 products and inserted 103 price records for group 23323
+2025-07-13 17:22:37,112 [INFO] Processing group 16/204: SV04: Paradox Rift (23286)
+2025-07-13 17:22:37,112 [INFO] Fetching products for group 23286 from https://tcgcsv.com/tcgplayer/3/23286/ProductsAndPrices.csv
+2025-07-13 17:22:37,329 [INFO] Successfully fetched 467 products for group 23286
+2025-07-13 17:22:37,496 [INFO] Successfully updated 467 products and inserted 463 price records for group 23286
+2025-07-13 17:22:37,497 [INFO] Processing group 17/204: My First Battle (23330)
+2025-07-13 17:22:37,497 [INFO] Fetching products for group 23330 from https://tcgcsv.com/tcgplayer/3/23330/ProductsAndPrices.csv
+2025-07-13 17:22:37,600 [INFO] Successfully fetched 50 products for group 23330
+2025-07-13 17:22:37,621 [INFO] Successfully updated 50 products and inserted 50 price records for group 23330
+2025-07-13 17:22:37,621 [INFO] Processing group 18/204: SV: Scarlet & Violet 151 (23237)
+2025-07-13 17:22:37,621 [INFO] Fetching products for group 23237 from https://tcgcsv.com/tcgplayer/3/23237/ProductsAndPrices.csv
+2025-07-13 17:22:37,785 [INFO] Successfully fetched 399 products for group 23237
+2025-07-13 17:22:37,933 [INFO] Successfully updated 399 products and inserted 398 price records for group 23237
+2025-07-13 17:22:37,934 [INFO] Processing group 19/204: McDonald's Promos 2023 (23306)
+2025-07-13 17:22:37,934 [INFO] Fetching products for group 23306 from https://tcgcsv.com/tcgplayer/3/23306/ProductsAndPrices.csv
+2025-07-13 17:22:38,042 [INFO] Successfully fetched 16 products for group 23306
+2025-07-13 17:22:38,050 [INFO] Successfully updated 16 products and inserted 16 price records for group 23306
+2025-07-13 17:22:38,050 [INFO] Processing group 20/204: Trick or Trade BOOster Bundle 2023 (23266)
+2025-07-13 17:22:38,050 [INFO] Fetching products for group 23266 from https://tcgcsv.com/tcgplayer/3/23266/ProductsAndPrices.csv
+2025-07-13 17:22:38,225 [INFO] Successfully fetched 35 products for group 23266
+2025-07-13 17:22:38,240 [INFO] Successfully updated 35 products and inserted 35 price records for group 23266
+2025-07-13 17:22:38,241 [INFO] Processing group 21/204: SV03: Obsidian Flames (23228)
+2025-07-13 17:22:38,241 [INFO] Fetching products for group 23228 from https://tcgcsv.com/tcgplayer/3/23228/ProductsAndPrices.csv
+2025-07-13 17:22:38,425 [INFO] Successfully fetched 438 products for group 23228
+2025-07-13 17:22:38,581 [INFO] Successfully updated 438 products and inserted 436 price records for group 23228
+2025-07-13 17:22:38,581 [INFO] Processing group 22/204: SV02: Paldea Evolved (23120)
+2025-07-13 17:22:38,581 [INFO] Fetching products for group 23120 from https://tcgcsv.com/tcgplayer/3/23120/ProductsAndPrices.csv
+2025-07-13 17:22:38,823 [INFO] Successfully fetched 489 products for group 23120
+2025-07-13 17:22:39,003 [INFO] Successfully updated 489 products and inserted 489 price records for group 23120
+2025-07-13 17:22:39,004 [INFO] Processing group 23/204: SV: Scarlet & Violet Promo Cards (22872)
+2025-07-13 17:22:39,004 [INFO] Fetching products for group 22872 from https://tcgcsv.com/tcgplayer/3/22872/ProductsAndPrices.csv
+2025-07-13 17:22:39,170 [INFO] Successfully fetched 261 products for group 22872
+2025-07-13 17:22:39,250 [INFO] Successfully updated 261 products and inserted 259 price records for group 22872
+2025-07-13 17:22:39,250 [INFO] Processing group 24/204: SV01: Scarlet & Violet Base Set (22873)
+2025-07-13 17:22:39,250 [INFO] Fetching products for group 22873 from https://tcgcsv.com/tcgplayer/3/22873/ProductsAndPrices.csv
+2025-07-13 17:22:39,433 [INFO] Successfully fetched 506 products for group 22873
+2025-07-13 17:22:39,613 [INFO] Successfully updated 506 products and inserted 501 price records for group 22873
+2025-07-13 17:22:39,613 [INFO] Processing group 25/204: Crown Zenith (17688)
+2025-07-13 17:22:39,613 [INFO] Fetching products for group 17688 from https://tcgcsv.com/tcgplayer/3/17688/ProductsAndPrices.csv
+2025-07-13 17:22:39,794 [INFO] Successfully fetched 335 products for group 17688
+2025-07-13 17:22:39,926 [INFO] Successfully updated 335 products and inserted 333 price records for group 17688
+2025-07-13 17:22:39,926 [INFO] Processing group 26/204: Crown Zenith: Galarian Gallery (17689)
+2025-07-13 17:22:39,926 [INFO] Fetching products for group 17689 from https://tcgcsv.com/tcgplayer/3/17689/ProductsAndPrices.csv
+2025-07-13 17:22:40,060 [INFO] Successfully fetched 70 products for group 17689
+2025-07-13 17:22:40,085 [INFO] Successfully updated 70 products and inserted 70 price records for group 17689
+2025-07-13 17:22:40,086 [INFO] Processing group 27/204: Prize Pack Series Cards (22880)
+2025-07-13 17:22:40,086 [INFO] Fetching products for group 22880 from https://tcgcsv.com/tcgplayer/3/22880/ProductsAndPrices.csv
+2025-07-13 17:22:40,265 [INFO] Successfully fetched 721 products for group 22880
+2025-07-13 17:22:40,503 [INFO] Successfully updated 721 products and inserted 713 price records for group 22880
+2025-07-13 17:22:40,503 [INFO] Processing group 28/204: SWSH12: Silver Tempest (3170)
+2025-07-13 17:22:40,504 [INFO] Fetching products for group 3170 from https://tcgcsv.com/tcgplayer/3/3170/ProductsAndPrices.csv
+2025-07-13 17:22:40,686 [INFO] Successfully fetched 396 products for group 3170
+2025-07-13 17:22:40,830 [INFO] Successfully updated 396 products and inserted 394 price records for group 3170
+2025-07-13 17:22:40,830 [INFO] Processing group 29/204: SWSH12: Silver Tempest Trainer Gallery (17674)
+2025-07-13 17:22:40,831 [INFO] Fetching products for group 17674 from https://tcgcsv.com/tcgplayer/3/17674/ProductsAndPrices.csv
+2025-07-13 17:22:40,960 [INFO] Successfully fetched 30 products for group 17674
+2025-07-13 17:22:40,973 [INFO] Successfully updated 30 products and inserted 30 price records for group 17674
+2025-07-13 17:22:40,973 [INFO] Processing group 30/204: SWSH11: Lost Origin (3118)
+2025-07-13 17:22:40,973 [INFO] Fetching products for group 3118 from https://tcgcsv.com/tcgplayer/3/3118/ProductsAndPrices.csv
+2025-07-13 17:22:41,158 [INFO] Successfully fetched 420 products for group 3118
+2025-07-13 17:22:41,303 [INFO] Successfully updated 420 products and inserted 416 price records for group 3118
+2025-07-13 17:22:41,303 [INFO] Processing group 31/204: SWSH11: Lost Origin Trainer Gallery (3172)
+2025-07-13 17:22:41,303 [INFO] Fetching products for group 3172 from https://tcgcsv.com/tcgplayer/3/3172/ProductsAndPrices.csv
+2025-07-13 17:22:41,434 [INFO] Successfully fetched 30 products for group 3172
+2025-07-13 17:22:41,448 [INFO] Successfully updated 30 products and inserted 30 price records for group 3172
+2025-07-13 17:22:41,449 [INFO] Processing group 32/204: Trick or Trade BOOster Bundle (3179)
+2025-07-13 17:22:41,449 [INFO] Fetching products for group 3179 from https://tcgcsv.com/tcgplayer/3/3179/ProductsAndPrices.csv
+2025-07-13 17:22:41,577 [INFO] Successfully fetched 32 products for group 3179
+2025-07-13 17:22:41,590 [INFO] Successfully updated 32 products and inserted 32 price records for group 3179
+2025-07-13 17:22:41,590 [INFO] Processing group 33/204: McDonald's Promos 2022 (3150)
+2025-07-13 17:22:41,590 [INFO] Fetching products for group 3150 from https://tcgcsv.com/tcgplayer/3/3150/ProductsAndPrices.csv
+2025-07-13 17:22:41,719 [INFO] Successfully fetched 16 products for group 3150
+2025-07-13 17:22:41,726 [INFO] Successfully updated 16 products and inserted 16 price records for group 3150
+2025-07-13 17:22:41,726 [INFO] Processing group 34/204: Pokemon GO (3064)
+2025-07-13 17:22:41,726 [INFO] Fetching products for group 3064 from https://tcgcsv.com/tcgplayer/3/3064/ProductsAndPrices.csv
+2025-07-13 17:22:41,902 [INFO] Successfully fetched 201 products for group 3064
+2025-07-13 17:22:41,976 [INFO] Successfully updated 201 products and inserted 201 price records for group 3064
+2025-07-13 17:22:41,976 [INFO] Processing group 35/204: SWSH10: Astral Radiance (3040)
+2025-07-13 17:22:41,976 [INFO] Fetching products for group 3040 from https://tcgcsv.com/tcgplayer/3/3040/ProductsAndPrices.csv
+2025-07-13 17:22:42,156 [INFO] Successfully fetched 381 products for group 3040
+2025-07-13 17:22:42,289 [INFO] Successfully updated 381 products and inserted 375 price records for group 3040
+2025-07-13 17:22:42,289 [INFO] Processing group 36/204: SWSH10: Astral Radiance Trainer Gallery (3068)
+2025-07-13 17:22:42,289 [INFO] Fetching products for group 3068 from https://tcgcsv.com/tcgplayer/3/3068/ProductsAndPrices.csv
+2025-07-13 17:22:42,415 [INFO] Successfully fetched 30 products for group 3068
+2025-07-13 17:22:42,429 [INFO] Successfully updated 30 products and inserted 30 price records for group 3068
+2025-07-13 17:22:42,429 [INFO] Processing group 37/204: Battle Academy 2022 (3051)
+2025-07-13 17:22:42,429 [INFO] Fetching products for group 3051 from https://tcgcsv.com/tcgplayer/3/3051/ProductsAndPrices.csv
+2025-07-13 17:22:42,563 [INFO] Successfully fetched 140 products for group 3051
+2025-07-13 17:22:42,613 [INFO] Successfully updated 140 products and inserted 140 price records for group 3051
+2025-07-13 17:22:42,614 [INFO] Processing group 38/204: SWSH09: Brilliant Stars (2948)
+2025-07-13 17:22:42,614 [INFO] Fetching products for group 2948 from https://tcgcsv.com/tcgplayer/3/2948/ProductsAndPrices.csv
+2025-07-13 17:22:42,760 [INFO] Successfully fetched 364 products for group 2948
+2025-07-13 17:22:42,893 [INFO] Successfully updated 364 products and inserted 360 price records for group 2948
+2025-07-13 17:22:42,893 [INFO] Processing group 39/204: SWSH09: Brilliant Stars Trainer Gallery (3020)
+2025-07-13 17:22:42,894 [INFO] Fetching products for group 3020 from https://tcgcsv.com/tcgplayer/3/3020/ProductsAndPrices.csv
+2025-07-13 17:22:43,019 [INFO] Successfully fetched 30 products for group 3020
+2025-07-13 17:22:43,032 [INFO] Successfully updated 30 products and inserted 30 price records for group 3020
+2025-07-13 17:22:43,032 [INFO] Processing group 40/204: SWSH08: Fusion Strike (2906)
+2025-07-13 17:22:43,033 [INFO] Fetching products for group 2906 from https://tcgcsv.com/tcgplayer/3/2906/ProductsAndPrices.csv
+2025-07-13 17:22:43,199 [INFO] Successfully fetched 547 products for group 2906
+2025-07-13 17:22:43,384 [INFO] Successfully updated 547 products and inserted 544 price records for group 2906
+2025-07-13 17:22:43,384 [INFO] Processing group 41/204: Celebrations (2867)
+2025-07-13 17:22:43,384 [INFO] Fetching products for group 2867 from https://tcgcsv.com/tcgplayer/3/2867/ProductsAndPrices.csv
+2025-07-13 17:22:43,500 [INFO] Successfully fetched 74 products for group 2867
+2025-07-13 17:22:43,529 [INFO] Successfully updated 74 products and inserted 71 price records for group 2867
+2025-07-13 17:22:43,529 [INFO] Processing group 42/204: Celebrations: Classic Collection (2931)
+2025-07-13 17:22:43,529 [INFO] Fetching products for group 2931 from https://tcgcsv.com/tcgplayer/3/2931/ProductsAndPrices.csv
+2025-07-13 17:22:43,611 [INFO] Successfully fetched 25 products for group 2931
+2025-07-13 17:22:43,621 [INFO] Successfully updated 25 products and inserted 25 price records for group 2931
+2025-07-13 17:22:43,621 [INFO] Processing group 43/204: SWSH07: Evolving Skies (2848)
+2025-07-13 17:22:43,621 [INFO] Fetching products for group 2848 from https://tcgcsv.com/tcgplayer/3/2848/ProductsAndPrices.csv
+2025-07-13 17:22:43,797 [INFO] Successfully fetched 418 products for group 2848
+2025-07-13 17:22:43,952 [INFO] Successfully updated 418 products and inserted 414 price records for group 2848
+2025-07-13 17:22:43,953 [INFO] Processing group 44/204: SWSH06: Chilling Reign (2807)
+2025-07-13 17:22:43,953 [INFO] Fetching products for group 2807 from https://tcgcsv.com/tcgplayer/3/2807/ProductsAndPrices.csv
+2025-07-13 17:22:44,131 [INFO] Successfully fetched 409 products for group 2807
+2025-07-13 17:22:44,282 [INFO] Successfully updated 409 products and inserted 408 price records for group 2807
+2025-07-13 17:22:44,282 [INFO] Processing group 45/204: SWSH05: Battle Styles (2765)
+2025-07-13 17:22:44,282 [INFO] Fetching products for group 2765 from https://tcgcsv.com/tcgplayer/3/2765/ProductsAndPrices.csv
+2025-07-13 17:22:44,470 [INFO] Successfully fetched 354 products for group 2765
+2025-07-13 17:22:44,598 [INFO] Successfully updated 354 products and inserted 347 price records for group 2765
+2025-07-13 17:22:44,598 [INFO] Processing group 46/204: First Partner Pack (2776)
+2025-07-13 17:22:44,598 [INFO] Fetching products for group 2776 from https://tcgcsv.com/tcgplayer/3/2776/ProductsAndPrices.csv
+2025-07-13 17:22:44,729 [INFO] Successfully fetched 33 products for group 2776
+2025-07-13 17:22:44,744 [INFO] Successfully updated 33 products and inserted 33 price records for group 2776
+2025-07-13 17:22:44,744 [INFO] Processing group 47/204: Shining Fates (2754)
+2025-07-13 17:22:44,744 [INFO] Fetching products for group 2754 from https://tcgcsv.com/tcgplayer/3/2754/ProductsAndPrices.csv
+2025-07-13 17:22:44,872 [INFO] Successfully fetched 162 products for group 2754
+2025-07-13 17:22:44,937 [INFO] Successfully updated 162 products and inserted 162 price records for group 2754
+2025-07-13 17:22:44,938 [INFO] Processing group 48/204: Shining Fates: Shiny Vault (2781)
+2025-07-13 17:22:44,938 [INFO] Fetching products for group 2781 from https://tcgcsv.com/tcgplayer/3/2781/ProductsAndPrices.csv
+2025-07-13 17:22:45,049 [INFO] Successfully fetched 122 products for group 2781
+2025-07-13 17:22:45,099 [INFO] Successfully updated 122 products and inserted 122 price records for group 2781
+2025-07-13 17:22:45,099 [INFO] Processing group 49/204: McDonald's 25th Anniversary Promos (2782)
+2025-07-13 17:22:45,099 [INFO] Fetching products for group 2782 from https://tcgcsv.com/tcgplayer/3/2782/ProductsAndPrices.csv
+2025-07-13 17:22:45,200 [INFO] Successfully fetched 51 products for group 2782
+2025-07-13 17:22:45,220 [INFO] Successfully updated 51 products and inserted 51 price records for group 2782
+2025-07-13 17:22:45,220 [INFO] Processing group 50/204: SWSH04: Vivid Voltage (2701)
+2025-07-13 17:22:45,220 [INFO] Fetching products for group 2701 from https://tcgcsv.com/tcgplayer/3/2701/ProductsAndPrices.csv
+2025-07-13 17:22:45,435 [INFO] Successfully fetched 387 products for group 2701
+2025-07-13 17:22:45,580 [INFO] Successfully updated 387 products and inserted 384 price records for group 2701
+2025-07-13 17:22:45,580 [INFO] Processing group 51/204: Champion's Path (2685)
+2025-07-13 17:22:45,580 [INFO] Fetching products for group 2685 from https://tcgcsv.com/tcgplayer/3/2685/ProductsAndPrices.csv
+2025-07-13 17:22:45,683 [INFO] Successfully fetched 164 products for group 2685
+2025-07-13 17:22:45,744 [INFO] Successfully updated 164 products and inserted 164 price records for group 2685
+2025-07-13 17:22:45,744 [INFO] Processing group 52/204: SWSH03: Darkness Ablaze (2675)
+2025-07-13 17:22:45,744 [INFO] Fetching products for group 2675 from https://tcgcsv.com/tcgplayer/3/2675/ProductsAndPrices.csv
+2025-07-13 17:22:45,878 [INFO] Successfully fetched 395 products for group 2675
+2025-07-13 17:22:46,024 [INFO] Successfully updated 395 products and inserted 392 price records for group 2675
+2025-07-13 17:22:46,024 [INFO] Processing group 53/204: Battle Academy (2686)
+2025-07-13 17:22:46,025 [INFO] Fetching products for group 2686 from https://tcgcsv.com/tcgplayer/3/2686/ProductsAndPrices.csv
+2025-07-13 17:22:46,164 [INFO] Successfully fetched 140 products for group 2686
+2025-07-13 17:22:46,223 [INFO] Successfully updated 140 products and inserted 140 price records for group 2686
+2025-07-13 17:22:46,223 [INFO] Processing group 54/204: SWSH02: Rebel Clash (2626)
+2025-07-13 17:22:46,223 [INFO] Fetching products for group 2626 from https://tcgcsv.com/tcgplayer/3/2626/ProductsAndPrices.csv
+2025-07-13 17:22:46,410 [INFO] Successfully fetched 404 products for group 2626
+2025-07-13 17:22:46,555 [INFO] Successfully updated 404 products and inserted 398 price records for group 2626
+2025-07-13 17:22:46,555 [INFO] Processing group 55/204: SWSH01: Sword & Shield Base Set (2585)
+2025-07-13 17:22:46,556 [INFO] Fetching products for group 2585 from https://tcgcsv.com/tcgplayer/3/2585/ProductsAndPrices.csv
+2025-07-13 17:22:46,730 [INFO] Successfully fetched 461 products for group 2585
+2025-07-13 17:22:46,890 [INFO] Successfully updated 461 products and inserted 455 price records for group 2585
+2025-07-13 17:22:46,890 [INFO] Processing group 56/204: SWSH: Sword & Shield Promo Cards (2545)
+2025-07-13 17:22:46,890 [INFO] Fetching products for group 2545 from https://tcgcsv.com/tcgplayer/3/2545/ProductsAndPrices.csv
+2025-07-13 17:22:47,080 [INFO] Successfully fetched 343 products for group 2545
+2025-07-13 17:22:47,220 [INFO] Successfully updated 343 products and inserted 340 price records for group 2545
+2025-07-13 17:22:47,220 [INFO] Processing group 57/204: SM - Cosmic Eclipse (2534)
+2025-07-13 17:22:47,221 [INFO] Fetching products for group 2534 from https://tcgcsv.com/tcgplayer/3/2534/ProductsAndPrices.csv
+2025-07-13 17:22:47,390 [INFO] Successfully fetched 491 products for group 2534
+2025-07-13 17:22:47,564 [INFO] Successfully updated 491 products and inserted 486 price records for group 2534
+2025-07-13 17:22:47,565 [INFO] Processing group 58/204: McDonald's Promos 2019 (2555)
+2025-07-13 17:22:47,565 [INFO] Fetching products for group 2555 from https://tcgcsv.com/tcgplayer/3/2555/ProductsAndPrices.csv
+2025-07-13 17:22:47,685 [INFO] Successfully fetched 12 products for group 2555
+2025-07-13 17:22:47,692 [INFO] Successfully updated 12 products and inserted 12 price records for group 2555
+2025-07-13 17:22:47,692 [INFO] Processing group 59/204: Hidden Fates (2480)
+2025-07-13 17:22:47,692 [INFO] Fetching products for group 2480 from https://tcgcsv.com/tcgplayer/3/2480/ProductsAndPrices.csv
+2025-07-13 17:22:47,826 [INFO] Successfully fetched 151 products for group 2480
+2025-07-13 17:22:47,884 [INFO] Successfully updated 151 products and inserted 151 price records for group 2480
+2025-07-13 17:22:47,884 [INFO] Processing group 60/204: Hidden Fates: Shiny Vault (2594)
+2025-07-13 17:22:47,884 [INFO] Fetching products for group 2594 from https://tcgcsv.com/tcgplayer/3/2594/ProductsAndPrices.csv
+2025-07-13 17:22:48,006 [INFO] Successfully fetched 94 products for group 2594
+2025-07-13 17:22:48,042 [INFO] Successfully updated 94 products and inserted 94 price records for group 2594
+2025-07-13 17:22:48,042 [INFO] Processing group 61/204: SM - Unified Minds (2464)
+2025-07-13 17:22:48,042 [INFO] Fetching products for group 2464 from https://tcgcsv.com/tcgplayer/3/2464/ProductsAndPrices.csv
+2025-07-13 17:22:48,196 [INFO] Successfully fetched 491 products for group 2464
+2025-07-13 17:22:48,366 [INFO] Successfully updated 491 products and inserted 486 price records for group 2464
+2025-07-13 17:22:48,366 [INFO] Processing group 62/204: SM - Unbroken Bonds (2420)
+2025-07-13 17:22:48,366 [INFO] Fetching products for group 2420 from https://tcgcsv.com/tcgplayer/3/2420/ProductsAndPrices.csv
+2025-07-13 17:22:48,550 [INFO] Successfully fetched 446 products for group 2420
+2025-07-13 17:22:48,702 [INFO] Successfully updated 446 products and inserted 440 price records for group 2420
+2025-07-13 17:22:48,702 [INFO] Processing group 63/204: Detective Pikachu (2409)
+2025-07-13 17:22:48,702 [INFO] Fetching products for group 2409 from https://tcgcsv.com/tcgplayer/3/2409/ProductsAndPrices.csv
+2025-07-13 17:22:48,804 [INFO] Successfully fetched 39 products for group 2409
+2025-07-13 17:22:48,823 [INFO] Successfully updated 39 products and inserted 36 price records for group 2409
+2025-07-13 17:22:48,823 [INFO] Processing group 64/204: SM - Team Up (2377)
+2025-07-13 17:22:48,823 [INFO] Fetching products for group 2377 from https://tcgcsv.com/tcgplayer/3/2377/ProductsAndPrices.csv
+2025-07-13 17:22:48,991 [INFO] Successfully fetched 397 products for group 2377
+2025-07-13 17:22:49,125 [INFO] Successfully updated 397 products and inserted 387 price records for group 2377
+2025-07-13 17:22:49,125 [INFO] Processing group 65/204: SM - Lost Thunder (2328)
+2025-07-13 17:22:49,126 [INFO] Fetching products for group 2328 from https://tcgcsv.com/tcgplayer/3/2328/ProductsAndPrices.csv
+2025-07-13 17:22:49,305 [INFO] Successfully fetched 444 products for group 2328
+2025-07-13 17:22:49,468 [INFO] Successfully updated 444 products and inserted 435 price records for group 2328
+2025-07-13 17:22:49,468 [INFO] Processing group 66/204: McDonald's Promos 2018 (2364)
+2025-07-13 17:22:49,468 [INFO] Fetching products for group 2364 from https://tcgcsv.com/tcgplayer/3/2364/ProductsAndPrices.csv
+2025-07-13 17:22:49,569 [INFO] Successfully fetched 12 products for group 2364
+2025-07-13 17:22:49,580 [INFO] Successfully updated 12 products and inserted 12 price records for group 2364
+2025-07-13 17:22:49,581 [INFO] Processing group 67/204: Miscellaneous Cards & Products (2374)
+2025-07-13 17:22:49,581 [INFO] Fetching products for group 2374 from https://tcgcsv.com/tcgplayer/3/2374/ProductsAndPrices.csv
+2025-07-13 17:22:49,762 [INFO] Successfully fetched 1246 products for group 2374
+2025-07-13 17:22:50,148 [INFO] Successfully updated 1246 products and inserted 1097 price records for group 2374
+2025-07-13 17:22:50,149 [INFO] Processing group 68/204: Dragon Majesty (2295)
+2025-07-13 17:22:50,149 [INFO] Fetching products for group 2295 from https://tcgcsv.com/tcgplayer/3/2295/ProductsAndPrices.csv
+2025-07-13 17:22:50,278 [INFO] Successfully fetched 146 products for group 2295
+2025-07-13 17:22:50,332 [INFO] Successfully updated 146 products and inserted 144 price records for group 2295
+2025-07-13 17:22:50,332 [INFO] Processing group 69/204: SM - Celestial Storm (2278)
+2025-07-13 17:22:50,332 [INFO] Fetching products for group 2278 from https://tcgcsv.com/tcgplayer/3/2278/ProductsAndPrices.csv
+2025-07-13 17:22:50,519 [INFO] Successfully fetched 359 products for group 2278
+2025-07-13 17:22:50,650 [INFO] Successfully updated 359 products and inserted 344 price records for group 2278
+2025-07-13 17:22:50,650 [INFO] Processing group 70/204: World Championship Decks (2282)
+2025-07-13 17:22:50,650 [INFO] Fetching products for group 2282 from https://tcgcsv.com/tcgplayer/3/2282/ProductsAndPrices.csv
+2025-07-13 17:22:50,878 [INFO] Successfully fetched 1888 products for group 2282
+2025-07-13 17:22:51,534 [INFO] Successfully updated 1888 products and inserted 1788 price records for group 2282
+2025-07-13 17:22:51,535 [INFO] Processing group 71/204: SM - Forbidden Light (2209)
+2025-07-13 17:22:51,535 [INFO] Fetching products for group 2209 from https://tcgcsv.com/tcgplayer/3/2209/ProductsAndPrices.csv
+2025-07-13 17:22:51,714 [INFO] Successfully fetched 283 products for group 2209
+2025-07-13 17:22:51,814 [INFO] Successfully updated 283 products and inserted 271 price records for group 2209
+2025-07-13 17:22:51,815 [INFO] Processing group 72/204: SM Trainer Kit: Alolan Sandslash & Alolan Ninetales (2208)
+2025-07-13 17:22:51,815 [INFO] Fetching products for group 2208 from https://tcgcsv.com/tcgplayer/3/2208/ProductsAndPrices.csv
+2025-07-13 17:22:51,963 [INFO] Successfully fetched 62 products for group 2208
+2025-07-13 17:22:51,990 [INFO] Successfully updated 62 products and inserted 62 price records for group 2208
+2025-07-13 17:22:51,990 [INFO] Processing group 73/204: SM - Ultra Prism (2178)
+2025-07-13 17:22:51,990 [INFO] Fetching products for group 2178 from https://tcgcsv.com/tcgplayer/3/2178/ProductsAndPrices.csv
+2025-07-13 17:22:52,173 [INFO] Successfully fetched 336 products for group 2178
+2025-07-13 17:22:52,294 [INFO] Successfully updated 336 products and inserted 324 price records for group 2178
+2025-07-13 17:22:52,294 [INFO] Processing group 74/204: McDonald's Promos 2017 (2148)
+2025-07-13 17:22:52,294 [INFO] Fetching products for group 2148 from https://tcgcsv.com/tcgplayer/3/2148/ProductsAndPrices.csv
+2025-07-13 17:22:52,376 [INFO] Successfully fetched 12 products for group 2148
+2025-07-13 17:22:52,381 [INFO] Successfully updated 12 products and inserted 12 price records for group 2148
+2025-07-13 17:22:52,381 [INFO] Processing group 75/204: SM - Crimson Invasion (2071)
+2025-07-13 17:22:52,382 [INFO] Fetching products for group 2071 from https://tcgcsv.com/tcgplayer/3/2071/ProductsAndPrices.csv
+2025-07-13 17:22:52,567 [INFO] Successfully fetched 253 products for group 2071
+2025-07-13 17:22:52,654 [INFO] Successfully updated 253 products and inserted 243 price records for group 2071
+2025-07-13 17:22:52,654 [INFO] Processing group 76/204: Shining Legends (2054)
+2025-07-13 17:22:52,654 [INFO] Fetching products for group 2054 from https://tcgcsv.com/tcgplayer/3/2054/ProductsAndPrices.csv
+2025-07-13 17:22:52,786 [INFO] Successfully fetched 161 products for group 2054
+2025-07-13 17:22:52,844 [INFO] Successfully updated 161 products and inserted 159 price records for group 2054
+2025-07-13 17:22:52,845 [INFO] Processing group 77/204: SM - Burning Shadows (1957)
+2025-07-13 17:22:52,845 [INFO] Fetching products for group 1957 from https://tcgcsv.com/tcgplayer/3/1957/ProductsAndPrices.csv
+2025-07-13 17:22:52,990 [INFO] Successfully fetched 330 products for group 1957
+2025-07-13 17:22:53,095 [INFO] Successfully updated 330 products and inserted 321 price records for group 1957
+2025-07-13 17:22:53,095 [INFO] Processing group 78/204: Alternate Art Promos (1938)
+2025-07-13 17:22:53,095 [INFO] Fetching products for group 1938 from https://tcgcsv.com/tcgplayer/3/1938/ProductsAndPrices.csv
+2025-07-13 17:22:53,210 [INFO] Successfully fetched 59 products for group 1938
+2025-07-13 17:22:53,234 [INFO] Successfully updated 59 products and inserted 59 price records for group 1938
+2025-07-13 17:22:53,234 [INFO] Processing group 79/204: SM - Guardians Rising (1919)
+2025-07-13 17:22:53,234 [INFO] Fetching products for group 1919 from https://tcgcsv.com/tcgplayer/3/1919/ProductsAndPrices.csv
+2025-07-13 17:22:53,408 [INFO] Successfully fetched 359 products for group 1919
+2025-07-13 17:22:53,508 [INFO] Successfully updated 359 products and inserted 336 price records for group 1919
+2025-07-13 17:22:53,509 [INFO] Processing group 80/204: Ash vs Team Rocket Deck Kit (JP Exclusive) (23095)
+2025-07-13 17:22:53,509 [INFO] Fetching products for group 23095 from https://tcgcsv.com/tcgplayer/3/23095/ProductsAndPrices.csv
+2025-07-13 17:22:53,629 [INFO] Successfully fetched 21 products for group 23095
+2025-07-13 17:22:53,637 [INFO] Successfully updated 21 products and inserted 17 price records for group 23095
+2025-07-13 17:22:53,637 [INFO] Processing group 81/204: SM Trainer Kit: Lycanroc & Alolan Raichu (2069)
+2025-07-13 17:22:53,637 [INFO] Fetching products for group 2069 from https://tcgcsv.com/tcgplayer/3/2069/ProductsAndPrices.csv
+2025-07-13 17:22:53,746 [INFO] Successfully fetched 61 products for group 2069
+2025-07-13 17:22:53,769 [INFO] Successfully updated 61 products and inserted 61 price records for group 2069
+2025-07-13 17:22:53,769 [INFO] Processing group 82/204: SM Base Set (1863)
+2025-07-13 17:22:53,769 [INFO] Fetching products for group 1863 from https://tcgcsv.com/tcgplayer/3/1863/ProductsAndPrices.csv
+2025-07-13 17:22:53,955 [INFO] Successfully fetched 344 products for group 1863
+2025-07-13 17:22:54,054 [INFO] Successfully updated 344 products and inserted 334 price records for group 1863
+2025-07-13 17:22:54,055 [INFO] Processing group 83/204: SM Promos (1861)
+2025-07-13 17:22:54,055 [INFO] Fetching products for group 1861 from https://tcgcsv.com/tcgplayer/3/1861/ProductsAndPrices.csv
+2025-07-13 17:22:54,251 [INFO] Successfully fetched 349 products for group 1861
+2025-07-13 17:22:54,360 [INFO] Successfully updated 349 products and inserted 318 price records for group 1861
+2025-07-13 17:22:54,360 [INFO] Processing group 84/204: XY - Evolutions (1842)
+2025-07-13 17:22:54,360 [INFO] Fetching products for group 1842 from https://tcgcsv.com/tcgplayer/3/1842/ProductsAndPrices.csv
+2025-07-13 17:22:54,544 [INFO] Successfully fetched 258 products for group 1842
+2025-07-13 17:22:54,611 [INFO] Successfully updated 258 products and inserted 237 price records for group 1842
+2025-07-13 17:22:54,611 [INFO] Processing group 85/204: Deck Exclusives (1840)
+2025-07-13 17:22:54,611 [INFO] Fetching products for group 1840 from https://tcgcsv.com/tcgplayer/3/1840/ProductsAndPrices.csv
+2025-07-13 17:22:54,772 [INFO] Successfully fetched 475 products for group 1840
+2025-07-13 17:22:54,905 [INFO] Successfully updated 475 products and inserted 475 price records for group 1840
+2025-07-13 17:22:54,905 [INFO] Processing group 86/204: McDonald's Promos 2016 (3087)
+2025-07-13 17:22:54,905 [INFO] Fetching products for group 3087 from https://tcgcsv.com/tcgplayer/3/3087/ProductsAndPrices.csv
+2025-07-13 17:22:55,050 [INFO] Successfully fetched 12 products for group 3087
+2025-07-13 17:22:55,052 [ERROR] Error updating data for group 3087: 'marketPrice'
+2025-07-13 17:22:55,052 [INFO] Processing group 87/204: XY - Steam Siege (1815)
+2025-07-13 17:22:55,052 [INFO] Fetching products for group 1815 from https://tcgcsv.com/tcgplayer/3/1815/ProductsAndPrices.csv
+2025-07-13 17:22:55,259 [INFO] Successfully fetched 250 products for group 1815
+2025-07-13 17:22:55,321 [INFO] Successfully updated 250 products and inserted 236 price records for group 1815
+2025-07-13 17:22:55,322 [INFO] Processing group 88/204: League & Championship Cards (1539)
+2025-07-13 17:22:55,322 [INFO] Fetching products for group 1539 from https://tcgcsv.com/tcgplayer/3/1539/ProductsAndPrices.csv
+2025-07-13 17:22:55,520 [INFO] Successfully fetched 603 products for group 1539
+2025-07-13 17:22:55,678 [INFO] Successfully updated 603 products and inserted 572 price records for group 1539
+2025-07-13 17:22:55,678 [INFO] Processing group 89/204: XY - Fates Collide (1780)
+2025-07-13 17:22:55,678 [INFO] Fetching products for group 1780 from https://tcgcsv.com/tcgplayer/3/1780/ProductsAndPrices.csv
+2025-07-13 17:22:55,842 [INFO] Successfully fetched 263 products for group 1780
+2025-07-13 17:22:55,902 [INFO] Successfully updated 263 products and inserted 245 price records for group 1780
+2025-07-13 17:22:55,902 [INFO] Processing group 90/204: XY Trainer Kit: Pikachu Libre & Suicune (1796)
+2025-07-13 17:22:55,902 [INFO] Fetching products for group 1796 from https://tcgcsv.com/tcgplayer/3/1796/ProductsAndPrices.csv
+2025-07-13 17:22:56,014 [INFO] Successfully fetched 62 products for group 1796
+2025-07-13 17:22:56,031 [INFO] Successfully updated 62 products and inserted 62 price records for group 1796
+2025-07-13 17:22:56,031 [INFO] Processing group 91/204: Generations (1728)
+2025-07-13 17:22:56,031 [INFO] Fetching products for group 1728 from https://tcgcsv.com/tcgplayer/3/1728/ProductsAndPrices.csv
+2025-07-13 17:22:56,201 [INFO] Successfully fetched 188 products for group 1728
+2025-07-13 17:22:56,245 [INFO] Successfully updated 188 products and inserted 182 price records for group 1728
+2025-07-13 17:22:56,245 [INFO] Processing group 92/204: Generations: Radiant Collection (1729)
+2025-07-13 17:22:56,245 [INFO] Fetching products for group 1729 from https://tcgcsv.com/tcgplayer/3/1729/ProductsAndPrices.csv
+2025-07-13 17:22:56,358 [INFO] Successfully fetched 32 products for group 1729
+2025-07-13 17:22:56,367 [INFO] Successfully updated 32 products and inserted 32 price records for group 1729
+2025-07-13 17:22:56,367 [INFO] Processing group 93/204: XY - BREAKpoint (1701)
+2025-07-13 17:22:56,368 [INFO] Fetching products for group 1701 from https://tcgcsv.com/tcgplayer/3/1701/ProductsAndPrices.csv
+2025-07-13 17:22:56,567 [INFO] Successfully fetched 252 products for group 1701
+2025-07-13 17:22:56,625 [INFO] Successfully updated 252 products and inserted 238 price records for group 1701
+2025-07-13 17:22:56,625 [INFO] Processing group 94/204: McDonald's Promos 2015 (1694)
+2025-07-13 17:22:56,625 [INFO] Fetching products for group 1694 from https://tcgcsv.com/tcgplayer/3/1694/ProductsAndPrices.csv
+2025-07-13 17:22:56,705 [INFO] Successfully fetched 12 products for group 1694
+2025-07-13 17:22:56,710 [INFO] Successfully updated 12 products and inserted 12 price records for group 1694
+2025-07-13 17:22:56,710 [INFO] Processing group 95/204: XY - BREAKthrough (1661)
+2025-07-13 17:22:56,710 [INFO] Fetching products for group 1661 from https://tcgcsv.com/tcgplayer/3/1661/ProductsAndPrices.csv
+2025-07-13 17:22:56,912 [INFO] Successfully fetched 365 products for group 1661
+2025-07-13 17:22:56,989 [INFO] Successfully updated 365 products and inserted 326 price records for group 1661
+2025-07-13 17:22:56,989 [INFO] Processing group 96/204: XY - Ancient Origins (1576)
+2025-07-13 17:22:56,989 [INFO] Fetching products for group 1576 from https://tcgcsv.com/tcgplayer/3/1576/ProductsAndPrices.csv
+2025-07-13 17:22:57,146 [INFO] Successfully fetched 206 products for group 1576
+2025-07-13 17:22:57,193 [INFO] Successfully updated 206 products and inserted 188 price records for group 1576
+2025-07-13 17:22:57,193 [INFO] Processing group 97/204: XY - Roaring Skies (1534)
+2025-07-13 17:22:57,193 [INFO] Fetching products for group 1534 from https://tcgcsv.com/tcgplayer/3/1534/ProductsAndPrices.csv
+2025-07-13 17:22:57,351 [INFO] Successfully fetched 230 products for group 1534
+2025-07-13 17:22:57,402 [INFO] Successfully updated 230 products and inserted 215 price records for group 1534
+2025-07-13 17:22:57,402 [INFO] Processing group 98/204: XY Trainer Kit: Latias & Latios (1536)
+2025-07-13 17:22:57,402 [INFO] Fetching products for group 1536 from https://tcgcsv.com/tcgplayer/3/1536/ProductsAndPrices.csv
+2025-07-13 17:22:57,506 [INFO] Successfully fetched 62 products for group 1536
+2025-07-13 17:22:57,521 [INFO] Successfully updated 62 products and inserted 61 price records for group 1536
+2025-07-13 17:22:57,521 [INFO] Processing group 99/204: Jumbo Cards (1528)
+2025-07-13 17:22:57,521 [INFO] Fetching products for group 1528 from https://tcgcsv.com/tcgplayer/3/1528/ProductsAndPrices.csv
+2025-07-13 17:22:57,705 [INFO] Successfully fetched 303 products for group 1528
+2025-07-13 17:22:57,776 [INFO] Successfully updated 303 products and inserted 276 price records for group 1528
+2025-07-13 17:22:57,776 [INFO] Processing group 100/204: Double Crisis (1525)
+2025-07-13 17:22:57,776 [INFO] Fetching products for group 1525 from https://tcgcsv.com/tcgplayer/3/1525/ProductsAndPrices.csv
+2025-07-13 17:22:57,927 [INFO] Successfully fetched 69 products for group 1525
+2025-07-13 17:22:57,944 [INFO] Successfully updated 69 products and inserted 68 price records for group 1525
+2025-07-13 17:22:57,944 [INFO] Processing group 101/204: XY - Primal Clash (1509)
+2025-07-13 17:22:57,944 [INFO] Fetching products for group 1509 from https://tcgcsv.com/tcgplayer/3/1509/ProductsAndPrices.csv
+2025-07-13 17:22:58,104 [INFO] Successfully fetched 327 products for group 1509
+2025-07-13 17:22:58,175 [INFO] Successfully updated 327 products and inserted 309 price records for group 1509
+2025-07-13 17:22:58,175 [INFO] Processing group 102/204: XY Trainer Kit: Bisharp & Wigglytuff (1533)
+2025-07-13 17:22:58,175 [INFO] Fetching products for group 1533 from https://tcgcsv.com/tcgplayer/3/1533/ProductsAndPrices.csv
+2025-07-13 17:22:58,276 [INFO] Successfully fetched 62 products for group 1533
+2025-07-13 17:22:58,291 [INFO] Successfully updated 62 products and inserted 32 price records for group 1533
+2025-07-13 17:22:58,292 [INFO] Processing group 103/204: XY - Phantom Forces (1494)
+2025-07-13 17:22:58,292 [INFO] Fetching products for group 1494 from https://tcgcsv.com/tcgplayer/3/1494/ProductsAndPrices.csv
+2025-07-13 17:22:58,458 [INFO] Successfully fetched 258 products for group 1494
+2025-07-13 17:22:58,514 [INFO] Successfully updated 258 products and inserted 234 price records for group 1494
+2025-07-13 17:22:58,514 [INFO] Processing group 104/204: XY - Furious Fists (1481)
+2025-07-13 17:22:58,515 [INFO] Fetching products for group 1481 from https://tcgcsv.com/tcgplayer/3/1481/ProductsAndPrices.csv
+2025-07-13 17:22:58,693 [INFO] Successfully fetched 255 products for group 1481
+2025-07-13 17:22:58,749 [INFO] Successfully updated 255 products and inserted 227 price records for group 1481
+2025-07-13 17:22:58,749 [INFO] Processing group 105/204: McDonald's Promos 2014 (1692)
+2025-07-13 17:22:58,749 [INFO] Fetching products for group 1692 from https://tcgcsv.com/tcgplayer/3/1692/ProductsAndPrices.csv
+2025-07-13 17:22:58,859 [INFO] Successfully fetched 12 products for group 1692
+2025-07-13 17:22:58,864 [INFO] Successfully updated 12 products and inserted 12 price records for group 1692
+2025-07-13 17:22:58,864 [INFO] Processing group 106/204: XY - Flashfire (1464)
+2025-07-13 17:22:58,864 [INFO] Fetching products for group 1464 from https://tcgcsv.com/tcgplayer/3/1464/ProductsAndPrices.csv
+2025-07-13 17:22:59,027 [INFO] Successfully fetched 238 products for group 1464
+2025-07-13 17:22:59,079 [INFO] Successfully updated 238 products and inserted 214 price records for group 1464
+2025-07-13 17:22:59,079 [INFO] Processing group 107/204: XY Trainer Kit: Sylveon & Noivern (1532)
+2025-07-13 17:22:59,079 [INFO] Fetching products for group 1532 from https://tcgcsv.com/tcgplayer/3/1532/ProductsAndPrices.csv
+2025-07-13 17:22:59,189 [INFO] Successfully fetched 62 products for group 1532
+2025-07-13 17:22:59,206 [INFO] Successfully updated 62 products and inserted 60 price records for group 1532
+2025-07-13 17:22:59,206 [INFO] Processing group 108/204: XY Base Set (1387)
+2025-07-13 17:22:59,206 [INFO] Fetching products for group 1387 from https://tcgcsv.com/tcgplayer/3/1387/ProductsAndPrices.csv
+2025-07-13 17:22:59,386 [INFO] Successfully fetched 319 products for group 1387
+2025-07-13 17:22:59,467 [INFO] Successfully updated 319 products and inserted 283 price records for group 1387
+2025-07-13 17:22:59,467 [INFO] Processing group 109/204: XY Promos (1451)
+2025-07-13 17:22:59,467 [INFO] Fetching products for group 1451 from https://tcgcsv.com/tcgplayer/3/1451/ProductsAndPrices.csv
+2025-07-13 17:22:59,629 [INFO] Successfully fetched 271 products for group 1451
+2025-07-13 17:22:59,697 [INFO] Successfully updated 271 products and inserted 239 price records for group 1451
+2025-07-13 17:22:59,698 [INFO] Processing group 110/204: Kalos Starter Set (1522)
+2025-07-13 17:22:59,698 [INFO] Fetching products for group 1522 from https://tcgcsv.com/tcgplayer/3/1522/ProductsAndPrices.csv
+2025-07-13 17:22:59,802 [INFO] Successfully fetched 60 products for group 1522
+2025-07-13 17:22:59,825 [INFO] Successfully updated 60 products and inserted 54 price records for group 1522
+2025-07-13 17:22:59,825 [INFO] Processing group 111/204: Legendary Treasures (1409)
+2025-07-13 17:22:59,826 [INFO] Fetching products for group 1409 from https://tcgcsv.com/tcgplayer/3/1409/ProductsAndPrices.csv
+2025-07-13 17:23:00,028 [INFO] Successfully fetched 217 products for group 1409
+2025-07-13 17:23:00,077 [INFO] Successfully updated 217 products and inserted 214 price records for group 1409
+2025-07-13 17:23:00,078 [INFO] Processing group 112/204: Legendary Treasures: Radiant Collection (1465)
+2025-07-13 17:23:00,078 [INFO] Fetching products for group 1465 from https://tcgcsv.com/tcgplayer/3/1465/ProductsAndPrices.csv
+2025-07-13 17:23:00,210 [INFO] Successfully fetched 25 products for group 1465
+2025-07-13 17:23:00,222 [INFO] Successfully updated 25 products and inserted 25 price records for group 1465
+2025-07-13 17:23:00,222 [INFO] Processing group 113/204: Plasma Blast (1370)
+2025-07-13 17:23:00,222 [INFO] Fetching products for group 1370 from https://tcgcsv.com/tcgplayer/3/1370/ProductsAndPrices.csv
+2025-07-13 17:23:00,392 [INFO] Successfully fetched 200 products for group 1370
+2025-07-13 17:23:00,435 [INFO] Successfully updated 200 products and inserted 196 price records for group 1370
+2025-07-13 17:23:00,435 [INFO] Processing group 114/204: Plasma Freeze (1382)
+2025-07-13 17:23:00,436 [INFO] Fetching products for group 1382 from https://tcgcsv.com/tcgplayer/3/1382/ProductsAndPrices.csv
+2025-07-13 17:23:00,615 [INFO] Successfully fetched 228 products for group 1382
+2025-07-13 17:23:00,669 [INFO] Successfully updated 228 products and inserted 225 price records for group 1382
+2025-07-13 17:23:00,669 [INFO] Processing group 115/204: Plasma Storm (1413)
+2025-07-13 17:23:00,669 [INFO] Fetching products for group 1413 from https://tcgcsv.com/tcgplayer/3/1413/ProductsAndPrices.csv
+2025-07-13 17:23:00,832 [INFO] Successfully fetched 265 products for group 1413
+2025-07-13 17:23:00,897 [INFO] Successfully updated 265 products and inserted 260 price records for group 1413
+2025-07-13 17:23:00,897 [INFO] Processing group 116/204: Boundaries Crossed (1408)
+2025-07-13 17:23:00,897 [INFO] Fetching products for group 1408 from https://tcgcsv.com/tcgplayer/3/1408/ProductsAndPrices.csv
+2025-07-13 17:23:01,035 [INFO] Successfully fetched 288 products for group 1408
+2025-07-13 17:23:01,141 [INFO] Successfully updated 288 products and inserted 283 price records for group 1408
+2025-07-13 17:23:01,141 [INFO] Processing group 117/204: Dragon Vault (1426)
+2025-07-13 17:23:01,141 [INFO] Fetching products for group 1426 from https://tcgcsv.com/tcgplayer/3/1426/ProductsAndPrices.csv
+2025-07-13 17:23:01,264 [INFO] Successfully fetched 24 products for group 1426
+2025-07-13 17:23:01,274 [INFO] Successfully updated 24 products and inserted 22 price records for group 1426
+2025-07-13 17:23:01,275 [INFO] Processing group 118/204: Dragons Exalted (1394)
+2025-07-13 17:23:01,275 [INFO] Fetching products for group 1394 from https://tcgcsv.com/tcgplayer/3/1394/ProductsAndPrices.csv
+2025-07-13 17:23:01,479 [INFO] Successfully fetched 243 products for group 1394
+2025-07-13 17:23:01,572 [INFO] Successfully updated 243 products and inserted 242 price records for group 1394
+2025-07-13 17:23:01,572 [INFO] Processing group 119/204: McDonald's Promos 2012 (1427)
+2025-07-13 17:23:01,572 [INFO] Fetching products for group 1427 from https://tcgcsv.com/tcgplayer/3/1427/ProductsAndPrices.csv
+2025-07-13 17:23:01,700 [INFO] Successfully fetched 12 products for group 1427
+2025-07-13 17:23:01,707 [INFO] Successfully updated 12 products and inserted 12 price records for group 1427
+2025-07-13 17:23:01,707 [INFO] Processing group 120/204: Dark Explorers (1386)
+2025-07-13 17:23:01,707 [INFO] Fetching products for group 1386 from https://tcgcsv.com/tcgplayer/3/1386/ProductsAndPrices.csv
+2025-07-13 17:23:01,880 [INFO] Successfully fetched 209 products for group 1386
+2025-07-13 17:23:01,955 [INFO] Successfully updated 209 products and inserted 206 price records for group 1386
+2025-07-13 17:23:01,955 [INFO] Processing group 121/204: Next Destinies (1412)
+2025-07-13 17:23:01,955 [INFO] Fetching products for group 1412 from https://tcgcsv.com/tcgplayer/3/1412/ProductsAndPrices.csv
+2025-07-13 17:23:02,123 [INFO] Successfully fetched 207 products for group 1412
+2025-07-13 17:23:02,197 [INFO] Successfully updated 207 products and inserted 195 price records for group 1412
+2025-07-13 17:23:02,197 [INFO] Processing group 122/204: Noble Victories (1385)
+2025-07-13 17:23:02,197 [INFO] Fetching products for group 1385 from https://tcgcsv.com/tcgplayer/3/1385/ProductsAndPrices.csv
+2025-07-13 17:23:02,351 [INFO] Successfully fetched 215 products for group 1385
+2025-07-13 17:23:02,424 [INFO] Successfully updated 215 products and inserted 203 price records for group 1385
+2025-07-13 17:23:02,424 [INFO] Processing group 123/204: BW Trainer Kit: Excadrill & Zoroark (1538)
+2025-07-13 17:23:02,424 [INFO] Fetching products for group 1538 from https://tcgcsv.com/tcgplayer/3/1538/ProductsAndPrices.csv
+2025-07-13 17:23:02,581 [INFO] Successfully fetched 61 products for group 1538
+2025-07-13 17:23:02,606 [INFO] Successfully updated 61 products and inserted 60 price records for group 1538
+2025-07-13 17:23:02,606 [INFO] Processing group 124/204: Emerging Powers (1424)
+2025-07-13 17:23:02,606 [INFO] Fetching products for group 1424 from https://tcgcsv.com/tcgplayer/3/1424/ProductsAndPrices.csv
+2025-07-13 17:23:02,779 [INFO] Successfully fetched 217 products for group 1424
+2025-07-13 17:23:02,847 [INFO] Successfully updated 217 products and inserted 198 price records for group 1424
+2025-07-13 17:23:02,847 [INFO] Processing group 125/204: McDonald's Promos 2011 (1401)
+2025-07-13 17:23:02,847 [INFO] Fetching products for group 1401 from https://tcgcsv.com/tcgplayer/3/1401/ProductsAndPrices.csv
+2025-07-13 17:23:02,959 [INFO] Successfully fetched 12 products for group 1401
+2025-07-13 17:23:02,965 [INFO] Successfully updated 12 products and inserted 12 price records for group 1401
+2025-07-13 17:23:02,965 [INFO] Processing group 126/204: Black and White (1400)
+2025-07-13 17:23:02,965 [INFO] Fetching products for group 1400 from https://tcgcsv.com/tcgplayer/3/1400/ProductsAndPrices.csv
+2025-07-13 17:23:03,137 [INFO] Successfully fetched 238 products for group 1400
+2025-07-13 17:23:03,214 [INFO] Successfully updated 238 products and inserted 225 price records for group 1400
+2025-07-13 17:23:03,214 [INFO] Processing group 127/204: Black and White Promos (1407)
+2025-07-13 17:23:03,214 [INFO] Fetching products for group 1407 from https://tcgcsv.com/tcgplayer/3/1407/ProductsAndPrices.csv
+2025-07-13 17:23:03,357 [INFO] Successfully fetched 149 products for group 1407
+2025-07-13 17:23:03,408 [INFO] Successfully updated 149 products and inserted 122 price records for group 1407
+2025-07-13 17:23:03,408 [INFO] Processing group 128/204: Call of Legends (1415)
+2025-07-13 17:23:03,408 [INFO] Fetching products for group 1415 from https://tcgcsv.com/tcgplayer/3/1415/ProductsAndPrices.csv
+2025-07-13 17:23:03,571 [INFO] Successfully fetched 195 products for group 1415
+2025-07-13 17:23:03,638 [INFO] Successfully updated 195 products and inserted 193 price records for group 1415
+2025-07-13 17:23:03,638 [INFO] Processing group 129/204: Professor Program Promos (2332)
+2025-07-13 17:23:03,639 [INFO] Fetching products for group 2332 from https://tcgcsv.com/tcgplayer/3/2332/ProductsAndPrices.csv
+2025-07-13 17:23:03,747 [INFO] Successfully fetched 44 products for group 2332
+2025-07-13 17:23:03,759 [INFO] Successfully updated 44 products and inserted 40 price records for group 2332
+2025-07-13 17:23:03,759 [INFO] Processing group 130/204: Triumphant (1381)
+2025-07-13 17:23:03,759 [INFO] Fetching products for group 1381 from https://tcgcsv.com/tcgplayer/3/1381/ProductsAndPrices.csv
+2025-07-13 17:23:03,941 [INFO] Successfully fetched 193 products for group 1381
+2025-07-13 17:23:04,012 [INFO] Successfully updated 193 products and inserted 190 price records for group 1381
+2025-07-13 17:23:04,012 [INFO] Processing group 131/204: Undaunted (1403)
+2025-07-13 17:23:04,012 [INFO] Fetching products for group 1403 from https://tcgcsv.com/tcgplayer/3/1403/ProductsAndPrices.csv
+2025-07-13 17:23:04,129 [INFO] Successfully fetched 170 products for group 1403
+2025-07-13 17:23:04,191 [INFO] Successfully updated 170 products and inserted 168 price records for group 1403
+2025-07-13 17:23:04,191 [INFO] Processing group 132/204: Pikachu World Collection Promos (2205)
+2025-07-13 17:23:04,191 [INFO] Fetching products for group 2205 from https://tcgcsv.com/tcgplayer/3/2205/ProductsAndPrices.csv
+2025-07-13 17:23:04,353 [INFO] Successfully fetched 22 products for group 2205
+2025-07-13 17:23:04,363 [INFO] Successfully updated 22 products and inserted 18 price records for group 2205
+2025-07-13 17:23:04,363 [INFO] Processing group 133/204: HGSS Trainer Kit: Gyarados & Raichu (1540)
+2025-07-13 17:23:04,363 [INFO] Fetching products for group 1540 from https://tcgcsv.com/tcgplayer/3/1540/ProductsAndPrices.csv
+2025-07-13 17:23:04,446 [INFO] Successfully fetched 61 products for group 1540
+2025-07-13 17:23:04,471 [INFO] Successfully updated 61 products and inserted 60 price records for group 1540
+2025-07-13 17:23:04,471 [INFO] Processing group 134/204: Unleashed (1399)
+2025-07-13 17:23:04,472 [INFO] Fetching products for group 1399 from https://tcgcsv.com/tcgplayer/3/1399/ProductsAndPrices.csv
+2025-07-13 17:23:04,612 [INFO] Successfully fetched 181 products for group 1399
+2025-07-13 17:23:04,673 [INFO] Successfully updated 181 products and inserted 179 price records for group 1399
+2025-07-13 17:23:04,673 [INFO] Processing group 135/204: HeartGold SoulSilver (1402)
+2025-07-13 17:23:04,673 [INFO] Fetching products for group 1402 from https://tcgcsv.com/tcgplayer/3/1402/ProductsAndPrices.csv
+2025-07-13 17:23:04,864 [INFO] Successfully fetched 231 products for group 1402
+2025-07-13 17:23:04,948 [INFO] Successfully updated 231 products and inserted 229 price records for group 1402
+2025-07-13 17:23:04,948 [INFO] Processing group 136/204: HGSS Promos (1453)
+2025-07-13 17:23:04,948 [INFO] Fetching products for group 1453 from https://tcgcsv.com/tcgplayer/3/1453/ProductsAndPrices.csv
+2025-07-13 17:23:05,084 [INFO] Successfully fetched 38 products for group 1453
+2025-07-13 17:23:05,100 [INFO] Successfully updated 38 products and inserted 33 price records for group 1453
+2025-07-13 17:23:05,100 [INFO] Processing group 137/204: Rumble (1433)
+2025-07-13 17:23:05,100 [INFO] Fetching products for group 1433 from https://tcgcsv.com/tcgplayer/3/1433/ProductsAndPrices.csv
+2025-07-13 17:23:05,244 [INFO] Successfully fetched 16 products for group 1433
+2025-07-13 17:23:05,253 [INFO] Successfully updated 16 products and inserted 16 price records for group 1433
+2025-07-13 17:23:05,253 [INFO] Processing group 138/204: Arceus (1391)
+2025-07-13 17:23:05,253 [INFO] Fetching products for group 1391 from https://tcgcsv.com/tcgplayer/3/1391/ProductsAndPrices.csv
+2025-07-13 17:23:05,441 [INFO] Successfully fetched 209 products for group 1391
+2025-07-13 17:23:05,525 [INFO] Successfully updated 209 products and inserted 205 price records for group 1391
+2025-07-13 17:23:05,525 [INFO] Processing group 139/204: Supreme Victors (1384)
+2025-07-13 17:23:05,525 [INFO] Fetching products for group 1384 from https://tcgcsv.com/tcgplayer/3/1384/ProductsAndPrices.csv
+2025-07-13 17:23:05,765 [INFO] Successfully fetched 291 products for group 1384
+2025-07-13 17:23:05,865 [INFO] Successfully updated 291 products and inserted 289 price records for group 1384
+2025-07-13 17:23:05,866 [INFO] Processing group 140/204: Rising Rivals (1367)
+2025-07-13 17:23:05,866 [INFO] Fetching products for group 1367 from https://tcgcsv.com/tcgplayer/3/1367/ProductsAndPrices.csv
+2025-07-13 17:23:06,088 [INFO] Successfully fetched 224 products for group 1367
+2025-07-13 17:23:06,164 [INFO] Successfully updated 224 products and inserted 222 price records for group 1367
+2025-07-13 17:23:06,164 [INFO] Processing group 141/204: Burger King Promos (2175)
+2025-07-13 17:23:06,164 [INFO] Fetching products for group 2175 from https://tcgcsv.com/tcgplayer/3/2175/ProductsAndPrices.csv
+2025-07-13 17:23:06,307 [INFO] Successfully fetched 24 products for group 2175
+2025-07-13 17:23:06,317 [INFO] Successfully updated 24 products and inserted 24 price records for group 2175
+2025-07-13 17:23:06,317 [INFO] Processing group 142/204: Platinum (1406)
+2025-07-13 17:23:06,317 [INFO] Fetching products for group 1406 from https://tcgcsv.com/tcgplayer/3/1406/ProductsAndPrices.csv
+2025-07-13 17:23:06,543 [INFO] Successfully fetched 262 products for group 1406
+2025-07-13 17:23:06,629 [INFO] Successfully updated 262 products and inserted 255 price records for group 1406
+2025-07-13 17:23:06,629 [INFO] Processing group 143/204: Stormfront (1369)
+2025-07-13 17:23:06,629 [INFO] Fetching products for group 1369 from https://tcgcsv.com/tcgplayer/3/1369/ProductsAndPrices.csv
+2025-07-13 17:23:06,823 [INFO] Successfully fetched 203 products for group 1369
+2025-07-13 17:23:06,894 [INFO] Successfully updated 203 products and inserted 202 price records for group 1369
+2025-07-13 17:23:06,894 [INFO] Processing group 144/204: Countdown Calendar Promos (2155)
+2025-07-13 17:23:06,895 [INFO] Fetching products for group 2155 from https://tcgcsv.com/tcgplayer/3/2155/ProductsAndPrices.csv
+2025-07-13 17:23:06,997 [INFO] Successfully fetched 24 products for group 2155
+2025-07-13 17:23:07,006 [INFO] Successfully updated 24 products and inserted 20 price records for group 2155
+2025-07-13 17:23:07,007 [INFO] Processing group 145/204: Legends Awakened (1417)
+2025-07-13 17:23:07,007 [INFO] Fetching products for group 1417 from https://tcgcsv.com/tcgplayer/3/1417/ProductsAndPrices.csv
+2025-07-13 17:23:07,266 [INFO] Successfully fetched 285 products for group 1417
+2025-07-13 17:23:07,367 [INFO] Successfully updated 285 products and inserted 284 price records for group 1417
+2025-07-13 17:23:07,367 [INFO] Processing group 146/204: Majestic Dawn (1390)
+2025-07-13 17:23:07,367 [INFO] Fetching products for group 1390 from https://tcgcsv.com/tcgplayer/3/1390/ProductsAndPrices.csv
+2025-07-13 17:23:07,567 [INFO] Successfully fetched 199 products for group 1390
+2025-07-13 17:23:07,631 [INFO] Successfully updated 199 products and inserted 196 price records for group 1390
+2025-07-13 17:23:07,631 [INFO] Processing group 147/204: Great Encounters (1405)
+2025-07-13 17:23:07,631 [INFO] Fetching products for group 1405 from https://tcgcsv.com/tcgplayer/3/1405/ProductsAndPrices.csv
+2025-07-13 17:23:07,859 [INFO] Successfully fetched 209 products for group 1405
+2025-07-13 17:23:07,936 [INFO] Successfully updated 209 products and inserted 208 price records for group 1405
+2025-07-13 17:23:07,937 [INFO] Processing group 148/204: Secret Wonders (1380)
+2025-07-13 17:23:07,937 [INFO] Fetching products for group 1380 from https://tcgcsv.com/tcgplayer/3/1380/ProductsAndPrices.csv
+2025-07-13 17:23:08,135 [INFO] Successfully fetched 264 products for group 1380
+2025-07-13 17:23:08,225 [INFO] Successfully updated 264 products and inserted 263 price records for group 1380
+2025-07-13 17:23:08,225 [INFO] Processing group 149/204: DP Training Kit 1 Blue (609)
+2025-07-13 17:23:08,226 [INFO] Fetching products for group 609 from https://tcgcsv.com/tcgplayer/3/609/ProductsAndPrices.csv
+2025-07-13 17:23:08,329 [ERROR] Error fetching products for group 609: No columns to parse from file
+2025-07-13 17:23:08,330 [INFO] Processing group 150/204: DP Training Kit 1 Gold (610)
+2025-07-13 17:23:08,330 [INFO] Fetching products for group 610 from https://tcgcsv.com/tcgplayer/3/610/ProductsAndPrices.csv
+2025-07-13 17:23:08,415 [ERROR] Error fetching products for group 610: No columns to parse from file
+2025-07-13 17:23:08,415 [INFO] Processing group 151/204: DP Trainer Kit: Manaphy & Lucario (1541)
+2025-07-13 17:23:08,415 [INFO] Fetching products for group 1541 from https://tcgcsv.com/tcgplayer/3/1541/ProductsAndPrices.csv
+2025-07-13 17:23:08,604 [INFO] Successfully fetched 24 products for group 1541
+2025-07-13 17:23:08,617 [INFO] Successfully updated 24 products and inserted 23 price records for group 1541
+2025-07-13 17:23:08,617 [INFO] Processing group 152/204: Mysterious Treasures (1368)
+2025-07-13 17:23:08,617 [INFO] Fetching products for group 1368 from https://tcgcsv.com/tcgplayer/3/1368/ProductsAndPrices.csv
+2025-07-13 17:23:08,888 [INFO] Successfully fetched 248 products for group 1368
+2025-07-13 17:23:08,976 [INFO] Successfully updated 248 products and inserted 247 price records for group 1368
+2025-07-13 17:23:08,976 [INFO] Processing group 153/204: Diamond and Pearl (1430)
+2025-07-13 17:23:08,976 [INFO] Fetching products for group 1430 from https://tcgcsv.com/tcgplayer/3/1430/ProductsAndPrices.csv
+2025-07-13 17:23:09,209 [INFO] Successfully fetched 257 products for group 1430
+2025-07-13 17:23:09,298 [INFO] Successfully updated 257 products and inserted 253 price records for group 1430
+2025-07-13 17:23:09,298 [INFO] Processing group 154/204: Diamond and Pearl Promos (1421)
+2025-07-13 17:23:09,299 [INFO] Fetching products for group 1421 from https://tcgcsv.com/tcgplayer/3/1421/ProductsAndPrices.csv
+2025-07-13 17:23:09,412 [INFO] Successfully fetched 77 products for group 1421
+2025-07-13 17:23:09,440 [INFO] Successfully updated 77 products and inserted 71 price records for group 1421
+2025-07-13 17:23:09,440 [INFO] Processing group 155/204: Power Keepers (1383)
+2025-07-13 17:23:09,440 [INFO] Fetching products for group 1383 from https://tcgcsv.com/tcgplayer/3/1383/ProductsAndPrices.csv
+2025-07-13 17:23:09,655 [INFO] Successfully fetched 202 products for group 1383
+2025-07-13 17:23:09,723 [INFO] Successfully updated 202 products and inserted 199 price records for group 1383
+2025-07-13 17:23:09,723 [INFO] Processing group 156/204: Dragon Frontiers (1411)
+2025-07-13 17:23:09,723 [INFO] Fetching products for group 1411 from https://tcgcsv.com/tcgplayer/3/1411/ProductsAndPrices.csv
+2025-07-13 17:23:09,945 [INFO] Successfully fetched 193 products for group 1411
+2025-07-13 17:23:10,014 [INFO] Successfully updated 193 products and inserted 191 price records for group 1411
+2025-07-13 17:23:10,014 [INFO] Processing group 157/204: Crystal Guardians (1395)
+2025-07-13 17:23:10,014 [INFO] Fetching products for group 1395 from https://tcgcsv.com/tcgplayer/3/1395/ProductsAndPrices.csv
+2025-07-13 17:23:10,196 [INFO] Successfully fetched 191 products for group 1395
+2025-07-13 17:23:10,261 [INFO] Successfully updated 191 products and inserted 190 price records for group 1395
+2025-07-13 17:23:10,261 [INFO] Processing group 158/204: Holon Phantoms (1379)
+2025-07-13 17:23:10,261 [INFO] Fetching products for group 1379 from https://tcgcsv.com/tcgplayer/3/1379/ProductsAndPrices.csv
+2025-07-13 17:23:10,502 [INFO] Successfully fetched 213 products for group 1379
+2025-07-13 17:23:10,549 [INFO] Successfully updated 213 products and inserted 208 price records for group 1379
+2025-07-13 17:23:10,550 [INFO] Processing group 159/204: Legend Maker (1378)
+2025-07-13 17:23:10,550 [INFO] Fetching products for group 1378 from https://tcgcsv.com/tcgplayer/3/1378/ProductsAndPrices.csv
+2025-07-13 17:23:10,739 [INFO] Successfully fetched 176 products for group 1378
+2025-07-13 17:23:10,789 [INFO] Successfully updated 176 products and inserted 171 price records for group 1378
+2025-07-13 17:23:10,789 [INFO] Processing group 160/204: Delta Species (1429)
+2025-07-13 17:23:10,789 [INFO] Fetching products for group 1429 from https://tcgcsv.com/tcgplayer/3/1429/ProductsAndPrices.csv
+2025-07-13 17:23:10,963 [INFO] Successfully fetched 225 products for group 1429
+2025-07-13 17:23:11,016 [INFO] Successfully updated 225 products and inserted 221 price records for group 1429
+2025-07-13 17:23:11,016 [INFO] Processing group 161/204: Unseen Forces (1398)
+2025-07-13 17:23:11,016 [INFO] Fetching products for group 1398 from https://tcgcsv.com/tcgplayer/3/1398/ProductsAndPrices.csv
+2025-07-13 17:23:11,243 [INFO] Successfully fetched 243 products for group 1398
+2025-07-13 17:23:11,298 [INFO] Successfully updated 243 products and inserted 233 price records for group 1398
+2025-07-13 17:23:11,298 [INFO] Processing group 162/204: Emerald (1410)
+2025-07-13 17:23:11,298 [INFO] Fetching products for group 1410 from https://tcgcsv.com/tcgplayer/3/1410/ProductsAndPrices.csv
+2025-07-13 17:23:11,494 [INFO] Successfully fetched 212 products for group 1410
+2025-07-13 17:23:11,541 [INFO] Successfully updated 212 products and inserted 211 price records for group 1410
+2025-07-13 17:23:11,541 [INFO] Processing group 163/204: Deoxys (1404)
+2025-07-13 17:23:11,541 [INFO] Fetching products for group 1404 from https://tcgcsv.com/tcgplayer/3/1404/ProductsAndPrices.csv
+2025-07-13 17:23:11,800 [INFO] Successfully fetched 215 products for group 1404
+2025-07-13 17:23:11,846 [INFO] Successfully updated 215 products and inserted 210 price records for group 1404
+2025-07-13 17:23:11,846 [INFO] Processing group 164/204: Team Rocket Returns (1428)
+2025-07-13 17:23:11,846 [INFO] Fetching products for group 1428 from https://tcgcsv.com/tcgplayer/3/1428/ProductsAndPrices.csv
+2025-07-13 17:23:12,086 [INFO] Successfully fetched 212 products for group 1428
+2025-07-13 17:23:12,132 [INFO] Successfully updated 212 products and inserted 210 price records for group 1428
+2025-07-13 17:23:12,132 [INFO] Processing group 165/204: EX Battle Stadium (1853)
+2025-07-13 17:23:12,132 [INFO] Fetching products for group 1853 from https://tcgcsv.com/tcgplayer/3/1853/ProductsAndPrices.csv
+2025-07-13 17:23:12,252 [INFO] Successfully fetched 52 products for group 1853
+2025-07-13 17:23:12,264 [INFO] Successfully updated 52 products and inserted 49 price records for group 1853
+2025-07-13 17:23:12,264 [INFO] Processing group 166/204: FireRed & LeafGreen (1419)
+2025-07-13 17:23:12,264 [INFO] Fetching products for group 1419 from https://tcgcsv.com/tcgplayer/3/1419/ProductsAndPrices.csv
+2025-07-13 17:23:12,438 [INFO] Successfully fetched 236 products for group 1419
+2025-07-13 17:23:12,487 [INFO] Successfully updated 236 products and inserted 234 price records for group 1419
+2025-07-13 17:23:12,488 [INFO] Processing group 167/204: Kids WB Promos (2214)
+2025-07-13 17:23:12,488 [INFO] Fetching products for group 2214 from https://tcgcsv.com/tcgplayer/3/2214/ProductsAndPrices.csv
+2025-07-13 17:23:12,606 [INFO] Successfully fetched 6 products for group 2214
+2025-07-13 17:23:12,609 [INFO] Successfully updated 6 products and inserted 4 price records for group 2214
+2025-07-13 17:23:12,609 [INFO] Processing group 168/204: Hidden Legends (1416)
+2025-07-13 17:23:12,609 [INFO] Fetching products for group 1416 from https://tcgcsv.com/tcgplayer/3/1416/ProductsAndPrices.csv
+2025-07-13 17:23:12,796 [INFO] Successfully fetched 198 products for group 1416
+2025-07-13 17:23:12,843 [INFO] Successfully updated 198 products and inserted 195 price records for group 1416
+2025-07-13 17:23:12,844 [INFO] Processing group 169/204: Team Magma vs Team Aqua (1377)
+2025-07-13 17:23:12,844 [INFO] Fetching products for group 1377 from https://tcgcsv.com/tcgplayer/3/1377/ProductsAndPrices.csv
+2025-07-13 17:23:13,041 [INFO] Successfully fetched 188 products for group 1377
+2025-07-13 17:23:13,082 [INFO] Successfully updated 188 products and inserted 184 price records for group 1377
+2025-07-13 17:23:13,082 [INFO] Processing group 170/204: Dragon (1376)
+2025-07-13 17:23:13,082 [INFO] Fetching products for group 1376 from https://tcgcsv.com/tcgplayer/3/1376/ProductsAndPrices.csv
+2025-07-13 17:23:13,262 [INFO] Successfully fetched 190 products for group 1376
+2025-07-13 17:23:13,308 [INFO] Successfully updated 190 products and inserted 188 price records for group 1376
+2025-07-13 17:23:13,308 [INFO] Processing group 171/204: Sandstorm (1392)
+2025-07-13 17:23:13,309 [INFO] Fetching products for group 1392 from https://tcgcsv.com/tcgplayer/3/1392/ProductsAndPrices.csv
+2025-07-13 17:23:13,505 [INFO] Successfully fetched 196 products for group 1392
+2025-07-13 17:23:13,547 [INFO] Successfully updated 196 products and inserted 195 price records for group 1392
+2025-07-13 17:23:13,547 [INFO] Processing group 172/204: Ruby and Sapphire (1393)
+2025-07-13 17:23:13,548 [INFO] Fetching products for group 1393 from https://tcgcsv.com/tcgplayer/3/1393/ProductsAndPrices.csv
+2025-07-13 17:23:13,729 [INFO] Successfully fetched 213 products for group 1393
+2025-07-13 17:23:13,775 [INFO] Successfully updated 213 products and inserted 210 price records for group 1393
+2025-07-13 17:23:13,776 [INFO] Processing group 173/204: Skyridge (1372)
+2025-07-13 17:23:13,776 [INFO] Fetching products for group 1372 from https://tcgcsv.com/tcgplayer/3/1372/ProductsAndPrices.csv
+2025-07-13 17:23:14,025 [INFO] Successfully fetched 310 products for group 1372
+2025-07-13 17:23:14,099 [INFO] Successfully updated 310 products and inserted 303 price records for group 1372
+2025-07-13 17:23:14,100 [INFO] Processing group 174/204: Aquapolis (1397)
+2025-07-13 17:23:14,100 [INFO] Fetching products for group 1397 from https://tcgcsv.com/tcgplayer/3/1397/ProductsAndPrices.csv
+2025-07-13 17:23:14,353 [INFO] Successfully fetched 328 products for group 1397
+2025-07-13 17:23:14,429 [INFO] Successfully updated 328 products and inserted 328 price records for group 1397
+2025-07-13 17:23:14,429 [INFO] Processing group 175/204: Best of Promos (1455)
+2025-07-13 17:23:14,429 [INFO] Fetching products for group 1455 from https://tcgcsv.com/tcgplayer/3/1455/ProductsAndPrices.csv
+2025-07-13 17:23:14,551 [INFO] Successfully fetched 15 products for group 1455
+2025-07-13 17:23:14,556 [INFO] Successfully updated 15 products and inserted 15 price records for group 1455
+2025-07-13 17:23:14,556 [INFO] Processing group 176/204: Expedition (1375)
+2025-07-13 17:23:14,556 [INFO] Fetching products for group 1375 from https://tcgcsv.com/tcgplayer/3/1375/ProductsAndPrices.csv
+2025-07-13 17:23:14,785 [INFO] Successfully fetched 323 products for group 1375
+2025-07-13 17:23:14,855 [INFO] Successfully updated 323 products and inserted 322 price records for group 1375
+2025-07-13 17:23:14,855 [INFO] Processing group 177/204: Legendary Collection (1374)
+2025-07-13 17:23:14,855 [INFO] Fetching products for group 1374 from https://tcgcsv.com/tcgplayer/3/1374/ProductsAndPrices.csv
+2025-07-13 17:23:15,069 [INFO] Successfully fetched 222 products for group 1374
+2025-07-13 17:23:15,117 [INFO] Successfully updated 222 products and inserted 220 price records for group 1374
+2025-07-13 17:23:15,117 [INFO] Processing group 178/204: Neo Destiny (1444)
+2025-07-13 17:23:15,117 [INFO] Fetching products for group 1444 from https://tcgcsv.com/tcgplayer/3/1444/ProductsAndPrices.csv
+2025-07-13 17:23:15,340 [INFO] Successfully fetched 225 products for group 1444
+2025-07-13 17:23:15,397 [INFO] Successfully updated 225 products and inserted 221 price records for group 1444
+2025-07-13 17:23:15,397 [INFO] Processing group 179/204: Neo Revelation (1389)
+2025-07-13 17:23:15,397 [INFO] Fetching products for group 1389 from https://tcgcsv.com/tcgplayer/3/1389/ProductsAndPrices.csv
+2025-07-13 17:23:15,527 [INFO] Successfully fetched 134 products for group 1389
+2025-07-13 17:23:15,564 [INFO] Successfully updated 134 products and inserted 132 price records for group 1389
+2025-07-13 17:23:15,564 [INFO] Processing group 180/204: Southern Islands (648)
+2025-07-13 17:23:15,564 [INFO] Fetching products for group 648 from https://tcgcsv.com/tcgplayer/3/648/ProductsAndPrices.csv
+2025-07-13 17:23:15,700 [INFO] Successfully fetched 19 products for group 648
+2025-07-13 17:23:15,705 [INFO] Successfully updated 19 products and inserted 19 price records for group 648
+2025-07-13 17:23:15,705 [INFO] Processing group 181/204: Neo Discovery (1434)
+2025-07-13 17:23:15,705 [INFO] Fetching products for group 1434 from https://tcgcsv.com/tcgplayer/3/1434/ProductsAndPrices.csv
+2025-07-13 17:23:15,890 [INFO] Successfully fetched 155 products for group 1434
+2025-07-13 17:23:15,930 [INFO] Successfully updated 155 products and inserted 155 price records for group 1434
+2025-07-13 17:23:15,930 [INFO] Processing group 182/204: Neo Genesis (1396)
+2025-07-13 17:23:15,930 [INFO] Fetching products for group 1396 from https://tcgcsv.com/tcgplayer/3/1396/ProductsAndPrices.csv
+2025-07-13 17:23:16,163 [INFO] Successfully fetched 228 products for group 1396
+2025-07-13 17:23:16,228 [INFO] Successfully updated 228 products and inserted 225 price records for group 1396
+2025-07-13 17:23:16,228 [INFO] Processing group 183/204: Gym Challenge (1440)
+2025-07-13 17:23:16,228 [INFO] Fetching products for group 1440 from https://tcgcsv.com/tcgplayer/3/1440/ProductsAndPrices.csv
+2025-07-13 17:23:16,432 [INFO] Successfully fetched 273 products for group 1440
+2025-07-13 17:23:16,497 [INFO] Successfully updated 273 products and inserted 272 price records for group 1440
+2025-07-13 17:23:16,497 [INFO] Processing group 184/204: Gym Heroes (1441)
+2025-07-13 17:23:16,497 [INFO] Fetching products for group 1441 from https://tcgcsv.com/tcgplayer/3/1441/ProductsAndPrices.csv
+2025-07-13 17:23:16,725 [INFO] Successfully fetched 272 products for group 1441
+2025-07-13 17:23:16,796 [INFO] Successfully updated 272 products and inserted 271 price records for group 1441
+2025-07-13 17:23:16,796 [INFO] Processing group 185/204: Team Rocket (1373)
+2025-07-13 17:23:16,796 [INFO] Fetching products for group 1373 from https://tcgcsv.com/tcgplayer/3/1373/ProductsAndPrices.csv
+2025-07-13 17:23:16,963 [INFO] Successfully fetched 172 products for group 1373
+2025-07-13 17:23:17,008 [INFO] Successfully updated 172 products and inserted 170 price records for group 1373
+2025-07-13 17:23:17,009 [INFO] Processing group 186/204: Base Set 2 (605)
+2025-07-13 17:23:17,009 [INFO] Fetching products for group 605 from https://tcgcsv.com/tcgplayer/3/605/ProductsAndPrices.csv
+2025-07-13 17:23:17,189 [INFO] Successfully fetched 137 products for group 605
+2025-07-13 17:23:17,226 [INFO] Successfully updated 137 products and inserted 137 price records for group 605
+2025-07-13 17:23:17,226 [INFO] Processing group 187/204: Fossil (630)
+2025-07-13 17:23:17,226 [INFO] Fetching products for group 630 from https://tcgcsv.com/tcgplayer/3/630/ProductsAndPrices.csv
+2025-07-13 17:23:17,423 [INFO] Successfully fetched 130 products for group 630
+2025-07-13 17:23:17,453 [INFO] Successfully updated 130 products and inserted 128 price records for group 630
+2025-07-13 17:23:17,453 [INFO] Processing group 188/204: WoTC Promo (1418)
+2025-07-13 17:23:17,453 [INFO] Fetching products for group 1418 from https://tcgcsv.com/tcgplayer/3/1418/ProductsAndPrices.csv
+2025-07-13 17:23:17,595 [INFO] Successfully fetched 70 products for group 1418
+2025-07-13 17:23:17,612 [INFO] Successfully updated 70 products and inserted 68 price records for group 1418
+2025-07-13 17:23:17,612 [INFO] Processing group 189/204: Jungle (635)
+2025-07-13 17:23:17,613 [INFO] Fetching products for group 635 from https://tcgcsv.com/tcgplayer/3/635/ProductsAndPrices.csv
+2025-07-13 17:23:17,772 [INFO] Successfully fetched 134 products for group 635
+2025-07-13 17:23:17,803 [INFO] Successfully updated 134 products and inserted 133 price records for group 635
+2025-07-13 17:23:17,803 [INFO] Processing group 190/204: Base Set (604)
+2025-07-13 17:23:17,803 [INFO] Fetching products for group 604 from https://tcgcsv.com/tcgplayer/3/604/ProductsAndPrices.csv
+2025-07-13 17:23:17,939 [INFO] Successfully fetched 109 products for group 604
+2025-07-13 17:23:17,965 [INFO] Successfully updated 109 products and inserted 108 price records for group 604
+2025-07-13 17:23:17,965 [INFO] Processing group 191/204: Base Set (Shadowless) (1663)
+2025-07-13 17:23:17,965 [INFO] Fetching products for group 1663 from https://tcgcsv.com/tcgplayer/3/1663/ProductsAndPrices.csv
+2025-07-13 17:23:18,179 [INFO] Successfully fetched 211 products for group 1663
+2025-07-13 17:23:18,228 [INFO] Successfully updated 211 products and inserted 204 price records for group 1663
+2025-07-13 17:23:18,228 [INFO] Processing group 192/204: Blister Exclusives (2289)
+2025-07-13 17:23:18,228 [INFO] Fetching products for group 2289 from https://tcgcsv.com/tcgplayer/3/2289/ProductsAndPrices.csv
+2025-07-13 17:23:18,366 [INFO] Successfully fetched 131 products for group 2289
+2025-07-13 17:23:18,397 [INFO] Successfully updated 131 products and inserted 129 price records for group 2289
+2025-07-13 17:23:18,397 [INFO] Processing group 193/204: EX Trainer Kit 1: Latias & Latios (1543)
+2025-07-13 17:23:18,397 [INFO] Fetching products for group 1543 from https://tcgcsv.com/tcgplayer/3/1543/ProductsAndPrices.csv
+2025-07-13 17:23:18,552 [INFO] Successfully fetched 21 products for group 1543
+2025-07-13 17:23:18,559 [INFO] Successfully updated 21 products and inserted 20 price records for group 1543
+2025-07-13 17:23:18,559 [INFO] Processing group 194/204: EX Trainer Kit 2: Plusle & Minun (1542)
+2025-07-13 17:23:18,559 [INFO] Fetching products for group 1542 from https://tcgcsv.com/tcgplayer/3/1542/ProductsAndPrices.csv
+2025-07-13 17:23:18,698 [INFO] Successfully fetched 25 products for group 1542
+2025-07-13 17:23:18,704 [INFO] Successfully updated 25 products and inserted 24 price records for group 1542
+2025-07-13 17:23:18,704 [INFO] Processing group 195/204: Nintendo Promos (1423)
+2025-07-13 17:23:18,705 [INFO] Fetching products for group 1423 from https://tcgcsv.com/tcgplayer/3/1423/ProductsAndPrices.csv
+2025-07-13 17:23:18,848 [INFO] Successfully fetched 97 products for group 1423
+2025-07-13 17:23:18,868 [INFO] Successfully updated 97 products and inserted 79 price records for group 1423
+2025-07-13 17:23:18,868 [INFO] Processing group 196/204: POP Series 1 (1422)
+2025-07-13 17:23:18,868 [INFO] Fetching products for group 1422 from https://tcgcsv.com/tcgplayer/3/1422/ProductsAndPrices.csv
+2025-07-13 17:23:19,048 [INFO] Successfully fetched 25 products for group 1422
+2025-07-13 17:23:19,055 [INFO] Successfully updated 25 products and inserted 24 price records for group 1422
+2025-07-13 17:23:19,055 [INFO] Processing group 197/204: POP Series 2 (1447)
+2025-07-13 17:23:19,055 [INFO] Fetching products for group 1447 from https://tcgcsv.com/tcgplayer/3/1447/ProductsAndPrices.csv
+2025-07-13 17:23:19,210 [INFO] Successfully fetched 25 products for group 1447
+2025-07-13 17:23:19,219 [INFO] Successfully updated 25 products and inserted 25 price records for group 1447
+2025-07-13 17:23:19,219 [INFO] Processing group 198/204: POP Series 3 (1442)
+2025-07-13 17:23:19,220 [INFO] Fetching products for group 1442 from https://tcgcsv.com/tcgplayer/3/1442/ProductsAndPrices.csv
+2025-07-13 17:23:19,430 [INFO] Successfully fetched 24 products for group 1442
+2025-07-13 17:23:19,438 [INFO] Successfully updated 24 products and inserted 23 price records for group 1442
+2025-07-13 17:23:19,438 [INFO] Processing group 199/204: POP Series 4 (1452)
+2025-07-13 17:23:19,438 [INFO] Fetching products for group 1452 from https://tcgcsv.com/tcgplayer/3/1452/ProductsAndPrices.csv
+2025-07-13 17:23:19,564 [INFO] Successfully fetched 25 products for group 1452
+2025-07-13 17:23:19,572 [INFO] Successfully updated 25 products and inserted 25 price records for group 1452
+2025-07-13 17:23:19,572 [INFO] Processing group 200/204: POP Series 5 (1439)
+2025-07-13 17:23:19,572 [INFO] Fetching products for group 1439 from https://tcgcsv.com/tcgplayer/3/1439/ProductsAndPrices.csv
+2025-07-13 17:23:19,667 [INFO] Successfully fetched 24 products for group 1439
+2025-07-13 17:23:19,676 [INFO] Successfully updated 24 products and inserted 22 price records for group 1439
+2025-07-13 17:23:19,677 [INFO] Processing group 201/204: POP Series 6 (1432)
+2025-07-13 17:23:19,677 [INFO] Fetching products for group 1432 from https://tcgcsv.com/tcgplayer/3/1432/ProductsAndPrices.csv
+2025-07-13 17:23:19,823 [INFO] Successfully fetched 26 products for group 1432
+2025-07-13 17:23:19,832 [INFO] Successfully updated 26 products and inserted 25 price records for group 1432
+2025-07-13 17:23:19,832 [INFO] Processing group 202/204: POP Series 7 (1414)
+2025-07-13 17:23:19,832 [INFO] Fetching products for group 1414 from https://tcgcsv.com/tcgplayer/3/1414/ProductsAndPrices.csv
+2025-07-13 17:23:19,966 [INFO] Successfully fetched 24 products for group 1414
+2025-07-13 17:23:19,974 [INFO] Successfully updated 24 products and inserted 24 price records for group 1414
+2025-07-13 17:23:19,974 [INFO] Processing group 203/204: POP Series 8 (1450)
+2025-07-13 17:23:19,974 [INFO] Fetching products for group 1450 from https://tcgcsv.com/tcgplayer/3/1450/ProductsAndPrices.csv
+2025-07-13 17:23:20,111 [INFO] Successfully fetched 31 products for group 1450
+2025-07-13 17:23:20,124 [INFO] Successfully updated 31 products and inserted 31 price records for group 1450
+2025-07-13 17:23:20,124 [INFO] Processing group 204/204: POP Series 9 (1446)
+2025-07-13 17:23:20,124 [INFO] Fetching products for group 1446 from https://tcgcsv.com/tcgplayer/3/1446/ProductsAndPrices.csv
+2025-07-13 17:23:20,263 [INFO] Successfully fetched 23 products for group 1446
+2025-07-13 17:23:20,270 [INFO] Successfully updated 23 products and inserted 23 price records for group 1446
+2025-07-13 17:23:20,270 [INFO] Daily update ETL process completed in 0.78 minutes
+2025-07-14 10:39:30,984 [INFO] Starting daily update ETL process
+2025-07-14 10:39:31,013 [INFO] Database connection established successfully
+2025-07-14 10:39:31,013 [INFO] Fetching groups from https://tcgcsv.com/tcgplayer/3/groups
+2025-07-14 10:39:31,192 [INFO] Successfully fetched 204 groups
+2025-07-14 10:39:31,203 [INFO] Successfully updated 204 groups
+2025-07-14 10:39:31,204 [INFO] Processing group 1/204: SV: Black Bolt (24325)
+2025-07-14 10:39:31,204 [INFO] Fetching products for group 24325 from https://tcgcsv.com/tcgplayer/3/24325/ProductsAndPrices.csv
+2025-07-14 10:39:31,421 [INFO] Successfully fetched 346 products for group 24325
+2025-07-14 10:39:31,484 [INFO] Successfully updated 346 products and inserted 22 price records for group 24325
+2025-07-14 10:39:31,484 [INFO] Processing group 2/204: SV: White Flare (24326)
+2025-07-14 10:39:31,484 [INFO] Fetching products for group 24326 from https://tcgcsv.com/tcgplayer/3/24326/ProductsAndPrices.csv
+2025-07-14 10:39:31,713 [INFO] Successfully fetched 330 products for group 24326
+2025-07-14 10:39:31,756 [INFO] Successfully updated 330 products and inserted 9 price records for group 24326
+2025-07-14 10:39:31,756 [INFO] Processing group 3/204: SV10: Destined Rivals (24269)
+2025-07-14 10:39:31,756 [INFO] Fetching products for group 24269 from https://tcgcsv.com/tcgplayer/3/24269/ProductsAndPrices.csv
+2025-07-14 10:39:31,963 [INFO] Successfully fetched 453 products for group 24269
+2025-07-14 10:39:32,065 [INFO] Successfully updated 453 products and inserted 453 price records for group 24269
+2025-07-14 10:39:32,066 [INFO] Processing group 4/204: SV09: Journey Together (24073)
+2025-07-14 10:39:32,066 [INFO] Fetching products for group 24073 from https://tcgcsv.com/tcgplayer/3/24073/ProductsAndPrices.csv
+2025-07-14 10:39:32,249 [INFO] Successfully fetched 367 products for group 24073
+2025-07-14 10:39:32,327 [INFO] Successfully updated 367 products and inserted 366 price records for group 24073
+2025-07-14 10:39:32,327 [INFO] Processing group 5/204: McDonald's Promos 2024 (24163)
+2025-07-14 10:39:32,327 [INFO] Fetching products for group 24163 from https://tcgcsv.com/tcgplayer/3/24163/ProductsAndPrices.csv
+2025-07-14 10:39:32,424 [INFO] Successfully fetched 16 products for group 24163
+2025-07-14 10:39:32,431 [INFO] Successfully updated 16 products and inserted 16 price records for group 24163
+2025-07-14 10:39:32,431 [INFO] Processing group 6/204: SV: Prismatic Evolutions (23821)
+2025-07-14 10:39:32,431 [INFO] Fetching products for group 23821 from https://tcgcsv.com/tcgplayer/3/23821/ProductsAndPrices.csv
+2025-07-14 10:39:32,624 [INFO] Successfully fetched 493 products for group 23821
+2025-07-14 10:39:32,743 [INFO] Successfully updated 493 products and inserted 492 price records for group 23821
+2025-07-14 10:39:32,743 [INFO] Processing group 7/204: SV08: Surging Sparks (23651)
+2025-07-14 10:39:32,743 [INFO] Fetching products for group 23651 from https://tcgcsv.com/tcgplayer/3/23651/ProductsAndPrices.csv
+2025-07-14 10:39:32,921 [INFO] Successfully fetched 451 products for group 23651
+2025-07-14 10:39:33,041 [INFO] Successfully updated 451 products and inserted 450 price records for group 23651
+2025-07-14 10:39:33,041 [INFO] Processing group 8/204: SV07: Stellar Crown (23537)
+2025-07-14 10:39:33,041 [INFO] Fetching products for group 23537 from https://tcgcsv.com/tcgplayer/3/23537/ProductsAndPrices.csv
+2025-07-14 10:39:33,227 [INFO] Successfully fetched 359 products for group 23537
+2025-07-14 10:39:33,332 [INFO] Successfully updated 359 products and inserted 358 price records for group 23537
+2025-07-14 10:39:33,332 [INFO] Processing group 9/204: Trick or Trade BOOster Bundle 2024 (23561)
+2025-07-14 10:39:33,332 [INFO] Fetching products for group 23561 from https://tcgcsv.com/tcgplayer/3/23561/ProductsAndPrices.csv
+2025-07-14 10:39:33,444 [INFO] Successfully fetched 35 products for group 23561
+2025-07-14 10:39:33,455 [INFO] Successfully updated 35 products and inserted 33 price records for group 23561
+2025-07-14 10:39:33,455 [INFO] Processing group 10/204: SV: Shrouded Fable (23529)
+2025-07-14 10:39:33,455 [INFO] Fetching products for group 23529 from https://tcgcsv.com/tcgplayer/3/23529/ProductsAndPrices.csv
+2025-07-14 10:39:33,588 [INFO] Successfully fetched 191 products for group 23529
+2025-07-14 10:39:33,650 [INFO] Successfully updated 191 products and inserted 188 price records for group 23529
+2025-07-14 10:39:33,650 [INFO] Processing group 11/204: Battle Academy 2024 (23520)
+2025-07-14 10:39:33,650 [INFO] Fetching products for group 23520 from https://tcgcsv.com/tcgplayer/3/23520/ProductsAndPrices.csv
+2025-07-14 10:39:33,750 [INFO] Successfully fetched 140 products for group 23520
+2025-07-14 10:39:33,793 [INFO] Successfully updated 140 products and inserted 137 price records for group 23520
+2025-07-14 10:39:33,793 [INFO] Processing group 12/204: SV06: Twilight Masquerade (23473)
+2025-07-14 10:39:33,793 [INFO] Fetching products for group 23473 from https://tcgcsv.com/tcgplayer/3/23473/ProductsAndPrices.csv
+2025-07-14 10:39:34,012 [INFO] Successfully fetched 408 products for group 23473
+2025-07-14 10:39:34,141 [INFO] Successfully updated 408 products and inserted 405 price records for group 23473
+2025-07-14 10:39:34,141 [INFO] Processing group 13/204: SV05: Temporal Forces (23381)
+2025-07-14 10:39:34,142 [INFO] Fetching products for group 23381 from https://tcgcsv.com/tcgplayer/3/23381/ProductsAndPrices.csv
+2025-07-14 10:39:34,310 [INFO] Successfully fetched 397 products for group 23381
+2025-07-14 10:39:34,449 [INFO] Successfully updated 397 products and inserted 394 price records for group 23381
+2025-07-14 10:39:34,449 [INFO] Processing group 14/204: SV: Paldean Fates (23353)
+2025-07-14 10:39:34,450 [INFO] Fetching products for group 23353 from https://tcgcsv.com/tcgplayer/3/23353/ProductsAndPrices.csv
+2025-07-14 10:39:34,641 [INFO] Successfully fetched 370 products for group 23353
+2025-07-14 10:39:34,776 [INFO] Successfully updated 370 products and inserted 370 price records for group 23353
+2025-07-14 10:39:34,776 [INFO] Processing group 15/204: Trading Card Game Classic (23323)
+2025-07-14 10:39:34,776 [INFO] Fetching products for group 23323 from https://tcgcsv.com/tcgplayer/3/23323/ProductsAndPrices.csv
+2025-07-14 10:39:34,851 [INFO] Successfully fetched 103 products for group 23323
+2025-07-14 10:39:34,892 [INFO] Successfully updated 103 products and inserted 103 price records for group 23323
+2025-07-14 10:39:34,892 [INFO] Processing group 16/204: SV04: Paradox Rift (23286)
+2025-07-14 10:39:34,892 [INFO] Fetching products for group 23286 from https://tcgcsv.com/tcgplayer/3/23286/ProductsAndPrices.csv
+2025-07-14 10:39:35,084 [INFO] Successfully fetched 467 products for group 23286
+2025-07-14 10:39:35,244 [INFO] Successfully updated 467 products and inserted 463 price records for group 23286
+2025-07-14 10:39:35,244 [INFO] Processing group 17/204: My First Battle (23330)
+2025-07-14 10:39:35,245 [INFO] Fetching products for group 23330 from https://tcgcsv.com/tcgplayer/3/23330/ProductsAndPrices.csv
+2025-07-14 10:39:35,384 [INFO] Successfully fetched 50 products for group 23330
+2025-07-14 10:39:35,404 [INFO] Successfully updated 50 products and inserted 50 price records for group 23330
+2025-07-14 10:39:35,404 [INFO] Processing group 18/204: SV: Scarlet & Violet 151 (23237)
+2025-07-14 10:39:35,404 [INFO] Fetching products for group 23237 from https://tcgcsv.com/tcgplayer/3/23237/ProductsAndPrices.csv
+2025-07-14 10:39:35,555 [INFO] Successfully fetched 399 products for group 23237
+2025-07-14 10:39:35,700 [INFO] Successfully updated 399 products and inserted 398 price records for group 23237
+2025-07-14 10:39:35,700 [INFO] Processing group 19/204: McDonald's Promos 2023 (23306)
+2025-07-14 10:39:35,700 [INFO] Fetching products for group 23306 from https://tcgcsv.com/tcgplayer/3/23306/ProductsAndPrices.csv
+2025-07-14 10:39:35,789 [INFO] Successfully fetched 16 products for group 23306
+2025-07-14 10:39:35,796 [INFO] Successfully updated 16 products and inserted 16 price records for group 23306
+2025-07-14 10:39:35,796 [INFO] Processing group 20/204: Trick or Trade BOOster Bundle 2023 (23266)
+2025-07-14 10:39:35,796 [INFO] Fetching products for group 23266 from https://tcgcsv.com/tcgplayer/3/23266/ProductsAndPrices.csv
+2025-07-14 10:39:35,921 [INFO] Successfully fetched 35 products for group 23266
+2025-07-14 10:39:35,937 [INFO] Successfully updated 35 products and inserted 35 price records for group 23266
+2025-07-14 10:39:35,937 [INFO] Processing group 21/204: SV03: Obsidian Flames (23228)
+2025-07-14 10:39:35,937 [INFO] Fetching products for group 23228 from https://tcgcsv.com/tcgplayer/3/23228/ProductsAndPrices.csv
+2025-07-14 10:39:36,094 [INFO] Successfully fetched 438 products for group 23228
+2025-07-14 10:39:36,243 [INFO] Successfully updated 438 products and inserted 436 price records for group 23228
+2025-07-14 10:39:36,243 [INFO] Processing group 22/204: SV02: Paldea Evolved (23120)
+2025-07-14 10:39:36,243 [INFO] Fetching products for group 23120 from https://tcgcsv.com/tcgplayer/3/23120/ProductsAndPrices.csv
+2025-07-14 10:39:36,411 [INFO] Successfully fetched 489 products for group 23120
+2025-07-14 10:39:36,575 [INFO] Successfully updated 489 products and inserted 489 price records for group 23120
+2025-07-14 10:39:36,575 [INFO] Processing group 23/204: SV: Scarlet & Violet Promo Cards (22872)
+2025-07-14 10:39:36,575 [INFO] Fetching products for group 22872 from https://tcgcsv.com/tcgplayer/3/22872/ProductsAndPrices.csv
+2025-07-14 10:39:36,780 [INFO] Successfully fetched 261 products for group 22872
+2025-07-14 10:39:36,866 [INFO] Successfully updated 261 products and inserted 259 price records for group 22872
+2025-07-14 10:39:36,867 [INFO] Processing group 24/204: SV01: Scarlet & Violet Base Set (22873)
+2025-07-14 10:39:36,867 [INFO] Fetching products for group 22873 from https://tcgcsv.com/tcgplayer/3/22873/ProductsAndPrices.csv
+2025-07-14 10:39:37,091 [INFO] Successfully fetched 506 products for group 22873
+2025-07-14 10:39:37,261 [INFO] Successfully updated 506 products and inserted 501 price records for group 22873
+2025-07-14 10:39:37,261 [INFO] Processing group 25/204: Crown Zenith (17688)
+2025-07-14 10:39:37,261 [INFO] Fetching products for group 17688 from https://tcgcsv.com/tcgplayer/3/17688/ProductsAndPrices.csv
+2025-07-14 10:39:37,459 [INFO] Successfully fetched 335 products for group 17688
+2025-07-14 10:39:37,583 [INFO] Successfully updated 335 products and inserted 333 price records for group 17688
+2025-07-14 10:39:37,583 [INFO] Processing group 26/204: Crown Zenith: Galarian Gallery (17689)
+2025-07-14 10:39:37,584 [INFO] Fetching products for group 17689 from https://tcgcsv.com/tcgplayer/3/17689/ProductsAndPrices.csv
+2025-07-14 10:39:37,708 [INFO] Successfully fetched 70 products for group 17689
+2025-07-14 10:39:37,734 [INFO] Successfully updated 70 products and inserted 70 price records for group 17689
+2025-07-14 10:39:37,734 [INFO] Processing group 27/204: Prize Pack Series Cards (22880)
+2025-07-14 10:39:37,734 [INFO] Fetching products for group 22880 from https://tcgcsv.com/tcgplayer/3/22880/ProductsAndPrices.csv
+2025-07-14 10:39:37,980 [INFO] Successfully fetched 721 products for group 22880
+2025-07-14 10:39:38,224 [INFO] Successfully updated 721 products and inserted 713 price records for group 22880
+2025-07-14 10:39:38,224 [INFO] Processing group 28/204: SWSH12: Silver Tempest (3170)
+2025-07-14 10:39:38,225 [INFO] Fetching products for group 3170 from https://tcgcsv.com/tcgplayer/3/3170/ProductsAndPrices.csv
+2025-07-14 10:39:38,451 [INFO] Successfully fetched 396 products for group 3170
+2025-07-14 10:39:38,589 [INFO] Successfully updated 396 products and inserted 394 price records for group 3170
+2025-07-14 10:39:38,589 [INFO] Processing group 29/204: SWSH12: Silver Tempest Trainer Gallery (17674)
+2025-07-14 10:39:38,589 [INFO] Fetching products for group 17674 from https://tcgcsv.com/tcgplayer/3/17674/ProductsAndPrices.csv
+2025-07-14 10:39:38,727 [INFO] Successfully fetched 30 products for group 17674
+2025-07-14 10:39:38,740 [INFO] Successfully updated 30 products and inserted 30 price records for group 17674
+2025-07-14 10:39:38,740 [INFO] Processing group 30/204: SWSH11: Lost Origin (3118)
+2025-07-14 10:39:38,740 [INFO] Fetching products for group 3118 from https://tcgcsv.com/tcgplayer/3/3118/ProductsAndPrices.csv
+2025-07-14 10:39:38,942 [INFO] Successfully fetched 420 products for group 3118
+2025-07-14 10:39:39,086 [INFO] Successfully updated 420 products and inserted 416 price records for group 3118
+2025-07-14 10:39:39,086 [INFO] Processing group 31/204: SWSH11: Lost Origin Trainer Gallery (3172)
+2025-07-14 10:39:39,086 [INFO] Fetching products for group 3172 from https://tcgcsv.com/tcgplayer/3/3172/ProductsAndPrices.csv
+2025-07-14 10:39:39,184 [INFO] Successfully fetched 30 products for group 3172
+2025-07-14 10:39:39,203 [INFO] Successfully updated 30 products and inserted 30 price records for group 3172
+2025-07-14 10:39:39,203 [INFO] Processing group 32/204: Trick or Trade BOOster Bundle (3179)
+2025-07-14 10:39:39,203 [INFO] Fetching products for group 3179 from https://tcgcsv.com/tcgplayer/3/3179/ProductsAndPrices.csv
+2025-07-14 10:39:39,307 [INFO] Successfully fetched 32 products for group 3179
+2025-07-14 10:39:39,321 [INFO] Successfully updated 32 products and inserted 32 price records for group 3179
+2025-07-14 10:39:39,321 [INFO] Processing group 33/204: McDonald's Promos 2022 (3150)
+2025-07-14 10:39:39,322 [INFO] Fetching products for group 3150 from https://tcgcsv.com/tcgplayer/3/3150/ProductsAndPrices.csv
+2025-07-14 10:39:39,437 [INFO] Successfully fetched 16 products for group 3150
+2025-07-14 10:39:39,445 [INFO] Successfully updated 16 products and inserted 16 price records for group 3150
+2025-07-14 10:39:39,446 [INFO] Processing group 34/204: Pokemon GO (3064)
+2025-07-14 10:39:39,446 [INFO] Fetching products for group 3064 from https://tcgcsv.com/tcgplayer/3/3064/ProductsAndPrices.csv
+2025-07-14 10:39:39,613 [INFO] Successfully fetched 201 products for group 3064
+2025-07-14 10:39:39,687 [INFO] Successfully updated 201 products and inserted 201 price records for group 3064
+2025-07-14 10:39:39,687 [INFO] Processing group 35/204: SWSH10: Astral Radiance (3040)
+2025-07-14 10:39:39,687 [INFO] Fetching products for group 3040 from https://tcgcsv.com/tcgplayer/3/3040/ProductsAndPrices.csv
+2025-07-14 10:39:39,861 [INFO] Successfully fetched 381 products for group 3040
+2025-07-14 10:39:39,995 [INFO] Successfully updated 381 products and inserted 375 price records for group 3040
+2025-07-14 10:39:39,995 [INFO] Processing group 36/204: SWSH10: Astral Radiance Trainer Gallery (3068)
+2025-07-14 10:39:39,995 [INFO] Fetching products for group 3068 from https://tcgcsv.com/tcgplayer/3/3068/ProductsAndPrices.csv
+2025-07-14 10:39:40,138 [INFO] Successfully fetched 30 products for group 3068
+2025-07-14 10:39:40,153 [INFO] Successfully updated 30 products and inserted 30 price records for group 3068
+2025-07-14 10:39:40,153 [INFO] Processing group 37/204: Battle Academy 2022 (3051)
+2025-07-14 10:39:40,153 [INFO] Fetching products for group 3051 from https://tcgcsv.com/tcgplayer/3/3051/ProductsAndPrices.csv
+2025-07-14 10:39:40,326 [INFO] Successfully fetched 140 products for group 3051
+2025-07-14 10:39:40,374 [INFO] Successfully updated 140 products and inserted 140 price records for group 3051
+2025-07-14 10:39:40,375 [INFO] Processing group 38/204: SWSH09: Brilliant Stars (2948)
+2025-07-14 10:39:40,375 [INFO] Fetching products for group 2948 from https://tcgcsv.com/tcgplayer/3/2948/ProductsAndPrices.csv
+2025-07-14 10:39:40,526 [INFO] Successfully fetched 364 products for group 2948
+2025-07-14 10:39:40,659 [INFO] Successfully updated 364 products and inserted 360 price records for group 2948
+2025-07-14 10:39:40,659 [INFO] Processing group 39/204: SWSH09: Brilliant Stars Trainer Gallery (3020)
+2025-07-14 10:39:40,659 [INFO] Fetching products for group 3020 from https://tcgcsv.com/tcgplayer/3/3020/ProductsAndPrices.csv
+2025-07-14 10:39:40,785 [INFO] Successfully fetched 30 products for group 3020
+2025-07-14 10:39:40,797 [INFO] Successfully updated 30 products and inserted 30 price records for group 3020
+2025-07-14 10:39:40,798 [INFO] Processing group 40/204: SWSH08: Fusion Strike (2906)
+2025-07-14 10:39:40,798 [INFO] Fetching products for group 2906 from https://tcgcsv.com/tcgplayer/3/2906/ProductsAndPrices.csv
+2025-07-14 10:39:40,996 [INFO] Successfully fetched 547 products for group 2906
+2025-07-14 10:39:41,185 [INFO] Successfully updated 547 products and inserted 544 price records for group 2906
+2025-07-14 10:39:41,185 [INFO] Processing group 41/204: Celebrations (2867)
+2025-07-14 10:39:41,185 [INFO] Fetching products for group 2867 from https://tcgcsv.com/tcgplayer/3/2867/ProductsAndPrices.csv
+2025-07-14 10:39:41,348 [INFO] Successfully fetched 74 products for group 2867
+2025-07-14 10:39:41,375 [INFO] Successfully updated 74 products and inserted 71 price records for group 2867
+2025-07-14 10:39:41,376 [INFO] Processing group 42/204: Celebrations: Classic Collection (2931)
+2025-07-14 10:39:41,376 [INFO] Fetching products for group 2931 from https://tcgcsv.com/tcgplayer/3/2931/ProductsAndPrices.csv
+2025-07-14 10:39:41,489 [INFO] Successfully fetched 25 products for group 2931
+2025-07-14 10:39:41,498 [INFO] Successfully updated 25 products and inserted 25 price records for group 2931
+2025-07-14 10:39:41,499 [INFO] Processing group 43/204: SWSH07: Evolving Skies (2848)
+2025-07-14 10:39:41,499 [INFO] Fetching products for group 2848 from https://tcgcsv.com/tcgplayer/3/2848/ProductsAndPrices.csv
+2025-07-14 10:39:41,652 [INFO] Successfully fetched 418 products for group 2848
+2025-07-14 10:39:41,792 [INFO] Successfully updated 418 products and inserted 414 price records for group 2848
+2025-07-14 10:39:41,792 [INFO] Processing group 44/204: SWSH06: Chilling Reign (2807)
+2025-07-14 10:39:41,792 [INFO] Fetching products for group 2807 from https://tcgcsv.com/tcgplayer/3/2807/ProductsAndPrices.csv
+2025-07-14 10:39:42,015 [INFO] Successfully fetched 409 products for group 2807
+2025-07-14 10:39:42,157 [INFO] Successfully updated 409 products and inserted 408 price records for group 2807
+2025-07-14 10:39:42,157 [INFO] Processing group 45/204: SWSH05: Battle Styles (2765)
+2025-07-14 10:39:42,157 [INFO] Fetching products for group 2765 from https://tcgcsv.com/tcgplayer/3/2765/ProductsAndPrices.csv
+2025-07-14 10:39:42,386 [INFO] Successfully fetched 354 products for group 2765
+2025-07-14 10:39:42,512 [INFO] Successfully updated 354 products and inserted 347 price records for group 2765
+2025-07-14 10:39:42,512 [INFO] Processing group 46/204: First Partner Pack (2776)
+2025-07-14 10:39:42,512 [INFO] Fetching products for group 2776 from https://tcgcsv.com/tcgplayer/3/2776/ProductsAndPrices.csv
+2025-07-14 10:39:42,651 [INFO] Successfully fetched 33 products for group 2776
+2025-07-14 10:39:42,665 [INFO] Successfully updated 33 products and inserted 33 price records for group 2776
+2025-07-14 10:39:42,665 [INFO] Processing group 47/204: Shining Fates (2754)
+2025-07-14 10:39:42,665 [INFO] Fetching products for group 2754 from https://tcgcsv.com/tcgplayer/3/2754/ProductsAndPrices.csv
+2025-07-14 10:39:42,822 [INFO] Successfully fetched 162 products for group 2754
+2025-07-14 10:39:42,879 [INFO] Successfully updated 162 products and inserted 162 price records for group 2754
+2025-07-14 10:39:42,879 [INFO] Processing group 48/204: Shining Fates: Shiny Vault (2781)
+2025-07-14 10:39:42,879 [INFO] Fetching products for group 2781 from https://tcgcsv.com/tcgplayer/3/2781/ProductsAndPrices.csv
+2025-07-14 10:39:43,071 [INFO] Successfully fetched 122 products for group 2781
+2025-07-14 10:39:43,118 [INFO] Successfully updated 122 products and inserted 122 price records for group 2781
+2025-07-14 10:39:43,118 [INFO] Processing group 49/204: McDonald's 25th Anniversary Promos (2782)
+2025-07-14 10:39:43,118 [INFO] Fetching products for group 2782 from https://tcgcsv.com/tcgplayer/3/2782/ProductsAndPrices.csv
+2025-07-14 10:39:43,248 [INFO] Successfully fetched 51 products for group 2782
+2025-07-14 10:39:43,266 [INFO] Successfully updated 51 products and inserted 51 price records for group 2782
+2025-07-14 10:39:43,267 [INFO] Processing group 50/204: SWSH04: Vivid Voltage (2701)
+2025-07-14 10:39:43,267 [INFO] Fetching products for group 2701 from https://tcgcsv.com/tcgplayer/3/2701/ProductsAndPrices.csv
+2025-07-14 10:39:43,480 [INFO] Successfully fetched 387 products for group 2701
+2025-07-14 10:39:43,617 [INFO] Successfully updated 387 products and inserted 384 price records for group 2701
+2025-07-14 10:39:43,618 [INFO] Processing group 51/204: Champion's Path (2685)
+2025-07-14 10:39:43,618 [INFO] Fetching products for group 2685 from https://tcgcsv.com/tcgplayer/3/2685/ProductsAndPrices.csv
+2025-07-14 10:39:43,751 [INFO] Successfully fetched 164 products for group 2685
+2025-07-14 10:39:43,809 [INFO] Successfully updated 164 products and inserted 164 price records for group 2685
+2025-07-14 10:39:43,809 [INFO] Processing group 52/204: SWSH03: Darkness Ablaze (2675)
+2025-07-14 10:39:43,809 [INFO] Fetching products for group 2675 from https://tcgcsv.com/tcgplayer/3/2675/ProductsAndPrices.csv
+2025-07-14 10:39:44,036 [INFO] Successfully fetched 395 products for group 2675
+2025-07-14 10:39:44,173 [INFO] Successfully updated 395 products and inserted 392 price records for group 2675
+2025-07-14 10:39:44,174 [INFO] Processing group 53/204: Battle Academy (2686)
+2025-07-14 10:39:44,174 [INFO] Fetching products for group 2686 from https://tcgcsv.com/tcgplayer/3/2686/ProductsAndPrices.csv
+2025-07-14 10:39:44,317 [INFO] Successfully fetched 140 products for group 2686
+2025-07-14 10:39:44,370 [INFO] Successfully updated 140 products and inserted 140 price records for group 2686
+2025-07-14 10:39:44,371 [INFO] Processing group 54/204: SWSH02: Rebel Clash (2626)
+2025-07-14 10:39:44,371 [INFO] Fetching products for group 2626 from https://tcgcsv.com/tcgplayer/3/2626/ProductsAndPrices.csv
+2025-07-14 10:39:44,548 [INFO] Successfully fetched 404 products for group 2626
+2025-07-14 10:39:44,683 [INFO] Successfully updated 404 products and inserted 398 price records for group 2626
+2025-07-14 10:39:44,683 [INFO] Processing group 55/204: SWSH01: Sword & Shield Base Set (2585)
+2025-07-14 10:39:44,683 [INFO] Fetching products for group 2585 from https://tcgcsv.com/tcgplayer/3/2585/ProductsAndPrices.csv
+2025-07-14 10:39:44,844 [INFO] Successfully fetched 461 products for group 2585
+2025-07-14 10:39:45,000 [INFO] Successfully updated 461 products and inserted 455 price records for group 2585
+2025-07-14 10:39:45,001 [INFO] Processing group 56/204: SWSH: Sword & Shield Promo Cards (2545)
+2025-07-14 10:39:45,001 [INFO] Fetching products for group 2545 from https://tcgcsv.com/tcgplayer/3/2545/ProductsAndPrices.csv
+2025-07-14 10:39:45,236 [INFO] Successfully fetched 343 products for group 2545
+2025-07-14 10:39:45,361 [INFO] Successfully updated 343 products and inserted 340 price records for group 2545
+2025-07-14 10:39:45,362 [INFO] Processing group 57/204: SM - Cosmic Eclipse (2534)
+2025-07-14 10:39:45,362 [INFO] Fetching products for group 2534 from https://tcgcsv.com/tcgplayer/3/2534/ProductsAndPrices.csv
+2025-07-14 10:39:45,573 [INFO] Successfully fetched 491 products for group 2534
+2025-07-14 10:39:45,735 [INFO] Successfully updated 491 products and inserted 486 price records for group 2534
+2025-07-14 10:39:45,735 [INFO] Processing group 58/204: McDonald's Promos 2019 (2555)
+2025-07-14 10:39:45,735 [INFO] Fetching products for group 2555 from https://tcgcsv.com/tcgplayer/3/2555/ProductsAndPrices.csv
+2025-07-14 10:39:45,887 [INFO] Successfully fetched 12 products for group 2555
+2025-07-14 10:39:45,893 [INFO] Successfully updated 12 products and inserted 12 price records for group 2555
+2025-07-14 10:39:45,893 [INFO] Processing group 59/204: Hidden Fates (2480)
+2025-07-14 10:39:45,893 [INFO] Fetching products for group 2480 from https://tcgcsv.com/tcgplayer/3/2480/ProductsAndPrices.csv
+2025-07-14 10:39:46,001 [INFO] Successfully fetched 151 products for group 2480
+2025-07-14 10:39:46,057 [INFO] Successfully updated 151 products and inserted 151 price records for group 2480
+2025-07-14 10:39:46,057 [INFO] Processing group 60/204: Hidden Fates: Shiny Vault (2594)
+2025-07-14 10:39:46,057 [INFO] Fetching products for group 2594 from https://tcgcsv.com/tcgplayer/3/2594/ProductsAndPrices.csv
+2025-07-14 10:39:46,174 [INFO] Successfully fetched 94 products for group 2594
+2025-07-14 10:39:46,208 [INFO] Successfully updated 94 products and inserted 94 price records for group 2594
+2025-07-14 10:39:46,208 [INFO] Processing group 61/204: SM - Unified Minds (2464)
+2025-07-14 10:39:46,208 [INFO] Fetching products for group 2464 from https://tcgcsv.com/tcgplayer/3/2464/ProductsAndPrices.csv
+2025-07-14 10:39:46,356 [INFO] Successfully fetched 491 products for group 2464
+2025-07-14 10:39:46,528 [INFO] Successfully updated 491 products and inserted 486 price records for group 2464
+2025-07-14 10:39:46,528 [INFO] Processing group 62/204: SM - Unbroken Bonds (2420)
+2025-07-14 10:39:46,528 [INFO] Fetching products for group 2420 from https://tcgcsv.com/tcgplayer/3/2420/ProductsAndPrices.csv
+2025-07-14 10:39:46,725 [INFO] Successfully fetched 446 products for group 2420
+2025-07-14 10:39:46,875 [INFO] Successfully updated 446 products and inserted 440 price records for group 2420
+2025-07-14 10:39:46,875 [INFO] Processing group 63/204: Detective Pikachu (2409)
+2025-07-14 10:39:46,875 [INFO] Fetching products for group 2409 from https://tcgcsv.com/tcgplayer/3/2409/ProductsAndPrices.csv
+2025-07-14 10:39:46,997 [INFO] Successfully fetched 39 products for group 2409
+2025-07-14 10:39:47,013 [INFO] Successfully updated 39 products and inserted 36 price records for group 2409
+2025-07-14 10:39:47,013 [INFO] Processing group 64/204: SM - Team Up (2377)
+2025-07-14 10:39:47,013 [INFO] Fetching products for group 2377 from https://tcgcsv.com/tcgplayer/3/2377/ProductsAndPrices.csv
+2025-07-14 10:39:47,196 [INFO] Successfully fetched 397 products for group 2377
+2025-07-14 10:39:47,329 [INFO] Successfully updated 397 products and inserted 387 price records for group 2377
+2025-07-14 10:39:47,329 [INFO] Processing group 65/204: SM - Lost Thunder (2328)
+2025-07-14 10:39:47,329 [INFO] Fetching products for group 2328 from https://tcgcsv.com/tcgplayer/3/2328/ProductsAndPrices.csv
+2025-07-14 10:39:47,498 [INFO] Successfully fetched 444 products for group 2328
+2025-07-14 10:39:47,648 [INFO] Successfully updated 444 products and inserted 435 price records for group 2328
+2025-07-14 10:39:47,649 [INFO] Processing group 66/204: McDonald's Promos 2018 (2364)
+2025-07-14 10:39:47,649 [INFO] Fetching products for group 2364 from https://tcgcsv.com/tcgplayer/3/2364/ProductsAndPrices.csv
+2025-07-14 10:39:47,762 [INFO] Successfully fetched 12 products for group 2364
+2025-07-14 10:39:47,769 [INFO] Successfully updated 12 products and inserted 12 price records for group 2364
+2025-07-14 10:39:47,769 [INFO] Processing group 67/204: Miscellaneous Cards & Products (2374)
+2025-07-14 10:39:47,769 [INFO] Fetching products for group 2374 from https://tcgcsv.com/tcgplayer/3/2374/ProductsAndPrices.csv
+2025-07-14 10:39:47,992 [INFO] Successfully fetched 1246 products for group 2374
+2025-07-14 10:39:48,357 [INFO] Successfully updated 1246 products and inserted 1097 price records for group 2374
+2025-07-14 10:39:48,358 [INFO] Processing group 68/204: Dragon Majesty (2295)
+2025-07-14 10:39:48,358 [INFO] Fetching products for group 2295 from https://tcgcsv.com/tcgplayer/3/2295/ProductsAndPrices.csv
+2025-07-14 10:39:48,499 [INFO] Successfully fetched 146 products for group 2295
+2025-07-14 10:39:48,552 [INFO] Successfully updated 146 products and inserted 144 price records for group 2295
+2025-07-14 10:39:48,552 [INFO] Processing group 69/204: SM - Celestial Storm (2278)
+2025-07-14 10:39:48,553 [INFO] Fetching products for group 2278 from https://tcgcsv.com/tcgplayer/3/2278/ProductsAndPrices.csv
+2025-07-14 10:39:48,743 [INFO] Successfully fetched 359 products for group 2278
+2025-07-14 10:39:48,861 [INFO] Successfully updated 359 products and inserted 344 price records for group 2278
+2025-07-14 10:39:48,862 [INFO] Processing group 70/204: World Championship Decks (2282)
+2025-07-14 10:39:48,862 [INFO] Fetching products for group 2282 from https://tcgcsv.com/tcgplayer/3/2282/ProductsAndPrices.csv
+2025-07-14 10:39:49,105 [INFO] Successfully fetched 1888 products for group 2282
+2025-07-14 10:39:49,723 [INFO] Successfully updated 1888 products and inserted 1788 price records for group 2282
+2025-07-14 10:39:49,724 [INFO] Processing group 71/204: SM - Forbidden Light (2209)
+2025-07-14 10:39:49,724 [INFO] Fetching products for group 2209 from https://tcgcsv.com/tcgplayer/3/2209/ProductsAndPrices.csv
+2025-07-14 10:39:49,926 [INFO] Successfully fetched 283 products for group 2209
+2025-07-14 10:39:50,025 [INFO] Successfully updated 283 products and inserted 271 price records for group 2209
+2025-07-14 10:39:50,025 [INFO] Processing group 72/204: SM Trainer Kit: Alolan Sandslash & Alolan Ninetales (2208)
+2025-07-14 10:39:50,025 [INFO] Fetching products for group 2208 from https://tcgcsv.com/tcgplayer/3/2208/ProductsAndPrices.csv
+2025-07-14 10:39:50,152 [INFO] Successfully fetched 62 products for group 2208
+2025-07-14 10:39:50,177 [INFO] Successfully updated 62 products and inserted 62 price records for group 2208
+2025-07-14 10:39:50,177 [INFO] Processing group 73/204: SM - Ultra Prism (2178)
+2025-07-14 10:39:50,177 [INFO] Fetching products for group 2178 from https://tcgcsv.com/tcgplayer/3/2178/ProductsAndPrices.csv
+2025-07-14 10:39:50,383 [INFO] Successfully fetched 336 products for group 2178
+2025-07-14 10:39:50,494 [INFO] Successfully updated 336 products and inserted 324 price records for group 2178
+2025-07-14 10:39:50,494 [INFO] Processing group 74/204: McDonald's Promos 2017 (2148)
+2025-07-14 10:39:50,494 [INFO] Fetching products for group 2148 from https://tcgcsv.com/tcgplayer/3/2148/ProductsAndPrices.csv
+2025-07-14 10:39:50,659 [INFO] Successfully fetched 12 products for group 2148
+2025-07-14 10:39:50,665 [INFO] Successfully updated 12 products and inserted 12 price records for group 2148
+2025-07-14 10:39:50,665 [INFO] Processing group 75/204: SM - Crimson Invasion (2071)
+2025-07-14 10:39:50,665 [INFO] Fetching products for group 2071 from https://tcgcsv.com/tcgplayer/3/2071/ProductsAndPrices.csv
+2025-07-14 10:39:50,854 [INFO] Successfully fetched 253 products for group 2071
+2025-07-14 10:39:50,938 [INFO] Successfully updated 253 products and inserted 243 price records for group 2071
+2025-07-14 10:39:50,938 [INFO] Processing group 76/204: Shining Legends (2054)
+2025-07-14 10:39:50,938 [INFO] Fetching products for group 2054 from https://tcgcsv.com/tcgplayer/3/2054/ProductsAndPrices.csv
+2025-07-14 10:39:51,067 [INFO] Successfully fetched 161 products for group 2054
+2025-07-14 10:39:51,121 [INFO] Successfully updated 161 products and inserted 159 price records for group 2054
+2025-07-14 10:39:51,122 [INFO] Processing group 77/204: SM - Burning Shadows (1957)
+2025-07-14 10:39:51,122 [INFO] Fetching products for group 1957 from https://tcgcsv.com/tcgplayer/3/1957/ProductsAndPrices.csv
+2025-07-14 10:39:51,318 [INFO] Successfully fetched 330 products for group 1957
+2025-07-14 10:39:51,433 [INFO] Successfully updated 330 products and inserted 321 price records for group 1957
+2025-07-14 10:39:51,433 [INFO] Processing group 78/204: Alternate Art Promos (1938)
+2025-07-14 10:39:51,434 [INFO] Fetching products for group 1938 from https://tcgcsv.com/tcgplayer/3/1938/ProductsAndPrices.csv
+2025-07-14 10:39:51,555 [INFO] Successfully fetched 59 products for group 1938
+2025-07-14 10:39:51,582 [INFO] Successfully updated 59 products and inserted 59 price records for group 1938
+2025-07-14 10:39:51,582 [INFO] Processing group 79/204: SM - Guardians Rising (1919)
+2025-07-14 10:39:51,582 [INFO] Fetching products for group 1919 from https://tcgcsv.com/tcgplayer/3/1919/ProductsAndPrices.csv
+2025-07-14 10:39:51,741 [INFO] Successfully fetched 359 products for group 1919
+2025-07-14 10:39:51,851 [INFO] Successfully updated 359 products and inserted 336 price records for group 1919
+2025-07-14 10:39:51,852 [INFO] Processing group 80/204: Ash vs Team Rocket Deck Kit (JP Exclusive) (23095)
+2025-07-14 10:39:51,852 [INFO] Fetching products for group 23095 from https://tcgcsv.com/tcgplayer/3/23095/ProductsAndPrices.csv
+2025-07-14 10:39:51,984 [INFO] Successfully fetched 21 products for group 23095
+2025-07-14 10:39:51,993 [INFO] Successfully updated 21 products and inserted 17 price records for group 23095
+2025-07-14 10:39:51,993 [INFO] Processing group 81/204: SM Trainer Kit: Lycanroc & Alolan Raichu (2069)
+2025-07-14 10:39:51,993 [INFO] Fetching products for group 2069 from https://tcgcsv.com/tcgplayer/3/2069/ProductsAndPrices.csv
+2025-07-14 10:39:52,124 [INFO] Successfully fetched 61 products for group 2069
+2025-07-14 10:39:52,147 [INFO] Successfully updated 61 products and inserted 61 price records for group 2069
+2025-07-14 10:39:52,148 [INFO] Processing group 82/204: SM Base Set (1863)
+2025-07-14 10:39:52,148 [INFO] Fetching products for group 1863 from https://tcgcsv.com/tcgplayer/3/1863/ProductsAndPrices.csv
+2025-07-14 10:39:52,296 [INFO] Successfully fetched 344 products for group 1863
+2025-07-14 10:39:52,406 [INFO] Successfully updated 344 products and inserted 334 price records for group 1863
+2025-07-14 10:39:52,407 [INFO] Processing group 83/204: SM Promos (1861)
+2025-07-14 10:39:52,407 [INFO] Fetching products for group 1861 from https://tcgcsv.com/tcgplayer/3/1861/ProductsAndPrices.csv
+2025-07-14 10:39:52,573 [INFO] Successfully fetched 349 products for group 1861
+2025-07-14 10:39:52,690 [INFO] Successfully updated 349 products and inserted 318 price records for group 1861
+2025-07-14 10:39:52,690 [INFO] Processing group 84/204: XY - Evolutions (1842)
+2025-07-14 10:39:52,691 [INFO] Fetching products for group 1842 from https://tcgcsv.com/tcgplayer/3/1842/ProductsAndPrices.csv
+2025-07-14 10:39:52,845 [INFO] Successfully fetched 258 products for group 1842
+2025-07-14 10:39:52,930 [INFO] Successfully updated 258 products and inserted 237 price records for group 1842
+2025-07-14 10:39:52,931 [INFO] Processing group 85/204: Deck Exclusives (1840)
+2025-07-14 10:39:52,931 [INFO] Fetching products for group 1840 from https://tcgcsv.com/tcgplayer/3/1840/ProductsAndPrices.csv
+2025-07-14 10:39:53,070 [INFO] Successfully fetched 475 products for group 1840
+2025-07-14 10:39:53,237 [INFO] Successfully updated 475 products and inserted 475 price records for group 1840
+2025-07-14 10:39:53,237 [INFO] Processing group 86/204: McDonald's Promos 2016 (3087)
+2025-07-14 10:39:53,237 [INFO] Fetching products for group 3087 from https://tcgcsv.com/tcgplayer/3/3087/ProductsAndPrices.csv
+2025-07-14 10:39:53,395 [INFO] Successfully fetched 12 products for group 3087
+2025-07-14 10:39:53,396 [ERROR] Error updating data for group 3087: 'marketPrice'
+2025-07-14 10:39:53,396 [INFO] Processing group 87/204: XY - Steam Siege (1815)
+2025-07-14 10:39:53,396 [INFO] Fetching products for group 1815 from https://tcgcsv.com/tcgplayer/3/1815/ProductsAndPrices.csv
+2025-07-14 10:39:53,595 [INFO] Successfully fetched 250 products for group 1815
+2025-07-14 10:39:53,681 [INFO] Successfully updated 250 products and inserted 236 price records for group 1815
+2025-07-14 10:39:53,681 [INFO] Processing group 88/204: League & Championship Cards (1539)
+2025-07-14 10:39:53,681 [INFO] Fetching products for group 1539 from https://tcgcsv.com/tcgplayer/3/1539/ProductsAndPrices.csv
+2025-07-14 10:39:53,922 [INFO] Successfully fetched 603 products for group 1539
+2025-07-14 10:39:54,118 [INFO] Successfully updated 603 products and inserted 572 price records for group 1539
+2025-07-14 10:39:54,118 [INFO] Processing group 89/204: XY - Fates Collide (1780)
+2025-07-14 10:39:54,118 [INFO] Fetching products for group 1780 from https://tcgcsv.com/tcgplayer/3/1780/ProductsAndPrices.csv
+2025-07-14 10:39:54,292 [INFO] Successfully fetched 263 products for group 1780
+2025-07-14 10:39:54,378 [INFO] Successfully updated 263 products and inserted 245 price records for group 1780
+2025-07-14 10:39:54,378 [INFO] Processing group 90/204: XY Trainer Kit: Pikachu Libre & Suicune (1796)
+2025-07-14 10:39:54,379 [INFO] Fetching products for group 1796 from https://tcgcsv.com/tcgplayer/3/1796/ProductsAndPrices.csv
+2025-07-14 10:39:54,515 [INFO] Successfully fetched 62 products for group 1796
+2025-07-14 10:39:54,538 [INFO] Successfully updated 62 products and inserted 62 price records for group 1796
+2025-07-14 10:39:54,538 [INFO] Processing group 91/204: Generations (1728)
+2025-07-14 10:39:54,538 [INFO] Fetching products for group 1728 from https://tcgcsv.com/tcgplayer/3/1728/ProductsAndPrices.csv
+2025-07-14 10:39:54,711 [INFO] Successfully fetched 188 products for group 1728
+2025-07-14 10:39:54,775 [INFO] Successfully updated 188 products and inserted 182 price records for group 1728
+2025-07-14 10:39:54,775 [INFO] Processing group 92/204: Generations: Radiant Collection (1729)
+2025-07-14 10:39:54,775 [INFO] Fetching products for group 1729 from https://tcgcsv.com/tcgplayer/3/1729/ProductsAndPrices.csv
+2025-07-14 10:39:54,958 [INFO] Successfully fetched 32 products for group 1729
+2025-07-14 10:39:54,971 [INFO] Successfully updated 32 products and inserted 32 price records for group 1729
+2025-07-14 10:39:54,971 [INFO] Processing group 93/204: XY - BREAKpoint (1701)
+2025-07-14 10:39:54,972 [INFO] Fetching products for group 1701 from https://tcgcsv.com/tcgplayer/3/1701/ProductsAndPrices.csv
+2025-07-14 10:39:55,151 [INFO] Successfully fetched 252 products for group 1701
+2025-07-14 10:39:55,239 [INFO] Successfully updated 252 products and inserted 238 price records for group 1701
+2025-07-14 10:39:55,239 [INFO] Processing group 94/204: McDonald's Promos 2015 (1694)
+2025-07-14 10:39:55,239 [INFO] Fetching products for group 1694 from https://tcgcsv.com/tcgplayer/3/1694/ProductsAndPrices.csv
+2025-07-14 10:39:55,354 [INFO] Successfully fetched 12 products for group 1694
+2025-07-14 10:39:55,361 [INFO] Successfully updated 12 products and inserted 12 price records for group 1694
+2025-07-14 10:39:55,361 [INFO] Processing group 95/204: XY - BREAKthrough (1661)
+2025-07-14 10:39:55,361 [INFO] Fetching products for group 1661 from https://tcgcsv.com/tcgplayer/3/1661/ProductsAndPrices.csv
+2025-07-14 10:39:55,577 [INFO] Successfully fetched 365 products for group 1661
+2025-07-14 10:39:55,691 [INFO] Successfully updated 365 products and inserted 326 price records for group 1661
+2025-07-14 10:39:55,691 [INFO] Processing group 96/204: XY - Ancient Origins (1576)
+2025-07-14 10:39:55,691 [INFO] Fetching products for group 1576 from https://tcgcsv.com/tcgplayer/3/1576/ProductsAndPrices.csv
+2025-07-14 10:39:55,834 [INFO] Successfully fetched 206 products for group 1576
+2025-07-14 10:39:55,899 [INFO] Successfully updated 206 products and inserted 188 price records for group 1576
+2025-07-14 10:39:55,899 [INFO] Processing group 97/204: XY - Roaring Skies (1534)
+2025-07-14 10:39:55,899 [INFO] Fetching products for group 1534 from https://tcgcsv.com/tcgplayer/3/1534/ProductsAndPrices.csv
+2025-07-14 10:39:56,105 [INFO] Successfully fetched 230 products for group 1534
+2025-07-14 10:39:56,182 [INFO] Successfully updated 230 products and inserted 215 price records for group 1534
+2025-07-14 10:39:56,182 [INFO] Processing group 98/204: XY Trainer Kit: Latias & Latios (1536)
+2025-07-14 10:39:56,182 [INFO] Fetching products for group 1536 from https://tcgcsv.com/tcgplayer/3/1536/ProductsAndPrices.csv
+2025-07-14 10:39:56,311 [INFO] Successfully fetched 62 products for group 1536
+2025-07-14 10:39:56,332 [INFO] Successfully updated 62 products and inserted 61 price records for group 1536
+2025-07-14 10:39:56,333 [INFO] Processing group 99/204: Jumbo Cards (1528)
+2025-07-14 10:39:56,333 [INFO] Fetching products for group 1528 from https://tcgcsv.com/tcgplayer/3/1528/ProductsAndPrices.csv
+2025-07-14 10:39:56,526 [INFO] Successfully fetched 303 products for group 1528
+2025-07-14 10:39:56,607 [INFO] Successfully updated 303 products and inserted 276 price records for group 1528
+2025-07-14 10:39:56,607 [INFO] Processing group 100/204: Double Crisis (1525)
+2025-07-14 10:39:56,607 [INFO] Fetching products for group 1525 from https://tcgcsv.com/tcgplayer/3/1525/ProductsAndPrices.csv
+2025-07-14 10:39:56,741 [INFO] Successfully fetched 69 products for group 1525
+2025-07-14 10:39:56,768 [INFO] Successfully updated 69 products and inserted 68 price records for group 1525
+2025-07-14 10:39:56,768 [INFO] Processing group 101/204: XY - Primal Clash (1509)
+2025-07-14 10:39:56,768 [INFO] Fetching products for group 1509 from https://tcgcsv.com/tcgplayer/3/1509/ProductsAndPrices.csv
+2025-07-14 10:39:56,961 [INFO] Successfully fetched 327 products for group 1509
+2025-07-14 10:39:57,072 [INFO] Successfully updated 327 products and inserted 309 price records for group 1509
+2025-07-14 10:39:57,072 [INFO] Processing group 102/204: XY Trainer Kit: Bisharp & Wigglytuff (1533)
+2025-07-14 10:39:57,072 [INFO] Fetching products for group 1533 from https://tcgcsv.com/tcgplayer/3/1533/ProductsAndPrices.csv
+2025-07-14 10:39:57,207 [INFO] Successfully fetched 62 products for group 1533
+2025-07-14 10:39:57,224 [INFO] Successfully updated 62 products and inserted 32 price records for group 1533
+2025-07-14 10:39:57,224 [INFO] Processing group 103/204: XY - Phantom Forces (1494)
+2025-07-14 10:39:57,224 [INFO] Fetching products for group 1494 from https://tcgcsv.com/tcgplayer/3/1494/ProductsAndPrices.csv
+2025-07-14 10:39:57,395 [INFO] Successfully fetched 258 products for group 1494
+2025-07-14 10:39:57,477 [INFO] Successfully updated 258 products and inserted 234 price records for group 1494
+2025-07-14 10:39:57,478 [INFO] Processing group 104/204: XY - Furious Fists (1481)
+2025-07-14 10:39:57,478 [INFO] Fetching products for group 1481 from https://tcgcsv.com/tcgplayer/3/1481/ProductsAndPrices.csv
+2025-07-14 10:39:57,665 [INFO] Successfully fetched 255 products for group 1481
+2025-07-14 10:39:57,746 [INFO] Successfully updated 255 products and inserted 227 price records for group 1481
+2025-07-14 10:39:57,746 [INFO] Processing group 105/204: McDonald's Promos 2014 (1692)
+2025-07-14 10:39:57,746 [INFO] Fetching products for group 1692 from https://tcgcsv.com/tcgplayer/3/1692/ProductsAndPrices.csv
+2025-07-14 10:39:57,859 [INFO] Successfully fetched 12 products for group 1692
+2025-07-14 10:39:57,865 [INFO] Successfully updated 12 products and inserted 12 price records for group 1692
+2025-07-14 10:39:57,865 [INFO] Processing group 106/204: XY - Flashfire (1464)
+2025-07-14 10:39:57,865 [INFO] Fetching products for group 1464 from https://tcgcsv.com/tcgplayer/3/1464/ProductsAndPrices.csv
+2025-07-14 10:39:58,049 [INFO] Successfully fetched 238 products for group 1464
+2025-07-14 10:39:58,123 [INFO] Successfully updated 238 products and inserted 214 price records for group 1464
+2025-07-14 10:39:58,123 [INFO] Processing group 107/204: XY Trainer Kit: Sylveon & Noivern (1532)
+2025-07-14 10:39:58,123 [INFO] Fetching products for group 1532 from https://tcgcsv.com/tcgplayer/3/1532/ProductsAndPrices.csv
+2025-07-14 10:39:58,227 [INFO] Successfully fetched 62 products for group 1532
+2025-07-14 10:39:58,250 [INFO] Successfully updated 62 products and inserted 60 price records for group 1532
+2025-07-14 10:39:58,250 [INFO] Processing group 108/204: XY Base Set (1387)
+2025-07-14 10:39:58,250 [INFO] Fetching products for group 1387 from https://tcgcsv.com/tcgplayer/3/1387/ProductsAndPrices.csv
+2025-07-14 10:39:58,407 [INFO] Successfully fetched 319 products for group 1387
+2025-07-14 10:39:58,518 [INFO] Successfully updated 319 products and inserted 283 price records for group 1387
+2025-07-14 10:39:58,519 [INFO] Processing group 109/204: XY Promos (1451)
+2025-07-14 10:39:58,519 [INFO] Fetching products for group 1451 from https://tcgcsv.com/tcgplayer/3/1451/ProductsAndPrices.csv
+2025-07-14 10:39:58,709 [INFO] Successfully fetched 271 products for group 1451
+2025-07-14 10:39:58,792 [INFO] Successfully updated 271 products and inserted 239 price records for group 1451
+2025-07-14 10:39:58,792 [INFO] Processing group 110/204: Kalos Starter Set (1522)
+2025-07-14 10:39:58,792 [INFO] Fetching products for group 1522 from https://tcgcsv.com/tcgplayer/3/1522/ProductsAndPrices.csv
+2025-07-14 10:39:58,926 [INFO] Successfully fetched 60 products for group 1522
+2025-07-14 10:39:58,951 [INFO] Successfully updated 60 products and inserted 54 price records for group 1522
+2025-07-14 10:39:58,952 [INFO] Processing group 111/204: Legendary Treasures (1409)
+2025-07-14 10:39:58,952 [INFO] Fetching products for group 1409 from https://tcgcsv.com/tcgplayer/3/1409/ProductsAndPrices.csv
+2025-07-14 10:39:59,113 [INFO] Successfully fetched 217 products for group 1409
+2025-07-14 10:39:59,187 [INFO] Successfully updated 217 products and inserted 214 price records for group 1409
+2025-07-14 10:39:59,187 [INFO] Processing group 112/204: Legendary Treasures: Radiant Collection (1465)
+2025-07-14 10:39:59,187 [INFO] Fetching products for group 1465 from https://tcgcsv.com/tcgplayer/3/1465/ProductsAndPrices.csv
+2025-07-14 10:39:59,336 [INFO] Successfully fetched 25 products for group 1465
+2025-07-14 10:39:59,349 [INFO] Successfully updated 25 products and inserted 25 price records for group 1465
+2025-07-14 10:39:59,349 [INFO] Processing group 113/204: Plasma Blast (1370)
+2025-07-14 10:39:59,349 [INFO] Fetching products for group 1370 from https://tcgcsv.com/tcgplayer/3/1370/ProductsAndPrices.csv
+2025-07-14 10:39:59,523 [INFO] Successfully fetched 200 products for group 1370
+2025-07-14 10:39:59,588 [INFO] Successfully updated 200 products and inserted 196 price records for group 1370
+2025-07-14 10:39:59,588 [INFO] Processing group 114/204: Plasma Freeze (1382)
+2025-07-14 10:39:59,588 [INFO] Fetching products for group 1382 from https://tcgcsv.com/tcgplayer/3/1382/ProductsAndPrices.csv
+2025-07-14 10:39:59,766 [INFO] Successfully fetched 228 products for group 1382
+2025-07-14 10:39:59,841 [INFO] Successfully updated 228 products and inserted 225 price records for group 1382
+2025-07-14 10:39:59,841 [INFO] Processing group 115/204: Plasma Storm (1413)
+2025-07-14 10:39:59,841 [INFO] Fetching products for group 1413 from https://tcgcsv.com/tcgplayer/3/1413/ProductsAndPrices.csv
+2025-07-14 10:40:00,039 [INFO] Successfully fetched 265 products for group 1413
+2025-07-14 10:40:00,127 [INFO] Successfully updated 265 products and inserted 260 price records for group 1413
+2025-07-14 10:40:00,127 [INFO] Processing group 116/204: Boundaries Crossed (1408)
+2025-07-14 10:40:00,127 [INFO] Fetching products for group 1408 from https://tcgcsv.com/tcgplayer/3/1408/ProductsAndPrices.csv
+2025-07-14 10:40:00,298 [INFO] Successfully fetched 288 products for group 1408
+2025-07-14 10:40:00,390 [INFO] Successfully updated 288 products and inserted 283 price records for group 1408
+2025-07-14 10:40:00,390 [INFO] Processing group 117/204: Dragon Vault (1426)
+2025-07-14 10:40:00,390 [INFO] Fetching products for group 1426 from https://tcgcsv.com/tcgplayer/3/1426/ProductsAndPrices.csv
+2025-07-14 10:40:00,546 [INFO] Successfully fetched 24 products for group 1426
+2025-07-14 10:40:00,557 [INFO] Successfully updated 24 products and inserted 22 price records for group 1426
+2025-07-14 10:40:00,557 [INFO] Processing group 118/204: Dragons Exalted (1394)
+2025-07-14 10:40:00,557 [INFO] Fetching products for group 1394 from https://tcgcsv.com/tcgplayer/3/1394/ProductsAndPrices.csv
+2025-07-14 10:40:00,745 [INFO] Successfully fetched 243 products for group 1394
+2025-07-14 10:40:00,825 [INFO] Successfully updated 243 products and inserted 242 price records for group 1394
+2025-07-14 10:40:00,826 [INFO] Processing group 119/204: McDonald's Promos 2012 (1427)
+2025-07-14 10:40:00,826 [INFO] Fetching products for group 1427 from https://tcgcsv.com/tcgplayer/3/1427/ProductsAndPrices.csv
+2025-07-14 10:40:00,948 [INFO] Successfully fetched 12 products for group 1427
+2025-07-14 10:40:00,954 [INFO] Successfully updated 12 products and inserted 12 price records for group 1427
+2025-07-14 10:40:00,955 [INFO] Processing group 120/204: Dark Explorers (1386)
+2025-07-14 10:40:00,955 [INFO] Fetching products for group 1386 from https://tcgcsv.com/tcgplayer/3/1386/ProductsAndPrices.csv
+2025-07-14 10:40:01,141 [INFO] Successfully fetched 209 products for group 1386
+2025-07-14 10:40:01,208 [INFO] Successfully updated 209 products and inserted 206 price records for group 1386
+2025-07-14 10:40:01,208 [INFO] Processing group 121/204: Next Destinies (1412)
+2025-07-14 10:40:01,208 [INFO] Fetching products for group 1412 from https://tcgcsv.com/tcgplayer/3/1412/ProductsAndPrices.csv
+2025-07-14 10:40:01,386 [INFO] Successfully fetched 207 products for group 1412
+2025-07-14 10:40:01,451 [INFO] Successfully updated 207 products and inserted 195 price records for group 1412
+2025-07-14 10:40:01,451 [INFO] Processing group 122/204: Noble Victories (1385)
+2025-07-14 10:40:01,451 [INFO] Fetching products for group 1385 from https://tcgcsv.com/tcgplayer/3/1385/ProductsAndPrices.csv
+2025-07-14 10:40:01,594 [INFO] Successfully fetched 215 products for group 1385
+2025-07-14 10:40:01,659 [INFO] Successfully updated 215 products and inserted 203 price records for group 1385
+2025-07-14 10:40:01,659 [INFO] Processing group 123/204: BW Trainer Kit: Excadrill & Zoroark (1538)
+2025-07-14 10:40:01,659 [INFO] Fetching products for group 1538 from https://tcgcsv.com/tcgplayer/3/1538/ProductsAndPrices.csv
+2025-07-14 10:40:01,795 [INFO] Successfully fetched 61 products for group 1538
+2025-07-14 10:40:01,817 [INFO] Successfully updated 61 products and inserted 60 price records for group 1538
+2025-07-14 10:40:01,817 [INFO] Processing group 124/204: Emerging Powers (1424)
+2025-07-14 10:40:01,817 [INFO] Fetching products for group 1424 from https://tcgcsv.com/tcgplayer/3/1424/ProductsAndPrices.csv
+2025-07-14 10:40:01,972 [INFO] Successfully fetched 217 products for group 1424
+2025-07-14 10:40:02,036 [INFO] Successfully updated 217 products and inserted 198 price records for group 1424
+2025-07-14 10:40:02,036 [INFO] Processing group 125/204: McDonald's Promos 2011 (1401)
+2025-07-14 10:40:02,036 [INFO] Fetching products for group 1401 from https://tcgcsv.com/tcgplayer/3/1401/ProductsAndPrices.csv
+2025-07-14 10:40:02,145 [INFO] Successfully fetched 12 products for group 1401
+2025-07-14 10:40:02,153 [INFO] Successfully updated 12 products and inserted 12 price records for group 1401
+2025-07-14 10:40:02,153 [INFO] Processing group 126/204: Black and White (1400)
+2025-07-14 10:40:02,153 [INFO] Fetching products for group 1400 from https://tcgcsv.com/tcgplayer/3/1400/ProductsAndPrices.csv
+2025-07-14 10:40:02,338 [INFO] Successfully fetched 238 products for group 1400
+2025-07-14 10:40:02,412 [INFO] Successfully updated 238 products and inserted 225 price records for group 1400
+2025-07-14 10:40:02,413 [INFO] Processing group 127/204: Black and White Promos (1407)
+2025-07-14 10:40:02,413 [INFO] Fetching products for group 1407 from https://tcgcsv.com/tcgplayer/3/1407/ProductsAndPrices.csv
+2025-07-14 10:40:02,551 [INFO] Successfully fetched 149 products for group 1407
+2025-07-14 10:40:02,600 [INFO] Successfully updated 149 products and inserted 122 price records for group 1407
+2025-07-14 10:40:02,600 [INFO] Processing group 128/204: Call of Legends (1415)
+2025-07-14 10:40:02,601 [INFO] Fetching products for group 1415 from https://tcgcsv.com/tcgplayer/3/1415/ProductsAndPrices.csv
+2025-07-14 10:40:02,813 [INFO] Successfully fetched 195 products for group 1415
+2025-07-14 10:40:02,877 [INFO] Successfully updated 195 products and inserted 193 price records for group 1415
+2025-07-14 10:40:02,877 [INFO] Processing group 129/204: Professor Program Promos (2332)
+2025-07-14 10:40:02,877 [INFO] Fetching products for group 2332 from https://tcgcsv.com/tcgplayer/3/2332/ProductsAndPrices.csv
+2025-07-14 10:40:02,989 [INFO] Successfully fetched 44 products for group 2332
+2025-07-14 10:40:03,002 [INFO] Successfully updated 44 products and inserted 40 price records for group 2332
+2025-07-14 10:40:03,002 [INFO] Processing group 130/204: Triumphant (1381)
+2025-07-14 10:40:03,002 [INFO] Fetching products for group 1381 from https://tcgcsv.com/tcgplayer/3/1381/ProductsAndPrices.csv
+2025-07-14 10:40:03,259 [INFO] Successfully fetched 193 products for group 1381
+2025-07-14 10:40:03,321 [INFO] Successfully updated 193 products and inserted 190 price records for group 1381
+2025-07-14 10:40:03,321 [INFO] Processing group 131/204: Undaunted (1403)
+2025-07-14 10:40:03,321 [INFO] Fetching products for group 1403 from https://tcgcsv.com/tcgplayer/3/1403/ProductsAndPrices.csv
+2025-07-14 10:40:03,462 [INFO] Successfully fetched 170 products for group 1403
+2025-07-14 10:40:03,516 [INFO] Successfully updated 170 products and inserted 168 price records for group 1403
+2025-07-14 10:40:03,516 [INFO] Processing group 132/204: Pikachu World Collection Promos (2205)
+2025-07-14 10:40:03,516 [INFO] Fetching products for group 2205 from https://tcgcsv.com/tcgplayer/3/2205/ProductsAndPrices.csv
+2025-07-14 10:40:03,619 [INFO] Successfully fetched 22 products for group 2205
+2025-07-14 10:40:03,631 [INFO] Successfully updated 22 products and inserted 18 price records for group 2205
+2025-07-14 10:40:03,631 [INFO] Processing group 133/204: HGSS Trainer Kit: Gyarados & Raichu (1540)
+2025-07-14 10:40:03,631 [INFO] Fetching products for group 1540 from https://tcgcsv.com/tcgplayer/3/1540/ProductsAndPrices.csv
+2025-07-14 10:40:03,737 [INFO] Successfully fetched 61 products for group 1540
+2025-07-14 10:40:03,764 [INFO] Successfully updated 61 products and inserted 60 price records for group 1540
+2025-07-14 10:40:03,764 [INFO] Processing group 134/204: Unleashed (1399)
+2025-07-14 10:40:03,764 [INFO] Fetching products for group 1399 from https://tcgcsv.com/tcgplayer/3/1399/ProductsAndPrices.csv
+2025-07-14 10:40:03,949 [INFO] Successfully fetched 181 products for group 1399
+2025-07-14 10:40:04,008 [INFO] Successfully updated 181 products and inserted 179 price records for group 1399
+2025-07-14 10:40:04,009 [INFO] Processing group 135/204: HeartGold SoulSilver (1402)
+2025-07-14 10:40:04,009 [INFO] Fetching products for group 1402 from https://tcgcsv.com/tcgplayer/3/1402/ProductsAndPrices.csv
+2025-07-14 10:40:04,191 [INFO] Successfully fetched 231 products for group 1402
+2025-07-14 10:40:04,269 [INFO] Successfully updated 231 products and inserted 229 price records for group 1402
+2025-07-14 10:40:04,269 [INFO] Processing group 136/204: HGSS Promos (1453)
+2025-07-14 10:40:04,269 [INFO] Fetching products for group 1453 from https://tcgcsv.com/tcgplayer/3/1453/ProductsAndPrices.csv
+2025-07-14 10:40:04,417 [INFO] Successfully fetched 38 products for group 1453
+2025-07-14 10:40:04,432 [INFO] Successfully updated 38 products and inserted 33 price records for group 1453
+2025-07-14 10:40:04,432 [INFO] Processing group 137/204: Rumble (1433)
+2025-07-14 10:40:04,432 [INFO] Fetching products for group 1433 from https://tcgcsv.com/tcgplayer/3/1433/ProductsAndPrices.csv
+2025-07-14 10:40:04,539 [INFO] Successfully fetched 16 products for group 1433
+2025-07-14 10:40:04,547 [INFO] Successfully updated 16 products and inserted 16 price records for group 1433
+2025-07-14 10:40:04,547 [INFO] Processing group 138/204: Arceus (1391)
+2025-07-14 10:40:04,547 [INFO] Fetching products for group 1391 from https://tcgcsv.com/tcgplayer/3/1391/ProductsAndPrices.csv
+2025-07-14 10:40:04,702 [INFO] Successfully fetched 209 products for group 1391
+2025-07-14 10:40:04,769 [INFO] Successfully updated 209 products and inserted 205 price records for group 1391
+2025-07-14 10:40:04,769 [INFO] Processing group 139/204: Supreme Victors (1384)
+2025-07-14 10:40:04,769 [INFO] Fetching products for group 1384 from https://tcgcsv.com/tcgplayer/3/1384/ProductsAndPrices.csv
+2025-07-14 10:40:05,046 [INFO] Successfully fetched 291 products for group 1384
+2025-07-14 10:40:05,139 [INFO] Successfully updated 291 products and inserted 289 price records for group 1384
+2025-07-14 10:40:05,139 [INFO] Processing group 140/204: Rising Rivals (1367)
+2025-07-14 10:40:05,139 [INFO] Fetching products for group 1367 from https://tcgcsv.com/tcgplayer/3/1367/ProductsAndPrices.csv
+2025-07-14 10:40:05,275 [INFO] Successfully fetched 224 products for group 1367
+2025-07-14 10:40:05,350 [INFO] Successfully updated 224 products and inserted 222 price records for group 1367
+2025-07-14 10:40:05,350 [INFO] Processing group 141/204: Burger King Promos (2175)
+2025-07-14 10:40:05,351 [INFO] Fetching products for group 2175 from https://tcgcsv.com/tcgplayer/3/2175/ProductsAndPrices.csv
+2025-07-14 10:40:05,490 [INFO] Successfully fetched 24 products for group 2175
+2025-07-14 10:40:05,500 [INFO] Successfully updated 24 products and inserted 24 price records for group 2175
+2025-07-14 10:40:05,500 [INFO] Processing group 142/204: Platinum (1406)
+2025-07-14 10:40:05,500 [INFO] Fetching products for group 1406 from https://tcgcsv.com/tcgplayer/3/1406/ProductsAndPrices.csv
+2025-07-14 10:40:05,664 [INFO] Successfully fetched 262 products for group 1406
+2025-07-14 10:40:05,745 [INFO] Successfully updated 262 products and inserted 255 price records for group 1406
+2025-07-14 10:40:05,745 [INFO] Processing group 143/204: Stormfront (1369)
+2025-07-14 10:40:05,745 [INFO] Fetching products for group 1369 from https://tcgcsv.com/tcgplayer/3/1369/ProductsAndPrices.csv
+2025-07-14 10:40:05,929 [INFO] Successfully fetched 203 products for group 1369
+2025-07-14 10:40:06,001 [INFO] Successfully updated 203 products and inserted 202 price records for group 1369
+2025-07-14 10:40:06,001 [INFO] Processing group 144/204: Countdown Calendar Promos (2155)
+2025-07-14 10:40:06,001 [INFO] Fetching products for group 2155 from https://tcgcsv.com/tcgplayer/3/2155/ProductsAndPrices.csv
+2025-07-14 10:40:06,120 [INFO] Successfully fetched 24 products for group 2155
+2025-07-14 10:40:06,130 [INFO] Successfully updated 24 products and inserted 20 price records for group 2155
+2025-07-14 10:40:06,130 [INFO] Processing group 145/204: Legends Awakened (1417)
+2025-07-14 10:40:06,130 [INFO] Fetching products for group 1417 from https://tcgcsv.com/tcgplayer/3/1417/ProductsAndPrices.csv
+2025-07-14 10:40:06,293 [INFO] Successfully fetched 285 products for group 1417
+2025-07-14 10:40:06,388 [INFO] Successfully updated 285 products and inserted 284 price records for group 1417
+2025-07-14 10:40:06,388 [INFO] Processing group 146/204: Majestic Dawn (1390)
+2025-07-14 10:40:06,388 [INFO] Fetching products for group 1390 from https://tcgcsv.com/tcgplayer/3/1390/ProductsAndPrices.csv
+2025-07-14 10:40:06,549 [INFO] Successfully fetched 199 products for group 1390
+2025-07-14 10:40:06,615 [INFO] Successfully updated 199 products and inserted 196 price records for group 1390
+2025-07-14 10:40:06,615 [INFO] Processing group 147/204: Great Encounters (1405)
+2025-07-14 10:40:06,615 [INFO] Fetching products for group 1405 from https://tcgcsv.com/tcgplayer/3/1405/ProductsAndPrices.csv
+2025-07-14 10:40:06,781 [INFO] Successfully fetched 209 products for group 1405
+2025-07-14 10:40:06,850 [INFO] Successfully updated 209 products and inserted 208 price records for group 1405
+2025-07-14 10:40:06,851 [INFO] Processing group 148/204: Secret Wonders (1380)
+2025-07-14 10:40:06,851 [INFO] Fetching products for group 1380 from https://tcgcsv.com/tcgplayer/3/1380/ProductsAndPrices.csv
+2025-07-14 10:40:07,055 [INFO] Successfully fetched 264 products for group 1380
+2025-07-14 10:40:07,142 [INFO] Successfully updated 264 products and inserted 263 price records for group 1380
+2025-07-14 10:40:07,142 [INFO] Processing group 149/204: DP Training Kit 1 Blue (609)
+2025-07-14 10:40:07,142 [INFO] Fetching products for group 609 from https://tcgcsv.com/tcgplayer/3/609/ProductsAndPrices.csv
+2025-07-14 10:40:07,230 [ERROR] Error fetching products for group 609: No columns to parse from file
+2025-07-14 10:40:07,231 [INFO] Processing group 150/204: DP Training Kit 1 Gold (610)
+2025-07-14 10:40:07,231 [INFO] Fetching products for group 610 from https://tcgcsv.com/tcgplayer/3/610/ProductsAndPrices.csv
+2025-07-14 10:40:07,329 [ERROR] Error fetching products for group 610: No columns to parse from file
+2025-07-14 10:40:07,329 [INFO] Processing group 151/204: DP Trainer Kit: Manaphy & Lucario (1541)
+2025-07-14 10:40:07,330 [INFO] Fetching products for group 1541 from https://tcgcsv.com/tcgplayer/3/1541/ProductsAndPrices.csv
+2025-07-14 10:40:07,475 [INFO] Successfully fetched 24 products for group 1541
+2025-07-14 10:40:07,490 [INFO] Successfully updated 24 products and inserted 23 price records for group 1541
+2025-07-14 10:40:07,490 [INFO] Processing group 152/204: Mysterious Treasures (1368)
+2025-07-14 10:40:07,490 [INFO] Fetching products for group 1368 from https://tcgcsv.com/tcgplayer/3/1368/ProductsAndPrices.csv
+2025-07-14 10:40:07,712 [INFO] Successfully fetched 248 products for group 1368
+2025-07-14 10:40:07,791 [INFO] Successfully updated 248 products and inserted 247 price records for group 1368
+2025-07-14 10:40:07,791 [INFO] Processing group 153/204: Diamond and Pearl (1430)
+2025-07-14 10:40:07,791 [INFO] Fetching products for group 1430 from https://tcgcsv.com/tcgplayer/3/1430/ProductsAndPrices.csv
+2025-07-14 10:40:07,986 [INFO] Successfully fetched 257 products for group 1430
+2025-07-14 10:40:08,070 [INFO] Successfully updated 257 products and inserted 253 price records for group 1430
+2025-07-14 10:40:08,070 [INFO] Processing group 154/204: Diamond and Pearl Promos (1421)
+2025-07-14 10:40:08,070 [INFO] Fetching products for group 1421 from https://tcgcsv.com/tcgplayer/3/1421/ProductsAndPrices.csv
+2025-07-14 10:40:08,185 [INFO] Successfully fetched 77 products for group 1421
+2025-07-14 10:40:08,218 [INFO] Successfully updated 77 products and inserted 71 price records for group 1421
+2025-07-14 10:40:08,218 [INFO] Processing group 155/204: Power Keepers (1383)
+2025-07-14 10:40:08,218 [INFO] Fetching products for group 1383 from https://tcgcsv.com/tcgplayer/3/1383/ProductsAndPrices.csv
+2025-07-14 10:40:08,422 [INFO] Successfully fetched 202 products for group 1383
+2025-07-14 10:40:08,488 [INFO] Successfully updated 202 products and inserted 199 price records for group 1383
+2025-07-14 10:40:08,489 [INFO] Processing group 156/204: Dragon Frontiers (1411)
+2025-07-14 10:40:08,489 [INFO] Fetching products for group 1411 from https://tcgcsv.com/tcgplayer/3/1411/ProductsAndPrices.csv
+2025-07-14 10:40:08,670 [INFO] Successfully fetched 193 products for group 1411
+2025-07-14 10:40:08,734 [INFO] Successfully updated 193 products and inserted 191 price records for group 1411
+2025-07-14 10:40:08,734 [INFO] Processing group 157/204: Crystal Guardians (1395)
+2025-07-14 10:40:08,734 [INFO] Fetching products for group 1395 from https://tcgcsv.com/tcgplayer/3/1395/ProductsAndPrices.csv
+2025-07-14 10:40:08,917 [INFO] Successfully fetched 191 products for group 1395
+2025-07-14 10:40:08,981 [INFO] Successfully updated 191 products and inserted 190 price records for group 1395
+2025-07-14 10:40:08,981 [INFO] Processing group 158/204: Holon Phantoms (1379)
+2025-07-14 10:40:08,981 [INFO] Fetching products for group 1379 from https://tcgcsv.com/tcgplayer/3/1379/ProductsAndPrices.csv
+2025-07-14 10:40:09,175 [INFO] Successfully fetched 213 products for group 1379
+2025-07-14 10:40:09,246 [INFO] Successfully updated 213 products and inserted 208 price records for group 1379
+2025-07-14 10:40:09,246 [INFO] Processing group 159/204: Legend Maker (1378)
+2025-07-14 10:40:09,246 [INFO] Fetching products for group 1378 from https://tcgcsv.com/tcgplayer/3/1378/ProductsAndPrices.csv
+2025-07-14 10:40:09,395 [INFO] Successfully fetched 176 products for group 1378
+2025-07-14 10:40:09,456 [INFO] Successfully updated 176 products and inserted 171 price records for group 1378
+2025-07-14 10:40:09,457 [INFO] Processing group 160/204: Delta Species (1429)
+2025-07-14 10:40:09,457 [INFO] Fetching products for group 1429 from https://tcgcsv.com/tcgplayer/3/1429/ProductsAndPrices.csv
+2025-07-14 10:40:09,630 [INFO] Successfully fetched 225 products for group 1429
+2025-07-14 10:40:09,700 [INFO] Successfully updated 225 products and inserted 221 price records for group 1429
+2025-07-14 10:40:09,700 [INFO] Processing group 161/204: Unseen Forces (1398)
+2025-07-14 10:40:09,700 [INFO] Fetching products for group 1398 from https://tcgcsv.com/tcgplayer/3/1398/ProductsAndPrices.csv
+2025-07-14 10:40:09,941 [INFO] Successfully fetched 243 products for group 1398
+2025-07-14 10:40:10,035 [INFO] Successfully updated 243 products and inserted 233 price records for group 1398
+2025-07-14 10:40:10,036 [INFO] Processing group 162/204: Emerald (1410)
+2025-07-14 10:40:10,036 [INFO] Fetching products for group 1410 from https://tcgcsv.com/tcgplayer/3/1410/ProductsAndPrices.csv
+2025-07-14 10:40:10,425 [INFO] Successfully fetched 212 products for group 1410
+2025-07-14 10:40:10,493 [INFO] Successfully updated 212 products and inserted 211 price records for group 1410
+2025-07-14 10:40:10,493 [INFO] Processing group 163/204: Deoxys (1404)
+2025-07-14 10:40:10,493 [INFO] Fetching products for group 1404 from https://tcgcsv.com/tcgplayer/3/1404/ProductsAndPrices.csv
+2025-07-14 10:40:10,727 [INFO] Successfully fetched 215 products for group 1404
+2025-07-14 10:40:10,798 [INFO] Successfully updated 215 products and inserted 210 price records for group 1404
+2025-07-14 10:40:10,798 [INFO] Processing group 164/204: Team Rocket Returns (1428)
+2025-07-14 10:40:10,799 [INFO] Fetching products for group 1428 from https://tcgcsv.com/tcgplayer/3/1428/ProductsAndPrices.csv
+2025-07-14 10:40:10,981 [INFO] Successfully fetched 212 products for group 1428
+2025-07-14 10:40:11,049 [INFO] Successfully updated 212 products and inserted 210 price records for group 1428
+2025-07-14 10:40:11,050 [INFO] Processing group 165/204: EX Battle Stadium (1853)
+2025-07-14 10:40:11,050 [INFO] Fetching products for group 1853 from https://tcgcsv.com/tcgplayer/3/1853/ProductsAndPrices.csv
+2025-07-14 10:40:11,144 [INFO] Successfully fetched 52 products for group 1853
+2025-07-14 10:40:11,165 [INFO] Successfully updated 52 products and inserted 49 price records for group 1853
+2025-07-14 10:40:11,165 [INFO] Processing group 166/204: FireRed & LeafGreen (1419)
+2025-07-14 10:40:11,165 [INFO] Fetching products for group 1419 from https://tcgcsv.com/tcgplayer/3/1419/ProductsAndPrices.csv
+2025-07-14 10:40:11,341 [INFO] Successfully fetched 236 products for group 1419
+2025-07-14 10:40:11,423 [INFO] Successfully updated 236 products and inserted 234 price records for group 1419
+2025-07-14 10:40:11,423 [INFO] Processing group 167/204: Kids WB Promos (2214)
+2025-07-14 10:40:11,423 [INFO] Fetching products for group 2214 from https://tcgcsv.com/tcgplayer/3/2214/ProductsAndPrices.csv
+2025-07-14 10:40:11,531 [INFO] Successfully fetched 6 products for group 2214
+2025-07-14 10:40:11,534 [INFO] Successfully updated 6 products and inserted 4 price records for group 2214
+2025-07-14 10:40:11,534 [INFO] Processing group 168/204: Hidden Legends (1416)
+2025-07-14 10:40:11,534 [INFO] Fetching products for group 1416 from https://tcgcsv.com/tcgplayer/3/1416/ProductsAndPrices.csv
+2025-07-14 10:40:11,693 [INFO] Successfully fetched 198 products for group 1416
+2025-07-14 10:40:11,758 [INFO] Successfully updated 198 products and inserted 195 price records for group 1416
+2025-07-14 10:40:11,758 [INFO] Processing group 169/204: Team Magma vs Team Aqua (1377)
+2025-07-14 10:40:11,758 [INFO] Fetching products for group 1377 from https://tcgcsv.com/tcgplayer/3/1377/ProductsAndPrices.csv
+2025-07-14 10:40:11,915 [INFO] Successfully fetched 188 products for group 1377
+2025-07-14 10:40:11,976 [INFO] Successfully updated 188 products and inserted 184 price records for group 1377
+2025-07-14 10:40:11,977 [INFO] Processing group 170/204: Dragon (1376)
+2025-07-14 10:40:11,977 [INFO] Fetching products for group 1376 from https://tcgcsv.com/tcgplayer/3/1376/ProductsAndPrices.csv
+2025-07-14 10:40:12,169 [INFO] Successfully fetched 190 products for group 1376
+2025-07-14 10:40:12,231 [INFO] Successfully updated 190 products and inserted 188 price records for group 1376
+2025-07-14 10:40:12,231 [INFO] Processing group 171/204: Sandstorm (1392)
+2025-07-14 10:40:12,231 [INFO] Fetching products for group 1392 from https://tcgcsv.com/tcgplayer/3/1392/ProductsAndPrices.csv
+2025-07-14 10:40:12,428 [INFO] Successfully fetched 196 products for group 1392
+2025-07-14 10:40:12,493 [INFO] Successfully updated 196 products and inserted 195 price records for group 1392
+2025-07-14 10:40:12,493 [INFO] Processing group 172/204: Ruby and Sapphire (1393)
+2025-07-14 10:40:12,493 [INFO] Fetching products for group 1393 from https://tcgcsv.com/tcgplayer/3/1393/ProductsAndPrices.csv
+2025-07-14 10:40:12,668 [INFO] Successfully fetched 213 products for group 1393
+2025-07-14 10:40:12,734 [INFO] Successfully updated 213 products and inserted 210 price records for group 1393
+2025-07-14 10:40:12,734 [INFO] Processing group 173/204: Skyridge (1372)
+2025-07-14 10:40:12,735 [INFO] Fetching products for group 1372 from https://tcgcsv.com/tcgplayer/3/1372/ProductsAndPrices.csv
+2025-07-14 10:40:12,876 [INFO] Successfully fetched 310 products for group 1372
+2025-07-14 10:40:12,984 [INFO] Successfully updated 310 products and inserted 303 price records for group 1372
+2025-07-14 10:40:12,985 [INFO] Processing group 174/204: Aquapolis (1397)
+2025-07-14 10:40:12,985 [INFO] Fetching products for group 1397 from https://tcgcsv.com/tcgplayer/3/1397/ProductsAndPrices.csv
+2025-07-14 10:40:13,177 [INFO] Successfully fetched 328 products for group 1397
+2025-07-14 10:40:13,298 [INFO] Successfully updated 328 products and inserted 328 price records for group 1397
+2025-07-14 10:40:13,298 [INFO] Processing group 175/204: Best of Promos (1455)
+2025-07-14 10:40:13,298 [INFO] Fetching products for group 1455 from https://tcgcsv.com/tcgplayer/3/1455/ProductsAndPrices.csv
+2025-07-14 10:40:13,408 [INFO] Successfully fetched 15 products for group 1455
+2025-07-14 10:40:13,416 [INFO] Successfully updated 15 products and inserted 15 price records for group 1455
+2025-07-14 10:40:13,416 [INFO] Processing group 176/204: Expedition (1375)
+2025-07-14 10:40:13,416 [INFO] Fetching products for group 1375 from https://tcgcsv.com/tcgplayer/3/1375/ProductsAndPrices.csv
+2025-07-14 10:40:13,602 [INFO] Successfully fetched 323 products for group 1375
+2025-07-14 10:40:13,710 [INFO] Successfully updated 323 products and inserted 322 price records for group 1375
+2025-07-14 10:40:13,711 [INFO] Processing group 177/204: Legendary Collection (1374)
+2025-07-14 10:40:13,711 [INFO] Fetching products for group 1374 from https://tcgcsv.com/tcgplayer/3/1374/ProductsAndPrices.csv
+2025-07-14 10:40:13,867 [INFO] Successfully fetched 222 products for group 1374
+2025-07-14 10:40:13,941 [INFO] Successfully updated 222 products and inserted 220 price records for group 1374
+2025-07-14 10:40:13,941 [INFO] Processing group 178/204: Neo Destiny (1444)
+2025-07-14 10:40:13,941 [INFO] Fetching products for group 1444 from https://tcgcsv.com/tcgplayer/3/1444/ProductsAndPrices.csv
+2025-07-14 10:40:14,153 [INFO] Successfully fetched 225 products for group 1444
+2025-07-14 10:40:14,237 [INFO] Successfully updated 225 products and inserted 221 price records for group 1444
+2025-07-14 10:40:14,238 [INFO] Processing group 179/204: Neo Revelation (1389)
+2025-07-14 10:40:14,238 [INFO] Fetching products for group 1389 from https://tcgcsv.com/tcgplayer/3/1389/ProductsAndPrices.csv
+2025-07-14 10:40:14,369 [INFO] Successfully fetched 134 products for group 1389
+2025-07-14 10:40:14,412 [INFO] Successfully updated 134 products and inserted 132 price records for group 1389
+2025-07-14 10:40:14,413 [INFO] Processing group 180/204: Southern Islands (648)
+2025-07-14 10:40:14,413 [INFO] Fetching products for group 648 from https://tcgcsv.com/tcgplayer/3/648/ProductsAndPrices.csv
+2025-07-14 10:40:14,528 [INFO] Successfully fetched 19 products for group 648
+2025-07-14 10:40:14,536 [INFO] Successfully updated 19 products and inserted 19 price records for group 648
+2025-07-14 10:40:14,536 [INFO] Processing group 181/204: Neo Discovery (1434)
+2025-07-14 10:40:14,536 [INFO] Fetching products for group 1434 from https://tcgcsv.com/tcgplayer/3/1434/ProductsAndPrices.csv
+2025-07-14 10:40:14,745 [INFO] Successfully fetched 155 products for group 1434
+2025-07-14 10:40:14,798 [INFO] Successfully updated 155 products and inserted 155 price records for group 1434
+2025-07-14 10:40:14,798 [INFO] Processing group 182/204: Neo Genesis (1396)
+2025-07-14 10:40:14,798 [INFO] Fetching products for group 1396 from https://tcgcsv.com/tcgplayer/3/1396/ProductsAndPrices.csv
+2025-07-14 10:40:14,972 [INFO] Successfully fetched 228 products for group 1396
+2025-07-14 10:40:15,048 [INFO] Successfully updated 228 products and inserted 225 price records for group 1396
+2025-07-14 10:40:15,048 [INFO] Processing group 183/204: Gym Challenge (1440)
+2025-07-14 10:40:15,048 [INFO] Fetching products for group 1440 from https://tcgcsv.com/tcgplayer/3/1440/ProductsAndPrices.csv
+2025-07-14 10:40:15,225 [INFO] Successfully fetched 273 products for group 1440
+2025-07-14 10:40:15,315 [INFO] Successfully updated 273 products and inserted 272 price records for group 1440
+2025-07-14 10:40:15,315 [INFO] Processing group 184/204: Gym Heroes (1441)
+2025-07-14 10:40:15,315 [INFO] Fetching products for group 1441 from https://tcgcsv.com/tcgplayer/3/1441/ProductsAndPrices.csv
+2025-07-14 10:40:15,478 [INFO] Successfully fetched 272 products for group 1441
+2025-07-14 10:40:15,558 [INFO] Successfully updated 272 products and inserted 271 price records for group 1441
+2025-07-14 10:40:15,558 [INFO] Processing group 185/204: Team Rocket (1373)
+2025-07-14 10:40:15,558 [INFO] Fetching products for group 1373 from https://tcgcsv.com/tcgplayer/3/1373/ProductsAndPrices.csv
+2025-07-14 10:40:15,774 [INFO] Successfully fetched 172 products for group 1373
+2025-07-14 10:40:15,831 [INFO] Successfully updated 172 products and inserted 170 price records for group 1373
+2025-07-14 10:40:15,831 [INFO] Processing group 186/204: Base Set 2 (605)
+2025-07-14 10:40:15,831 [INFO] Fetching products for group 605 from https://tcgcsv.com/tcgplayer/3/605/ProductsAndPrices.csv
+2025-07-14 10:40:15,941 [INFO] Successfully fetched 137 products for group 605
+2025-07-14 10:40:15,990 [INFO] Successfully updated 137 products and inserted 137 price records for group 605
+2025-07-14 10:40:15,991 [INFO] Processing group 187/204: Fossil (630)
+2025-07-14 10:40:15,991 [INFO] Fetching products for group 630 from https://tcgcsv.com/tcgplayer/3/630/ProductsAndPrices.csv
+2025-07-14 10:40:16,126 [INFO] Successfully fetched 130 products for group 630
+2025-07-14 10:40:16,169 [INFO] Successfully updated 130 products and inserted 128 price records for group 630
+2025-07-14 10:40:16,169 [INFO] Processing group 188/204: WoTC Promo (1418)
+2025-07-14 10:40:16,170 [INFO] Fetching products for group 1418 from https://tcgcsv.com/tcgplayer/3/1418/ProductsAndPrices.csv
+2025-07-14 10:40:16,312 [INFO] Successfully fetched 70 products for group 1418
+2025-07-14 10:40:16,336 [INFO] Successfully updated 70 products and inserted 68 price records for group 1418
+2025-07-14 10:40:16,336 [INFO] Processing group 189/204: Jungle (635)
+2025-07-14 10:40:16,337 [INFO] Fetching products for group 635 from https://tcgcsv.com/tcgplayer/3/635/ProductsAndPrices.csv
+2025-07-14 10:40:16,415 [INFO] Successfully fetched 134 products for group 635
+2025-07-14 10:40:16,465 [INFO] Successfully updated 134 products and inserted 133 price records for group 635
+2025-07-14 10:40:16,466 [INFO] Processing group 190/204: Base Set (604)
+2025-07-14 10:40:16,466 [INFO] Fetching products for group 604 from https://tcgcsv.com/tcgplayer/3/604/ProductsAndPrices.csv
+2025-07-14 10:40:16,579 [INFO] Successfully fetched 109 products for group 604
+2025-07-14 10:40:16,618 [INFO] Successfully updated 109 products and inserted 108 price records for group 604
+2025-07-14 10:40:16,619 [INFO] Processing group 191/204: Base Set (Shadowless) (1663)
+2025-07-14 10:40:16,619 [INFO] Fetching products for group 1663 from https://tcgcsv.com/tcgplayer/3/1663/ProductsAndPrices.csv
+2025-07-14 10:40:16,741 [INFO] Successfully fetched 211 products for group 1663
+2025-07-14 10:40:16,820 [INFO] Successfully updated 211 products and inserted 204 price records for group 1663
+2025-07-14 10:40:16,820 [INFO] Processing group 192/204: Blister Exclusives (2289)
+2025-07-14 10:40:16,820 [INFO] Fetching products for group 2289 from https://tcgcsv.com/tcgplayer/3/2289/ProductsAndPrices.csv
+2025-07-14 10:40:16,945 [INFO] Successfully fetched 131 products for group 2289
+2025-07-14 10:40:16,992 [INFO] Successfully updated 131 products and inserted 129 price records for group 2289
+2025-07-14 10:40:16,993 [INFO] Processing group 193/204: EX Trainer Kit 1: Latias & Latios (1543)
+2025-07-14 10:40:16,993 [INFO] Fetching products for group 1543 from https://tcgcsv.com/tcgplayer/3/1543/ProductsAndPrices.csv
+2025-07-14 10:40:17,116 [INFO] Successfully fetched 21 products for group 1543
+2025-07-14 10:40:17,127 [INFO] Successfully updated 21 products and inserted 20 price records for group 1543
+2025-07-14 10:40:17,128 [INFO] Processing group 194/204: EX Trainer Kit 2: Plusle & Minun (1542)
+2025-07-14 10:40:17,128 [INFO] Fetching products for group 1542 from https://tcgcsv.com/tcgplayer/3/1542/ProductsAndPrices.csv
+2025-07-14 10:40:17,257 [INFO] Successfully fetched 25 products for group 1542
+2025-07-14 10:40:17,268 [INFO] Successfully updated 25 products and inserted 24 price records for group 1542
+2025-07-14 10:40:17,268 [INFO] Processing group 195/204: Nintendo Promos (1423)
+2025-07-14 10:40:17,269 [INFO] Fetching products for group 1423 from https://tcgcsv.com/tcgplayer/3/1423/ProductsAndPrices.csv
+2025-07-14 10:40:17,440 [INFO] Successfully fetched 97 products for group 1423
+2025-07-14 10:40:17,469 [INFO] Successfully updated 97 products and inserted 79 price records for group 1423
+2025-07-14 10:40:17,469 [INFO] Processing group 196/204: POP Series 1 (1422)
+2025-07-14 10:40:17,469 [INFO] Fetching products for group 1422 from https://tcgcsv.com/tcgplayer/3/1422/ProductsAndPrices.csv
+2025-07-14 10:40:17,568 [INFO] Successfully fetched 25 products for group 1422
+2025-07-14 10:40:17,587 [INFO] Successfully updated 25 products and inserted 24 price records for group 1422
+2025-07-14 10:40:17,587 [INFO] Processing group 197/204: POP Series 2 (1447)
+2025-07-14 10:40:17,587 [INFO] Fetching products for group 1447 from https://tcgcsv.com/tcgplayer/3/1447/ProductsAndPrices.csv
+2025-07-14 10:40:17,705 [INFO] Successfully fetched 25 products for group 1447
+2025-07-14 10:40:17,718 [INFO] Successfully updated 25 products and inserted 25 price records for group 1447
+2025-07-14 10:40:17,718 [INFO] Processing group 198/204: POP Series 3 (1442)
+2025-07-14 10:40:17,718 [INFO] Fetching products for group 1442 from https://tcgcsv.com/tcgplayer/3/1442/ProductsAndPrices.csv
+2025-07-14 10:40:17,848 [INFO] Successfully fetched 24 products for group 1442
+2025-07-14 10:40:17,858 [INFO] Successfully updated 24 products and inserted 23 price records for group 1442
+2025-07-14 10:40:17,859 [INFO] Processing group 199/204: POP Series 4 (1452)
+2025-07-14 10:40:17,859 [INFO] Fetching products for group 1452 from https://tcgcsv.com/tcgplayer/3/1452/ProductsAndPrices.csv
+2025-07-14 10:40:17,989 [INFO] Successfully fetched 25 products for group 1452
+2025-07-14 10:40:18,000 [INFO] Successfully updated 25 products and inserted 25 price records for group 1452
+2025-07-14 10:40:18,001 [INFO] Processing group 200/204: POP Series 5 (1439)
+2025-07-14 10:40:18,001 [INFO] Fetching products for group 1439 from https://tcgcsv.com/tcgplayer/3/1439/ProductsAndPrices.csv
+2025-07-14 10:40:18,150 [INFO] Successfully fetched 24 products for group 1439
+2025-07-14 10:40:18,161 [INFO] Successfully updated 24 products and inserted 22 price records for group 1439
+2025-07-14 10:40:18,161 [INFO] Processing group 201/204: POP Series 6 (1432)
+2025-07-14 10:40:18,161 [INFO] Fetching products for group 1432 from https://tcgcsv.com/tcgplayer/3/1432/ProductsAndPrices.csv
+2025-07-14 10:40:18,272 [INFO] Successfully fetched 26 products for group 1432
+2025-07-14 10:40:18,282 [INFO] Successfully updated 26 products and inserted 25 price records for group 1432
+2025-07-14 10:40:18,282 [INFO] Processing group 202/204: POP Series 7 (1414)
+2025-07-14 10:40:18,282 [INFO] Fetching products for group 1414 from https://tcgcsv.com/tcgplayer/3/1414/ProductsAndPrices.csv
+2025-07-14 10:40:18,388 [INFO] Successfully fetched 24 products for group 1414
+2025-07-14 10:40:18,405 [INFO] Successfully updated 24 products and inserted 24 price records for group 1414
+2025-07-14 10:40:18,405 [INFO] Processing group 203/204: POP Series 8 (1450)
+2025-07-14 10:40:18,405 [INFO] Fetching products for group 1450 from https://tcgcsv.com/tcgplayer/3/1450/ProductsAndPrices.csv
+2025-07-14 10:40:18,504 [INFO] Successfully fetched 31 products for group 1450
+2025-07-14 10:40:18,522 [INFO] Successfully updated 31 products and inserted 31 price records for group 1450
+2025-07-14 10:40:18,522 [INFO] Processing group 204/204: POP Series 9 (1446)
+2025-07-14 10:40:18,522 [INFO] Fetching products for group 1446 from https://tcgcsv.com/tcgplayer/3/1446/ProductsAndPrices.csv
+2025-07-14 10:40:18,626 [INFO] Successfully fetched 23 products for group 1446
+2025-07-14 10:40:18,637 [INFO] Successfully updated 23 products and inserted 23 price records for group 1446
+2025-07-14 10:40:18,638 [INFO] Daily update ETL process completed in 0.79 minutes

@@ -1,0 +1,139 @@
+2025-07-14 17:16:42,976 [INFO] Starting price change calculation
+2025-07-14 17:16:43,011 [INFO] Database connection established successfully
+2025-07-14 17:16:43,033 [INFO] Processing product 1/29955 (0.0%)
+2025-07-14 17:29:46,631 [INFO] Starting price change calculation
+2025-07-14 17:29:46,659 [INFO] Database connection established successfully
+2025-07-14 17:29:46,689 [INFO] Processing product 1/29955 (0.0%)
+2025-07-14 18:21:58,256 [INFO] Starting price change calculation with improved batching
+2025-07-14 18:21:58,283 [INFO] Database connection established successfully
+2025-07-14 18:21:58,299 [INFO] Found 29955 total products to process
+2025-07-14 18:21:58,299 [INFO] Processing batch at offset 0/29955 (0.0%)
+2025-07-14 18:22:02,436 [INFO] Batch completed: processed 500 products in 4.14 seconds
+2025-07-14 18:22:02,937 [INFO] Processing batch at offset 500/29955 (1.7%)
+2025-07-14 18:22:07,139 [INFO] Batch completed: processed 500 products in 4.20 seconds
+2025-07-14 18:22:07,640 [INFO] Processing batch at offset 1000/29955 (3.3%)
+2025-07-14 18:22:11,906 [INFO] Batch completed: processed 499 products in 4.27 seconds
+2025-07-14 18:22:12,407 [INFO] Processing batch at offset 1500/29955 (5.0%)
+2025-07-14 18:22:16,684 [INFO] Batch completed: processed 500 products in 4.28 seconds
+2025-07-14 18:22:17,185 [INFO] Processing batch at offset 2000/29955 (6.7%)
+2025-07-14 18:22:21,495 [INFO] Batch completed: processed 500 products in 4.31 seconds
+2025-07-14 18:22:21,996 [INFO] Processing batch at offset 2500/29955 (8.3%)
+2025-07-14 18:22:26,307 [INFO] Batch completed: processed 500 products in 4.31 seconds
+2025-07-14 18:22:26,807 [INFO] Processing batch at offset 3000/29955 (10.0%)
+2025-07-14 18:22:31,151 [INFO] Batch completed: processed 500 products in 4.34 seconds
+2025-07-14 18:22:31,652 [INFO] Processing batch at offset 3500/29955 (11.7%)
+2025-07-14 18:22:35,983 [INFO] Batch completed: processed 500 products in 4.33 seconds
+2025-07-14 18:22:36,484 [INFO] Processing batch at offset 4000/29955 (13.4%)
+2025-07-14 18:22:40,767 [INFO] Batch completed: processed 499 products in 4.28 seconds
+2025-07-14 18:22:41,268 [INFO] Processing batch at offset 4500/29955 (15.0%)
+2025-07-14 18:22:45,638 [INFO] Batch completed: processed 500 products in 4.37 seconds
+2025-07-14 18:22:46,139 [INFO] Processing batch at offset 5000/29955 (16.7%)
+2025-07-14 18:22:50,396 [INFO] Batch completed: processed 500 products in 4.26 seconds
+2025-07-14 18:22:50,896 [INFO] Processing batch at offset 5500/29955 (18.4%)
+2025-07-14 18:22:55,213 [INFO] Batch completed: processed 500 products in 4.32 seconds
+2025-07-14 18:22:55,714 [INFO] Processing batch at offset 6000/29955 (20.0%)
+2025-07-14 18:23:00,010 [INFO] Batch completed: processed 500 products in 4.30 seconds
+2025-07-14 18:23:00,511 [INFO] Processing batch at offset 6500/29955 (21.7%)
+2025-07-14 18:23:04,764 [INFO] Batch completed: processed 495 products in 4.25 seconds
+2025-07-14 18:23:05,265 [INFO] Processing batch at offset 7000/29955 (23.4%)
+2025-07-14 18:23:09,522 [INFO] Batch completed: processed 500 products in 4.26 seconds
+2025-07-14 18:23:10,023 [INFO] Processing batch at offset 7500/29955 (25.0%)
+2025-07-14 18:23:14,057 [INFO] Batch completed: processed 492 products in 4.03 seconds
+2025-07-14 18:23:14,558 [INFO] Processing batch at offset 8000/29955 (26.7%)
+2025-07-14 18:23:18,149 [INFO] Batch completed: processed 407 products in 3.59 seconds
+2025-07-14 18:23:18,650 [INFO] Processing batch at offset 8500/29955 (28.4%)
+2025-07-14 18:23:22,517 [INFO] Batch completed: processed 408 products in 3.87 seconds
+2025-07-14 18:23:23,017 [INFO] Processing batch at offset 9000/29955 (30.0%)
+2025-07-14 18:23:26,972 [INFO] Batch completed: processed 484 products in 3.95 seconds
+2025-07-14 18:23:27,472 [INFO] Processing batch at offset 9500/29955 (31.7%)
+2025-07-14 18:23:31,320 [INFO] Batch completed: processed 486 products in 3.85 seconds
+2025-07-14 18:23:31,821 [INFO] Processing batch at offset 10000/29955 (33.4%)
+2025-07-14 18:23:35,723 [INFO] Batch completed: processed 494 products in 3.90 seconds
+2025-07-14 18:23:36,223 [INFO] Processing batch at offset 10500/29955 (35.1%)
+2025-07-14 18:23:40,160 [INFO] Batch completed: processed 494 products in 3.94 seconds
+2025-07-14 18:23:40,661 [INFO] Processing batch at offset 11000/29955 (36.7%)
+2025-07-14 18:23:44,634 [INFO] Batch completed: processed 500 products in 3.97 seconds
+2025-07-14 18:23:45,135 [INFO] Processing batch at offset 11500/29955 (38.4%)
+2025-07-14 18:23:48,957 [INFO] Batch completed: processed 493 products in 3.82 seconds
+2025-07-14 18:23:49,457 [INFO] Processing batch at offset 12000/29955 (40.1%)
+2025-07-14 18:23:53,365 [INFO] Batch completed: processed 495 products in 3.91 seconds
+2025-07-14 18:23:53,866 [INFO] Processing batch at offset 12500/29955 (41.7%)
+2025-07-14 18:23:57,833 [INFO] Batch completed: processed 484 products in 3.97 seconds
+2025-07-14 18:23:58,334 [INFO] Processing batch at offset 13000/29955 (43.4%)
+2025-07-14 18:24:02,192 [INFO] Batch completed: processed 484 products in 3.86 seconds
+2025-07-14 18:24:02,692 [INFO] Processing batch at offset 13500/29955 (45.1%)
+2025-07-14 18:24:06,761 [INFO] Batch completed: processed 497 products in 4.07 seconds
+2025-07-14 18:24:07,262 [INFO] Processing batch at offset 14000/29955 (46.7%)
+2025-07-14 18:24:11,141 [INFO] Batch completed: processed 471 products in 3.88 seconds
+2025-07-14 18:24:11,641 [INFO] Processing batch at offset 14500/29955 (48.4%)
+2025-07-14 18:24:15,579 [INFO] Batch completed: processed 488 products in 3.94 seconds
+2025-07-14 18:24:16,079 [INFO] Processing batch at offset 15000/29955 (50.1%)
+2025-07-14 18:24:19,975 [INFO] Batch completed: processed 472 products in 3.90 seconds
+2025-07-14 18:24:20,476 [INFO] Processing batch at offset 15500/29955 (51.7%)
+2025-07-14 18:24:24,297 [INFO] Batch completed: processed 491 products in 3.82 seconds
+2025-07-14 18:24:24,798 [INFO] Processing batch at offset 16000/29955 (53.4%)
+2025-07-14 18:24:28,734 [INFO] Batch completed: processed 476 products in 3.94 seconds
+2025-07-14 18:24:29,235 [INFO] Processing batch at offset 16500/29955 (55.1%)
+2025-07-14 18:24:33,048 [INFO] Batch completed: processed 481 products in 3.81 seconds
+2025-07-14 18:24:33,548 [INFO] Processing batch at offset 17000/29955 (56.8%)
+2025-07-14 18:24:37,449 [INFO] Batch completed: processed 486 products in 3.90 seconds
+2025-07-14 18:24:37,949 [INFO] Processing batch at offset 17500/29955 (58.4%)
+2025-07-14 18:24:41,758 [INFO] Batch completed: processed 490 products in 3.81 seconds
+2025-07-14 18:24:42,259 [INFO] Processing batch at offset 18000/29955 (60.1%)
+2025-07-14 18:24:46,140 [INFO] Batch completed: processed 486 products in 3.88 seconds
+2025-07-14 18:24:46,641 [INFO] Processing batch at offset 18500/29955 (61.8%)
+2025-07-14 18:24:50,501 [INFO] Batch completed: processed 470 products in 3.86 seconds
+2025-07-14 18:24:51,002 [INFO] Processing batch at offset 19000/29955 (63.4%)
+2025-07-14 18:24:54,714 [INFO] Batch completed: processed 440 products in 3.71 seconds
+2025-07-14 18:24:55,214 [INFO] Processing batch at offset 19500/29955 (65.1%)
+2025-07-14 18:24:59,060 [INFO] Batch completed: processed 463 products in 3.85 seconds
+2025-07-14 18:24:59,560 [INFO] Processing batch at offset 20000/29955 (66.8%)
+2025-07-14 18:25:03,166 [INFO] Batch completed: processed 342 products in 3.61 seconds
+2025-07-14 18:25:03,666 [INFO] Processing batch at offset 20500/29955 (68.4%)
+2025-07-14 18:25:07,544 [INFO] Batch completed: processed 487 products in 3.88 seconds
+2025-07-14 18:25:08,044 [INFO] Processing batch at offset 21000/29955 (70.1%)
+2025-07-14 18:25:11,724 [INFO] Batch completed: processed 493 products in 3.68 seconds
+2025-07-14 18:25:12,225 [INFO] Processing batch at offset 21500/29955 (71.8%)
+2025-07-14 18:25:15,892 [INFO] Batch completed: processed 497 products in 3.67 seconds
+2025-07-14 18:25:16,393 [INFO] Processing batch at offset 22000/29955 (73.4%)
+2025-07-14 18:25:19,890 [INFO] Batch completed: processed 493 products in 3.50 seconds
+2025-07-14 18:25:20,390 [INFO] Processing batch at offset 22500/29955 (75.1%)
+2025-07-14 18:25:23,873 [INFO] Batch completed: processed 490 products in 3.48 seconds
+2025-07-14 18:25:24,373 [INFO] Processing batch at offset 23000/29955 (76.8%)
+2025-07-14 18:25:28,203 [INFO] Batch completed: processed 489 products in 3.83 seconds
+2025-07-14 18:25:28,704 [INFO] Processing batch at offset 23500/29955 (78.5%)
+2025-07-14 18:25:32,507 [INFO] Batch completed: processed 482 products in 3.80 seconds
+2025-07-14 18:25:33,008 [INFO] Processing batch at offset 24000/29955 (80.1%)
+2025-07-14 18:25:36,888 [INFO] Batch completed: processed 500 products in 3.88 seconds
+2025-07-14 18:25:37,388 [INFO] Processing batch at offset 24500/29955 (81.8%)
+2025-07-14 18:25:41,279 [INFO] Batch completed: processed 499 products in 3.89 seconds
+2025-07-14 18:25:41,779 [INFO] Processing batch at offset 25000/29955 (83.5%)
+2025-07-14 18:25:45,707 [INFO] Batch completed: processed 500 products in 3.93 seconds
+2025-07-14 18:25:46,207 [INFO] Processing batch at offset 25500/29955 (85.1%)
+2025-07-14 18:25:50,025 [INFO] Batch completed: processed 497 products in 3.82 seconds
+2025-07-14 18:25:50,526 [INFO] Processing batch at offset 26000/29955 (86.8%)
+2025-07-14 18:25:54,390 [INFO] Batch completed: processed 496 products in 3.86 seconds
+2025-07-14 18:25:54,890 [INFO] Processing batch at offset 26500/29955 (88.5%)
+2025-07-14 18:25:58,457 [INFO] Batch completed: processed 496 products in 3.57 seconds
+2025-07-14 18:25:58,958 [INFO] Processing batch at offset 27000/29955 (90.1%)
+2025-07-14 18:26:02,472 [INFO] Batch completed: processed 491 products in 3.51 seconds
+2025-07-14 18:26:02,972 [INFO] Processing batch at offset 27500/29955 (91.8%)
+2025-07-14 18:26:06,267 [INFO] Batch completed: processed 496 products in 3.29 seconds
+2025-07-14 18:26:06,767 [INFO] Processing batch at offset 28000/29955 (93.5%)
+2025-07-14 18:26:10,143 [INFO] Batch completed: processed 481 products in 3.38 seconds
+2025-07-14 18:26:10,644 [INFO] Processing batch at offset 28500/29955 (95.1%)
+2025-07-14 18:26:13,819 [INFO] Batch completed: processed 469 products in 3.18 seconds
+2025-07-14 18:26:14,319 [INFO] Processing batch at offset 29000/29955 (96.8%)
+2025-07-14 18:26:17,546 [INFO] Batch completed: processed 209 products in 3.23 seconds
+2025-07-14 18:26:18,046 [INFO] Processing batch at offset 29500/29955 (98.5%)
+2025-07-14 18:26:21,961 [INFO] Batch completed: processed 0 products in 3.92 seconds
+2025-07-14 18:26:22,462 [INFO] Price change calculation completed in 4.40 minutes
+2025-07-14 18:26:22,462 [INFO] Total processing time: 264.21 seconds, processed 28332 products
+2025-07-14 18:27:13,468 [INFO] Starting price change calculation with improved batching
+2025-07-14 18:27:13,494 [INFO] Database connection established successfully
+2025-07-14 18:27:13,498 [INFO] Found 29955 total products to process
+2025-07-14 18:27:13,498 [INFO] Processing batch at offset 0/29955 (0.0%)
+2025-07-14 18:27:17,553 [INFO] Batch completed: processed 500 products in 4.05 seconds
+2025-07-14 18:27:18,054 [INFO] Processing batch at offset 500/29955 (1.7%)
+2025-07-14 18:27:22,274 [INFO] Batch completed: processed 500 products in 4.22 seconds
+2025-07-14 18:27:22,774 [INFO] Processing batch at offset 1000/29955 (3.3%)
