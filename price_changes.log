@@ -1,5 +1,0 @@
-2025-07-14 16:56:10,063 [INFO] Starting price change calculations
-2025-07-14 16:56:10,147 [INFO] Calculating price changes for date: 2025-07-14
-2025-07-14 16:56:10,516 [ERROR] Error updating price changes: ON CONFLICT DO UPDATE command cannot affect row a second time
-HINT:  Ensure that no rows proposed for insertion within the same command have duplicate constrained values.
-
