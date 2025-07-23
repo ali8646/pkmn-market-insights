@@ -2,5 +2,4 @@
 /backend/.env
 /etl/.env
 price_change_calculator.log
-price_changes.log
 daily_update.log
