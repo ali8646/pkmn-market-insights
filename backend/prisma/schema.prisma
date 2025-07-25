@@ -1,0 +1,118 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model groups {
+  group_id      Int             @id
+  group_name    String          @db.VarChar(255)
+  category_id   Int
+  modified_on   DateTime        @db.Timestamp(6)
+  price_history price_history[]
+  products      products[]
+}
+
+model price_change {
+  id                 Int       @id @default(autoincrement())
+  product_id         Int       @unique
+  sub_type_name      String    @db.VarChar(100)
+  current_price      Decimal?  @db.Decimal(10, 2)
+  current_price_date DateTime? @db.Date
+  price_7d           Decimal?  @db.Decimal(10, 2)
+  price_7d_date      DateTime? @db.Date
+  change_7d_pct      Decimal?  @db.Decimal(10, 2)
+  change_7d_dollar   Decimal?  @db.Decimal(10, 2)
+  price_30d          Decimal?  @db.Decimal(10, 2)
+  price_30d_date     DateTime? @db.Date
+  change_30d_pct     Decimal?  @db.Decimal(10, 2)
+  change_30d_dollar  Decimal?  @db.Decimal(10, 2)
+  price_6m           Decimal?  @db.Decimal(10, 2)
+  price_6m_date      DateTime? @db.Date
+  change_6m_pct      Decimal?  @db.Decimal(10, 2)
+  change_6m_dollar   Decimal?  @db.Decimal(10, 2)
+  price_ytd          Decimal?  @db.Decimal(10, 2)
+  price_ytd_date     DateTime? @db.Date
+  change_ytd_pct     Decimal?  @db.Decimal(10, 2)
+  change_ytd_dollar  Decimal?  @db.Decimal(10, 2)
+  price_1y           Decimal?  @db.Decimal(10, 2)
+  price_1y_date      DateTime? @db.Date
+  change_1y_pct      Decimal?  @db.Decimal(10, 2)
+  change_1y_dollar   Decimal?  @db.Decimal(10, 2)
+  price_all          Decimal?  @db.Decimal(10, 2)
+  price_all_date     DateTime? @db.Date
+  change_all_pct     Decimal?  @db.Decimal(10, 2)
+  change_all_dollar  Decimal?  @db.Decimal(10, 2)
+  last_updated       DateTime  @default(now()) @db.Timestamp(6)
+  products           products  @relation(fields: [product_id], references: [product_id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@index([product_id], map: "idx_price_change_product_id")
+  @@index([sub_type_name], map: "idx_price_change_sub_type")
+}
+
+model price_history {
+  id               Int       @id @default(autoincrement())
+  product_id       Int
+  group_id         Int
+  sub_type_name    String?   @db.VarChar(100)
+  date_point       DateTime  @db.Date
+  period_type      String    @default("daily") @db.VarChar(10)
+  end_date         DateTime? @db.Date
+  open_price       Decimal?  @db.Decimal(10, 2)
+  close_price      Decimal?  @db.Decimal(10, 2)
+  low_price        Decimal?  @db.Decimal(10, 2)
+  high_price       Decimal?  @db.Decimal(10, 2)
+  mid_price        Decimal?  @db.Decimal(10, 2)
+  market_price     Decimal?  @db.Decimal(10, 2)
+  direct_low_price Decimal?  @db.Decimal(10, 2)
+  volume           Int?
+  created_at       DateTime  @default(now()) @db.Timestamp(6)
+  groups           groups    @relation(fields: [group_id], references: [group_id], onDelete: NoAction, onUpdate: NoAction)
+  products         products  @relation(fields: [product_id], references: [product_id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@index([date_point], map: "idx_price_history_date")
+  @@index([group_id], map: "idx_price_history_group")
+  @@index([product_id], map: "idx_price_history_product_id")
+}
+
+model products {
+  product_id       Int             @id
+  category_id      Int
+  group_id         Int?
+  name             String          @db.VarChar(255)
+  clean_name       String          @db.VarChar(255)
+  url              String?
+  image_url        String?
+  image_count      Int?
+  sub_type_name    String?         @db.VarChar(100)
+  modified_on      DateTime        @db.Timestamp(6)
+  ext_card_type    String?         @db.VarChar(100)
+  ext_hp           String?         @db.VarChar(50)
+  ext_number       String?         @db.VarChar(50)
+  ext_rarity       String?         @db.VarChar(100)
+  ext_resistance   String?         @db.VarChar(100)
+  ext_retreat_cost String?         @db.VarChar(100)
+  ext_stage        String?         @db.VarChar(100)
+  ext_upc          String?         @db.VarChar(100)
+  ext_weakness     String?         @db.VarChar(100)
+  ext_card_text    String?
+  ext_attack1      String?
+  ext_attack2      String?
+  ext_attack3      String?
+  ext_attack4      String?
+  price_change     price_change?
+  price_history    price_history[]
+  groups           groups?         @relation(fields: [group_id], references: [group_id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@index([group_id], map: "idx_products_group_id")
+}
+
+model users {
+  id            Int       @id @default(autoincrement())
+  email         String    @unique @db.VarChar(255)
+  password_hash String    @db.VarChar(255)
+  created_at    DateTime? @default(now()) @db.Timestamp(6)
+}
