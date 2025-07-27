@@ -1,0 +1,1 @@
+// Protects endpoints by checking JWT in requests

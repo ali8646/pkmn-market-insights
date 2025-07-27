@@ -1,0 +1,14 @@
+### Get top 15 cards by current price (highest first)
+GET http://localhost:3001/api/price_change/top-bottom?column=current_price&sort=desc
+
+### Get top 15 cards by current price (lowest first)
+GET http://localhost:3001/api/price_change/top-bottom?column=current_price&sort=asc
+
+### Get top 15 cards by price change (highest change first)
+GET http://localhost:3001/api/price_change/top-bottom?column=price_change&sort=desc
+
+### Get top 15 cards by percentage change (ascending)
+GET http://localhost:3001/api/price_change/top-bottom?column=percentage_change&sort=asc
+
+### Default behavior (current_price desc)
+GET http://localhost:3001/api/price_change/top-bottom

@@ -1,0 +1,1 @@
+// Defines routes like /api/register and /api/login
