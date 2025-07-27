@@ -7,7 +7,7 @@ export const getTopOrBottomCards = async (req: Request, res: Response) => {
     const { sort = 'desc', column = 'price' } = req.query;
 
     const cards = await prisma.price_change.findMany({
-      orderBy: { [column as string]: sort === 'asc' ? 'asc' : 'desc' },
+      // orderBy: { [column as string]: sort === 'asc' ? 'asc' : 'desc' },
       take: 15,
     });
 

@@ -3,6 +3,6 @@ import { getTopOrBottomCards } from '../controllers/cardController';
 
 const router = Router();
 
-router.get('/cards/top-bottom', getTopOrBottomCards);
+router.get('/price_change/top-bottom', getTopOrBottomCards);
 
 export default router;
