@@ -2,6 +2,8 @@
 
 **Pokémon market insights dashboard**
 
+Live link can be found at: https://cardsight-frontend.onrender.com
+
 CardSight is a full-stack dashboard for exploring Pokémon trading card prices,
 tracking market movement, and reviewing historical trends. It combines a React
 SSR frontend, a typed Express and Prisma API, PostgreSQL on Neon, and Python
