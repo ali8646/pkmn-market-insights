@@ -8,7 +8,9 @@ import os
 import time
 from dotenv import load_dotenv
 
-# Load environment variables
+# Load environment variables from the project backend configuration when run
+# from the etl directory or the repository root.
+load_dotenv(os.path.join(os.path.dirname(__file__), "..", "backend", ".env"))
 load_dotenv()
 
 # Configure logging
@@ -21,8 +23,10 @@ logging.basicConfig(
     ]
 )
 
-# Database connection parameters
-DB_PARAMS = {
+# Database connection parameters. Prefer a full PostgreSQL URL for hosted
+# databases such as Neon, while retaining the local component configuration.
+DATABASE_URL = os.getenv("DATABASE_URL")
+DB_PARAMS = DATABASE_URL or {
     "host": os.getenv("DB_HOST", "localhost"),
     "database": os.getenv("DB_NAME", "pokemon_tcg"),
     "user": os.getenv("DB_USER", "postgres"),
@@ -33,7 +37,7 @@ DB_PARAMS = {
 def get_db_connection():
     """Establish a connection to the Postgres database with timeout"""
     try:
-        conn = psycopg2.connect(**DB_PARAMS)
+        conn = psycopg2.connect(DB_PARAMS) if isinstance(DB_PARAMS, str) else psycopg2.connect(**DB_PARAMS)
         conn.set_session(autocommit=False)
         # Set statement timeout to 60 seconds to prevent queries from hanging
         cursor = conn.cursor()
@@ -257,22 +261,6 @@ def update_price_changes_batch(conn, price_data_batch):
     # Update the price_change table
     cursor = conn.cursor()
     try:
-        # Ensure the unique constraint exists
-        try:
-            cursor.execute("""
-                SELECT constraint_name
-                FROM information_schema.table_constraints 
-                WHERE table_name = 'price_change' 
-                  AND constraint_type = 'UNIQUE'
-                  AND constraint_name = 'price_change_product_id_key'
-            """)
-            if not cursor.fetchone():
-                cursor.execute("ALTER TABLE price_change ADD CONSTRAINT price_change_product_id_key UNIQUE (product_id)")
-                conn.commit()
-        except Exception as e:
-            conn.rollback()
-            logging.warning(f"Error checking/creating constraint: {e}")
-        
         # Perform the upsert
         query = """
             INSERT INTO price_change (

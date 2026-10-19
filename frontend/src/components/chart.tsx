@@ -8,33 +8,40 @@ type DataPoint = {
 
 type ChartProps = {
   data: DataPoint[];
+  placeholder?: boolean;
 };
 
-
-
-export default function Chart({ data }: ChartProps) {
-    const minY = Math.floor(Math.min(...data.map(d => d.price)));
-    const maxY = Math.ceil(Math.max(...data.map(d => d.price)));
+export default function Chart({ data, placeholder = false }: ChartProps) {
+    const prices = data.map((point) => point.price);
+    const minPrice = Math.min(...prices);
+    const maxPrice = Math.max(...prices);
+    const padding = Math.max((maxPrice - minPrice) * 0.12, 0.01);
 
     return (
-        <div className="w-1/2 h-128">
+        <div className="detail-chart">
         <ResponsiveContainer width="100%" height="100%">
             <LineChart data={data}>
-            <XAxis dataKey="date"/>
-            <YAxis  domain={[minY, maxY]}/>
+            <XAxis dataKey="date" tick={{ fill: '#71717a', fontSize: 10 }} />
+            <YAxis hide domain={[minPrice - padding, maxPrice + padding]} />
             <Tooltip
               contentStyle={{
-                  backgroundColor: '#1f2937',
-                  border: 'none',
-                  borderRadius: '8px',
-                  color: '#fff',
-                  fontSize: '0.875rem',
+                  backgroundColor: '#18181b',
+                  border: '1px solid #3f3f46',
+                  borderRadius: '6px',
+                  color: '#f4f4f5',
+                  fontSize: '0.75rem',
               }}
-              labelStyle={{ color: '#9ca3af' }} // Lighter gray for labels
+              labelStyle={{ color: '#a1a1aa' }}
               formatter={(value: number) => [`$${value.toFixed(2)}`, 'Price']}
             />
-            {/* add a conditional to change color if %change is pos or neg*/}
-            <Line type="monotone" dataKey="price" stroke="#21db1a" strokeWidth={3} dot={false}  />
+            <Line
+                type="monotone"
+                dataKey="price"
+                stroke={placeholder ? '#71717a' : '#70d6a0'}
+                strokeWidth={2}
+                strokeDasharray={placeholder ? '5 4' : undefined}
+                dot={false}
+            />
             </LineChart>
         </ResponsiveContainer>
         </div>

@@ -10,7 +10,9 @@ from datetime import datetime
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
+# Load environment variables from the project backend configuration when run
+# from the etl directory or the repository root.
+load_dotenv(os.path.join(os.path.dirname(__file__), "..", "backend", ".env"))
 load_dotenv()
 
 # Configure logging
@@ -23,8 +25,10 @@ logging.basicConfig(
     ]
 )
 
-# Database connection parameters
-DB_PARAMS = {
+# Database connection parameters. Prefer a full PostgreSQL URL for hosted
+# databases such as Neon, while retaining the local component configuration.
+DATABASE_URL = os.getenv("DATABASE_URL")
+DB_PARAMS = DATABASE_URL or {
     "host": os.getenv("DB_HOST", "localhost"),
     "database": os.getenv("DB_NAME", "pokemon_tcg"),
     "user": os.getenv("DB_USER", "postgres"),
@@ -37,11 +41,12 @@ CATEGORY_ID = 3  # Pokémon
 BASE_URL = "https://tcgcsv.com/tcgplayer"
 GROUPS_URL = f"{BASE_URL}/{CATEGORY_ID}/groups"
 PRODUCTS_URL_TEMPLATE = f"{BASE_URL}/{CATEGORY_ID}/{{group_id}}/ProductsAndPrices.csv"
+REQUEST_HEADERS = {"User-Agent": "pkmn-market-insights/1.0"}
 
 def get_db_connection():
     """Establish a connection to the Postgres database"""
     try:
-        conn = psycopg2.connect(**DB_PARAMS)
+        conn = psycopg2.connect(DB_PARAMS) if isinstance(DB_PARAMS, str) else psycopg2.connect(**DB_PARAMS)
         logging.info("Database connection established successfully")
         return conn
     except Exception as e:
@@ -52,7 +57,7 @@ def fetch_groups():
     """Fetch all groups (sets) for Pokémon"""
     try:
         logging.info(f"Fetching groups from {GROUPS_URL}")
-        response = requests.get(GROUPS_URL, timeout=30)
+        response = requests.get(GROUPS_URL, headers=REQUEST_HEADERS, timeout=30)
         response.raise_for_status()
         groups_data = response.json()
         
@@ -75,7 +80,7 @@ def fetch_products_for_group(group_id):
     url = PRODUCTS_URL_TEMPLATE.format(group_id=group_id)
     try:
         logging.info(f"Fetching products for group {group_id} from {url}")
-        response = requests.get(url, timeout=30)
+        response = requests.get(url, headers=REQUEST_HEADERS, timeout=30)
         response.raise_for_status()
         
         df = pd.read_csv(io.StringIO(response.text))
@@ -204,10 +209,18 @@ def update_products_and_prices(conn, df, group_id):
                     open_price, close_price, low_price, high_price, mid_price,
                     market_price, direct_low_price, volume
                 )
-                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-                ON CONFLICT DO NOTHING;
+                SELECT %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
+                WHERE NOT EXISTS (
+                    SELECT 1
+                    FROM price_history
+                    WHERE product_id = %s AND date_point = %s
+                );
             """
-            execute_batch(cursor, price_query, price_values)
+            execute_batch(
+                cursor,
+                price_query,
+                [value + (value[0], value[3]) for value in price_values],
+            )
         
         conn.commit()
         logging.info(f"Successfully updated {len(product_values)} products and inserted {len(price_values)} price records for group {group_id}")

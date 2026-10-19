@@ -4,6 +4,7 @@ import os
 import tempfile
 import shutil
 import json
+import argparse
 import requests
 import py7zr
 import psycopg2
@@ -22,11 +23,13 @@ logging.basicConfig(
     ]
 )
 
-# Load environment variables
+# Load environment variables from the project backend configuration when run
+# from the etl directory or the repository root.
+load_dotenv(os.path.join(os.path.dirname(__file__), "..", "backend", ".env"))
 load_dotenv()
 
-# Database connection parameters
-DB_PARAMS = {
+DATABASE_URL = os.getenv("DATABASE_URL")
+DB_PARAMS = DATABASE_URL or {
     "host": os.getenv("DB_HOST", "localhost"),
     "database": os.getenv("DB_NAME", "pokemon_tcg"),
     "user": os.getenv("DB_USER", "postgres"),
@@ -38,6 +41,7 @@ DB_PARAMS = {
 CATEGORY_ID = 3  # Pokémon
 TEMP_DIR = "./temp_archives"
 ARCHIVE_BASE_URL = "https://tcgcsv.com/archive/tcgplayer"
+REQUEST_HEADERS = {"User-Agent": "pkmn-market-insights/1.0"}
 
 # Create temp directory if it doesn't exist
 os.makedirs(TEMP_DIR, exist_ok=True)
@@ -51,14 +55,18 @@ def daterange_end_inclusive(start_date, end_date):
 def get_latest_date():
     """Get the latest date from tcgcsv.com"""
     try:
-        response = requests.get("https://tcgcsv.com/last-updated.txt", timeout=10)
+        response = requests.get("https://tcgcsv.com/last-updated.txt", headers=REQUEST_HEADERS, timeout=10)
         response.raise_for_status()
         date_str = response.text.strip()
+        for date_format in ("%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%S.%f%z"):
+            try:
+                return datetime.strptime(date_str, date_format).date()
+            except ValueError:
+                continue
         return datetime.fromisoformat(date_str).date()
     except Exception as e:
         logging.error(f"Error getting latest date: {e}")
-        # Default to today if we can't get the date
-        return date.today()
+        raise RuntimeError("Unable to determine the latest upstream archive date") from e
 
 def download_and_extract_archive(date_str):
     """Download and extract 7z archive for a specific date"""
@@ -68,7 +76,7 @@ def download_and_extract_archive(date_str):
     
     try:
         logging.info(f"Downloading archive for {date_str} from {archive_url}")
-        response = requests.get(archive_url, stream=True, timeout=60)
+        response = requests.get(archive_url, headers=REQUEST_HEADERS, stream=True, timeout=60)
         response.raise_for_status()
         
         with open(archive_path, 'wb') as f:
@@ -91,12 +99,12 @@ def download_and_extract_archive(date_str):
             os.remove(archive_path)
 
 def get_existing_product_ids(conn):
-    """Get a set of all product IDs that exist in the products table"""
+    """Get active tracked product IDs for history retention."""
     cursor = conn.cursor()
     try:
-        cursor.execute("SELECT product_id FROM products")
+        cursor.execute("SELECT product_id FROM tracked_card WHERE active = TRUE")
         product_ids = {row[0] for row in cursor.fetchall()}
-        logging.info(f"Found {len(product_ids)} existing products in database")
+        logging.info(f"Found {len(product_ids)} actively tracked products")
         return product_ids
     except Exception as e:
         logging.error(f"Error getting existing product IDs: {e}")
@@ -210,11 +218,15 @@ def insert_daily_prices(conn, prices):
                 open_price, close_price, low_price, high_price, mid_price,
                 market_price, direct_low_price, volume
             )
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-            ON CONFLICT DO NOTHING
+            SELECT %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
+            WHERE NOT EXISTS (
+                SELECT 1
+                FROM price_history
+                WHERE product_id = %s AND date_point = %s
+            )
         """
         
-        execute_batch(cursor, query, values)
+        execute_batch(cursor, query, [value + (value[0], value[3]) for value in values])
         conn.commit()
         return len(values)
     except Exception as e:
@@ -232,20 +244,50 @@ def cleanup():
     except Exception as e:
         logging.error(f"Error cleaning up: {e}")
 
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Import historical prices for active tracked cards only."
+    )
+    parser.add_argument(
+        "--start-date",
+        type=lambda value: datetime.strptime(value, "%Y-%m-%d").date(),
+        help="First date to import (YYYY-MM-DD). Defaults to --days before the latest date.",
+    )
+    parser.add_argument(
+        "--end-date",
+        type=lambda value: datetime.strptime(value, "%Y-%m-%d").date(),
+        help="Last date to import (YYYY-MM-DD). Defaults to the upstream latest date.",
+    )
+    parser.add_argument(
+        "--days",
+        type=int,
+        default=30,
+        help="Number of recent days to import when --start-date is omitted (default: 30).",
+    )
+    return parser.parse_args()
+
+
 def main():
     """Main ETL process for historical price data"""
     logging.info("Starting historical price ETL process")
     start_time = datetime.now()
     
     try:
-        # Define date range
-        start_date = date(2024, 2, 8)  # Historical start date
-        end_date = get_latest_date()   # Latest date available
+        args = parse_args()
+        end_date = args.end_date or get_latest_date()
+        if args.start_date:
+            start_date = args.start_date
+        else:
+            if args.days < 1:
+                raise ValueError("--days must be at least 1")
+            start_date = end_date - timedelta(days=args.days - 1)
+        if start_date > end_date:
+            raise ValueError("--start-date must be on or before --end-date")
         
         logging.info(f"Processing price data from {start_date} to {end_date}")
         
         # Connect to database
-        conn = psycopg2.connect(**DB_PARAMS)
+        conn = psycopg2.connect(DB_PARAMS) if isinstance(DB_PARAMS, str) else psycopg2.connect(**DB_PARAMS)
         
         # Get all group IDs
         group_ids = get_all_group_ids(conn)
@@ -261,6 +303,7 @@ def main():
         
         # Process all dates - no limits in production version
         total_records = 0
+        failed_dates = []
         total_days = (end_date - start_date).days + 1
         
         for i, single_date in enumerate(daterange_end_inclusive(start_date, end_date)):
@@ -274,6 +317,7 @@ def main():
             category_path = download_and_extract_archive(date_str)
             if not category_path:
                 logging.warning(f"Skipping date {date_str} - could not download or extract archive")
+                failed_dates.append(date_str)
                 continue
             
             # Process each group - using batch processing to conserve memory
@@ -308,6 +352,11 @@ def main():
         
         end_time = datetime.now()
         duration = (end_time - start_time).total_seconds() / 60.0  # in minutes
+        if failed_dates:
+            raise RuntimeError(
+                f"Historical import could not download {len(failed_dates)} of "
+                f"{total_days} requested archives; first failure: {failed_dates[0]}"
+            )
         logging.info(f"Historical price ETL process completed in {duration:.2f} minutes. Total records: {total_records}")
         
     except Exception as e:

@@ -11,6 +11,7 @@
     "preview": "cross-env NODE_ENV=production node server"
   },
   "dependencies": {
+    "@neondatabase/auth": "^0.6.0-beta",
     "@tailwindcss/vite": "^4.1.10",
     "compression": "^1.8.0",
     "express": "^5.0.1",
