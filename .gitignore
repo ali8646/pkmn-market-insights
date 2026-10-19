@@ -1,5 +1,6 @@
 /backend/node_modules
 /backend/.env
 /etl/.env
+/etl/historical_etl.log
 price_change_calculator.log
 daily_update.log
