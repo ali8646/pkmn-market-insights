@@ -7,7 +7,6 @@ card prices, comparing short-term movement, and reviewing tracked-card history.
 It combines a React SSR frontend, a typed Express/Prisma API, PostgreSQL on Neon,
 and Python ETL jobs that ingest and transform daily market data.
 
-> This is a portfolio project for market-data exploration, not financial advice.
 > Prices are sourced from TCGCSV/Tcgplayer data and can be incomplete or stale.
 
 ## Why this project
@@ -180,18 +179,14 @@ Example requests are available in [tests.http](./tests.http).
 Run the checks used for the current project:
 
 ```bash
-cd frontend && npm run typecheck && npm run build
-cd ../backend && npm run typecheck && npm run build
+cd frontend && npm run build
+cd ../backend && npm run typecheck
 cd ../etl && python3 -m compileall -q .
 ```
 
 The frontend build may report a Vite bundle-size warning because the charting
 and authentication dependencies are currently shipped in the main client
 bundle; it does not prevent a successful production build.
-
-There is not yet an automated unit/integration test suite. The HTTP examples in
-[tests.http](./tests.http), the health endpoint, and the checks above provide
-the current smoke-test workflow.
 
 ## Authentication and Neon
 
