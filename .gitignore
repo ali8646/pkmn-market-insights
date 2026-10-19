@@ -4,6 +4,8 @@
 /etl/historical_etl.log
 price_change_calculator.log
 daily_update.log
+*.log
+**/__pycache__/
 .agents
 skills-lock.json
 .vscode/settings.json

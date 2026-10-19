@@ -4,12 +4,28 @@ import { authClient } from '../lib/auth';
 type AuthMode = 'signIn' | 'signUp';
 
 export default function AuthScreen({ onClose }: { onClose?: () => void }) {
+    const client = authClient;
     const [mode, setMode] = useState<AuthMode>('signIn');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [name, setName] = useState('');
     const [error, setError] = useState<string | null>(null);
     const [isSubmitting, setIsSubmitting] = useState(false);
+
+    if (!client) {
+        return (
+            <main className="auth-shell">
+                <section className="auth-card">
+                    <div className="brand-name">CardSight</div>
+                    <h1>Authentication unavailable</h1>
+                    <p className="auth-description">
+                        Configure VITE_NEON_AUTH_URL to enable sign-in for this environment.
+                    </p>
+                    {onClose && <button type="button" className="auth-mode-toggle" onClick={onClose}>Close</button>}
+                </section>
+            </main>
+        );
+    }
 
     const submit = async (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault();
@@ -18,8 +34,8 @@ export default function AuthScreen({ onClose }: { onClose?: () => void }) {
 
         try {
             const result = mode === 'signIn'
-                ? await authClient.signIn.email({ email, password })
-                : await authClient.signUp.email({ email, password, name });
+                ? await client.signIn.email({ email, password })
+                : await client.signUp.email({ email, password, name });
             if (result.error) {
                 setError(result.error.message || 'Authentication failed');
             }
@@ -33,7 +49,7 @@ export default function AuthScreen({ onClose }: { onClose?: () => void }) {
     const signInWithSocialProvider = async (provider: 'google' | 'github') => {
         setError(null);
         try {
-            const result = await authClient.signIn.social({
+            const result = await client.signIn.social({
                 provider,
                 callbackURL: window.location.origin,
             });

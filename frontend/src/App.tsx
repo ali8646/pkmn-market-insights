@@ -1,5 +1,4 @@
 import CardList from './components/card-list'
-import AuthScreen from './components/auth-screen'
 import { authClient } from './lib/auth'
 
 
