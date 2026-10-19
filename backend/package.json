@@ -8,16 +8,23 @@
     "start": "node dist/src/server.js",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": ["pokemon", "trading-cards", "market-data", "prisma"],
+  "keywords": [
+    "pokemon",
+    "trading-cards",
+    "market-data",
+    "prisma"
+  ],
   "author": "Ali Ahsanuddin",
   "license": "ISC",
   "description": "REST API for Pokémon card market insights",
   "dependencies": {
     "@prisma/client": "^6.12.0",
+    "cors": "^2.8.6",
     "express": "^5.1.0",
     "jose": "^6.2.12"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/node": "^24.1.0",
     "nodemon": "^3.1.10",

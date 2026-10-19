@@ -2,6 +2,7 @@ import { createAuthClient } from '@neondatabase/auth';
 import { BetterAuthReactAdapter } from '@neondatabase/auth/react/adapters';
 
 const authUrl = import.meta.env.VITE_NEON_AUTH_URL;
+const apiBaseUrl = import.meta.env.VITE_API_URL ?? '';
 
 export const authClient = authUrl
   ? createAuthClient(authUrl, { adapter: BetterAuthReactAdapter() })
@@ -22,5 +23,9 @@ export async function apiFetch(input: RequestInfo | URL, init: RequestInit = {})
     }
   }
 
-  return fetch(input, { ...init, headers });
+  const requestUrl = typeof input === 'string' && input.startsWith('/')
+    ? `${apiBaseUrl}${input}`
+    : input;
+
+  return fetch(requestUrl, { ...init, headers });
 }
