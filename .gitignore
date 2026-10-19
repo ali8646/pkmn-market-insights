@@ -1,11 +1,18 @@
-/backend/node_modules
-/backend/.env
-/etl/.env
-/etl/historical_etl.log
-price_change_calculator.log
-daily_update.log
-*.log
+# Dependencies and build output
+**/node_modules/
+**/dist/
 **/__pycache__/
-.agents
+.venv/
+
+# Local configuration and generated logs
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.local.example
+**/*.log
+
+# Local tooling and editor files
+.agents/
 skills-lock.json
-.vscode/settings.json
+.vscode/
+.DS_Store
