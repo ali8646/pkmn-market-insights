@@ -4,3 +4,6 @@
 /etl/historical_etl.log
 price_change_calculator.log
 daily_update.log
+.agents
+skills-lock.json
+.vscode/settings.json
