@@ -4,9 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokémon Market Insights</title>
+    <script>
+      (function() {
+        try {
+          const theme = localStorage.getItem('cardsight-theme');
+          if (theme) document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {}
+      })();
+    </script>
     <!--app-head-->
   </head>
-  <body class="bg-gradient-to-r from-zinc-900 to-slate-800 text-white">
+  <body>
     <div id="root"><!--app-html--></div>
     <script type="module" src="/src/entry-client.tsx"></script>
   </body>

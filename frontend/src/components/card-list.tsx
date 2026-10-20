@@ -2,7 +2,9 @@ import { useEffect, useMemo, useState } from 'react';
 import { createPortal } from 'react-dom';
 import Details from './card-detail';
 import MiniChart, { createPlaceholderTrend } from './mini-chart';
+import NewsFeed from './news-feed';
 import PkmnCard, { PkmnCardProps } from './pkmn-card';
+import ThemeSelector from './theme-selector';
 import { apiFetch, authClient } from '../lib/auth';
 import AuthScreen from './auth-screen';
 
@@ -118,7 +120,6 @@ function MarketTableRow({
                         {isWatched ? '★' : '☆'}
                     </button>
                 </td>
-                <td className="row-arrow">→</td>
             </tr>
             {showModal && createPortal(
                 <Details card={card} onClose={() => setShowModal(false)} />,
@@ -260,6 +261,7 @@ export default function CardList({
                     </div>
                 </div>
                 <div className="market-account">
+                    <ThemeSelector />
                     {authError && <span className="auth-status">{authError}</span>}
                     {userName ? (
                         <>
@@ -274,13 +276,9 @@ export default function CardList({
                 </div>
             </header>
 
-            <section className="dashboard-content">
-                <div className="market-context">
-                    <span><i /> Live catalog</span>
-                    <span>Updated today</span>
-                    <span>Sorted by {activeSortLabel.toLowerCase()}</span>
-                </div>
-                <section className="watchlist-section">
+            <div className="dashboard-layout">
+                <aside className="sidebar-left">
+                    <section className="watchlist-section">
                     <div className="section-heading">
                         <div><h2>Your watchlist</h2></div>
                         {watchlist.length > 0 && <button className="section-action section-action-button" onClick={() => setWatchlist([])}>Clear all</button>}
@@ -302,8 +300,16 @@ export default function CardList({
                         </div>
                     )}
                 </section>
+                </aside>
 
-                <section className="metric-grid" aria-label="Market summary">
+                <section className="dashboard-content">
+                    <div className="market-context">
+                        <span><i /> Live catalog</span>
+                        <span>Updated today</span>
+                        <span>Sorted by {activeSortLabel.toLowerCase()}</span>
+                    </div>
+
+                    <section className="metric-grid" aria-label="Market summary">
                     <div className="metric-card"><span>Catalog cards</span><strong>{marketPagination.total.toLocaleString()}</strong><small>Available in the live catalog</small></div>
                     <div className="metric-card"><span>Your watchlist</span><strong>{watchlist.length}</strong><small>Cards saved in this browser</small></div>
                     <div className="metric-card"><span>Highest listed price</span><strong>${highestPrice.toLocaleString(undefined, { maximumFractionDigits: 2 })}</strong><small>Across current results</small></div>
@@ -354,7 +360,6 @@ export default function CardList({
                                     <th>Change</th>
                                     <th>Volume</th>
                                     <th>Watchlist</th>
-                                    <th />
                                 </tr>
                             </thead>
                             <tbody>
@@ -396,6 +401,11 @@ export default function CardList({
                     </div>
                 </section>
             </section>
+
+                <aside className="sidebar-right">
+                    <NewsFeed />
+                </aside>
+            </div>
             {showAuth && (
                 <div className="auth-modal-backdrop" onClick={() => setShowAuth(false)}>
                     <div onClick={(event) => event.stopPropagation()}>
