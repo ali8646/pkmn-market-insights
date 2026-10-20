@@ -295,12 +295,9 @@ button, input { font: inherit; }
 .market-status span, .live-pill span { width: 6px; height: 6px; background: var(--accent-glow); border-radius: 50%; display: inline-block; }
 
 /* ========================================================
-   Dashboard Content & Context
+   Dashboard Content
    ======================================================== */
-.dashboard-content { margin: 0; padding: 12px clamp(16px, 3vw, 40px) 72px; min-width: 0; width: 100%; }
-.market-context { display: flex; align-items: center; gap: 18px; margin-bottom: 20px; color: var(--text-muted); font-size: 11px; }
-.market-context span { display: inline-flex; align-items: center; gap: 6px; }
-.market-context i { width: 6px; height: 6px; border-radius: 50%; background: var(--accent-glow); box-shadow: 0 0 0 3px rgba(112, 214, 160, .12); }
+.dashboard-content { margin: 0; padding: 16px clamp(16px, 3vw, 40px) 72px; min-width: 0; width: 100%; }
 .section-heading p { color: var(--text-secondary); font-size: 12px; margin: 4px 0 0; }
 
 /* ========================================================
@@ -518,8 +515,6 @@ button, input { font: inherit; }
     .brand-mark { width: 28px; height: 28px; }
     .market-status { display: none; }
     .dashboard-content { padding: 16px 16px 56px; }
-    .market-context { flex-wrap: wrap; gap: 8px 14px; margin-bottom: 18px; }
-    .market-context span:not(:first-child) { padding-left: 14px; border-left: 1px solid var(--border-subtle); }
     .market-table-heading { display: block; }
     .market-table-tools { display: flex; flex-direction: column; width: 100%; }
     .sort-box, .search-box { width: 100%; }

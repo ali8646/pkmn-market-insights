@@ -300,12 +300,6 @@ export default function CardList({
                 </aside>
 
                 <section className="dashboard-content">
-                    <div className="market-context">
-                        <span><i /> Live catalog</span>
-                        <span>Updated today</span>
-                        <span>Sorted by {activeSortLabel.toLowerCase()}</span>
-                    </div>
-
                     <section className="metric-grid" aria-label="Market summary">
                     <div className="metric-card"><span>Catalog cards</span><strong>{marketPagination.total.toLocaleString()}</strong><small>Available in the live catalog</small></div>
                     <div className="metric-card"><span>Your watchlist</span><strong>{watchlist.length}</strong><small>Cards saved in this browser</small></div>
