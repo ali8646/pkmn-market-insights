@@ -255,10 +255,7 @@ export default function CardList({
         <main className="dashboard-shell">
             <header className="market-header" style={{ opacity: headerOpacity }}>
                 <div className="brand-lockup">
-                    <div>
-                        <div className="brand-name">CardSight</div>
-                        <div className="brand-subtitle">Pokémon market insights</div>
-                    </div>
+                    <div className="brand-name">CardSight</div>
                 </div>
                 <div className="market-account">
                     <ThemeSelector />
